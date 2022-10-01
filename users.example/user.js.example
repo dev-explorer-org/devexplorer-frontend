@@ -37,19 +37,19 @@ export const data = {
     // Desafios do Stage 02
     stage02: {
       fase01_corrigindo_bugs01: {
-        codigo_url: "",
+        codigo_url: "https://codepen.io",
         deploy_url: ""
       },
       fase02_corrigindo_bugs02: {
-        codigo_url: "",
+        codigo_url: "https://codepen.io",
         deploy_url: ""
       },
       fase02_semantica_acessibilidade: {
-        codigo_url: "",
+        codigo_url: "https://codepen.io",
         deploy_url: ""
       },
       fase02_recriando_layout: {
-        codigo_url: "",
+        codigo_url: "https://codepen.io",
         deploy_url: ""
       }
     },
@@ -77,7 +77,7 @@ export const data = {
         deploy_url: ""
       },
       exercicio02: {
-        codigo_url: "",
+        codigo_url: "https://codepen.io",
         deploy_url: ""
       }
     },
@@ -89,7 +89,7 @@ export const data = {
         deploy_url: "https://stage5-focustimer.netlify.app/"
       },
       focustimer_dark_mode: {
-        codigo_url: "",
+        codigo_url: "https://github.com",
         deploy_url: ""
       }
     },
@@ -101,7 +101,7 @@ export const data = {
         deploy_url: "https://stage6-desafio1-spa-universe.netlify.app"
       },
       gitfav: {
-        codigo_url: "",
+        codigo_url: "https://github.com",
         deploy_url: ""
       }
     },
@@ -110,7 +110,7 @@ export const data = {
     // Desafios do Stage 07
     stage07: {
       git_push: {
-        codigo_url: ""
+        codigo_url: "https://notion.so"
       }
     },
 
