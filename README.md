@@ -1,13 +1,11 @@
 <!-- ![banner](https://github.githubassets.com/images/modules/memexes/projects-beta-banner-dark.png) -->
 <img src="https://github.githubassets.com/images/modules/memexes/projects-beta-banner-dark.png" style="position: absolute;">
 
-<div style="height: 250px;">
-  <h1 style="font-size: 75px; padding: 50px;">🚀DevExplorer</h1>
-</div>
+# 🚀DevExplorer
 
 ## O que é o DevExplorer?
 A Turma 1.0 do Explorer teve a iniciativa de compartilhar suas informações através de um [Google Docs](https://docs.google.com/spreadsheets/d/1SsZ9JL6ADQQ2vDfT-bXqo21PH87N_HjzKIoEeaZL-Rc/edit#gid=0) visando melhorar seu networwing.
-Inspirado nessa iniciativa surgiu o DevExplorer que é um pequeno projeto onde os alunos do Explorer podem compartilhar suas informações e ao mesmo tempo aprenderem como comtribuir com um projeto que está no [Github](https://github.com).
+Inspirado nessa iniciativa surgiu o [DevExplorer](#) que é um projeto onde o aluno do Explorer podem compartilhar suas informações e ao mesmo tempo aprender como contribuir com um projeto que está no [Github](https://github.com).
 
 ## Como contribuir?
 - Faça um `fork` desse repositório.
