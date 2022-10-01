@@ -32,7 +32,7 @@ Você pode copiar a URL usando o botão verde `[Code]` da página do seu reposit
 Digite no terminal o código abaixo.
  ```
  cd devexplorer
- ````
+ ```
  
 ### 4. Crie uma Nova Branch.
 Crie uma branch com o nome do seu usuário do github.<br>
@@ -56,7 +56,7 @@ Você pode digitar no terminal
 ```
 code .
 ```
-Vá até o diretório `users.example`. Copie esse arquivo para dentro do diretório `users`. Agora renomeie o arquivo `users.js.example` para `seu-nome-de-usuário.js`.
+Vá até o diretório `users.example`. Copie o arquivo `users.js.example` para dentro do diretório `users`. Agora renomeie o arquivo `users.js.example` para `seu-nome-de-usuário.js`.
 Por exemplo. Meu nome de usuário do github é `valdemirfilho` logo o meu arquivo deve ser renomeado para `valdemirfilho.js`.
 
 Após renomear, abra o arquivo e preencha com as suas informações.  Preencha inicialmente suas informações para networking. As informações sobre os desafios são opcionais e podem ser preenchidas a medida que você for finalizando os desafios.
