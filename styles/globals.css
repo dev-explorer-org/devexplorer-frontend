@@ -1,26 +1,38 @@
-html,
-body {
-  padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Work+Sans&display=swap');
+
+*,
+*:after,
+*:before {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
+  padding: 0;
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+:root {
+  font-size: 6.25%;
+}
+
+html {
+  height: 100vh;
+  width: 100%;
+  font-family: 'Work Sans', sans-serif;
+}
+
+body {
+  font-size: 16rem;
+  min-height: 100%;
+  background-image: linear-gradient(135deg, rgba(2,0,36,1), rgba(0,172,255,1));
+  background-color: rgba(0,172,255,1);
+}
+
+body:after {
+  content: "";
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-image: linear-gradient(135deg, rgba(2,0,36,1), rgba(0,172,255,1));
 }

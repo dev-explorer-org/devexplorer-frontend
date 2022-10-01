@@ -1,3 +1,27 @@
+<!-- ![banner](https://github.githubassets.com/images/modules/memexes/projects-beta-banner-dark.png) -->
+<img src="https://github.githubassets.com/images/modules/memexes/projects-beta-banner-dark.png" style="position: absolute;">
+
+<div style="height: 250px;">
+  <h1 style="font-size: 75px; padding: 50px;">🚀DevExplorer</h1>
+</div>
+
+## O que é o DevExplorer?
+A Turma 1.0 do Explorer teve a iniciativa de compartilhar suas informações através de um [Google Docs](https://docs.google.com/spreadsheets/d/1SsZ9JL6ADQQ2vDfT-bXqo21PH87N_HjzKIoEeaZL-Rc/edit#gid=0) visando melhorar seu networwing.
+Inspirado nessa iniciativa surgiu o DevExplorer que é um pequeno projeto onde os alunos do Explorer podem compartilhar suas informações e ao mesmo tempo aprenderem como comtribuir com um projeto que está no [Github](https://github.com).
+
+## Como contribuir?
+- Faça um `fork` desse repositório.
+- Clone o repositório que está em sua conta do github para o seu computador localmente `git clone url-do-repositorio`
+- Entre no diretório do projeto `cd devexplorer`
+- Crie uma branch com o nome do seu usuário do github `git checkout -b nome-da-branch`
+- Commite suas alterações `git commit -am "mensagem breve sobre o que você alterou"`
+
+### Dúvidas?
+Procurar **Valdemir Filho** no Discord do Explorer.
+
+#### Eu e a comunidade agradecemos a sua ajuda 💜
+
+<!-- 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -31,4 +55,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details. -->
