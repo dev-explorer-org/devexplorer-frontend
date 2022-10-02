@@ -37,14 +37,14 @@ sudo pacman -S git
 ## Com o git já instalado.
 
 ### 1. Crie uma issue
-Na página principal do repositório clique no botão **`issues`**
-<img src="https://docs.github.com/assets/cb-25896/images/help/repository/repo-tabs-issues.png" width="500px">
+Na página principal do repositório clique no botão **`issues`**<br>
+<img src="https://docs.github.com/assets/cb-25896/images/help/repository/repo-tabs-issues.png" width="800px">
 
-Depois clique no botão verde **`New Issue`**
-<img src="https://docs.github.com/assets/cb-5049/images/help/issues/new_issues_button.png">
+Depois clique no botão verde **`New Issue`**<br>
+<img src="https://docs.github.com/assets/cb-5049/images/help/issues/new_issues_button.png" width="200px">
 
 Digite um título e uma descrição informando sobre qual contribuição você irá fazer. Por exemplo.
-> Título: `Informações do aluno Valdemir Filho`
+> Título: `Informações do aluno Valdemir Filho`<br>
 > Descrição: `Vou adicionar as informações para networking do aluno Valdemir Filho`
 
 Clique no botão verde **`Submit new issue`**
