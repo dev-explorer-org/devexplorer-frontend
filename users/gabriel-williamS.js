@@ -120,7 +120,7 @@ export const data = {
   // O projeto Rocket Movies será desenvolvido nos Stages 08, 09, 10, 11
   stages_08_09_10_11: {
     rocket_movies: {
-      github_frontend: "",
+      github_frontend: "https://github.com/Gabriel-WilliamS/rocketMovies",
       github_backend: "",
       deploy_url: ""
     }
