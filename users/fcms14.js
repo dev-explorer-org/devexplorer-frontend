@@ -2,7 +2,7 @@ export const data = {
   // LEIA OS COMENTÁRIOS COM ATENÇÃO.
   // QUALQUER DÚVIDA ENTRE EM CONTATO COM [Valdemir Filho] NO DISCORD DO EXPLORER
 
-  // Preencha os campos a seguir. 
+  // Preencha os campos a seguir.
   // Os valores devem estar dentro das aspas duplas (Ex: "Aqui dentro")
 
   // Preencha com o seu nome.
@@ -14,9 +14,12 @@ export const data = {
   // Preencha com a cidade onde você mora.
   city: "São Paulo",
 
-  // Preencha com a sigla do estado onde você mora. 
-  // Ex: SP  
+  // Preencha com a sigla do estado onde você mora.
+  // Ex: SP
   state: "SP",
+
+  // Preencha com o país onde mora.
+  country: "Brasil",
 
   // Preencha de qual turma do Explorer você é: Ex (turma: "01").
   turma: "01",
@@ -114,7 +117,7 @@ export const data = {
       }
     },
 
-    // O projeto Rocket Movies será desenvolvido nos Stages 08, 09, 10, 11 
+    // O projeto Rocket Movies será desenvolvido nos Stages 08, 09, 10, 11
     stages_08_09_10_11: {
       rocket_movies: {
         github_frontend: "",
