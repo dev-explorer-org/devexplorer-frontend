@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+import Flag from '../components/Flag'
 import fs from 'fs'
 
 export async function getStaticProps() {
@@ -33,12 +34,17 @@ export default function Home({data}) {
         {data.map((user, index) => (
           <Link key={index} href={`/${user.github.split("/")[3]}`}>
               <div className={styles.card}>
-                <div>
-                  <Image className={styles.card_image}
-                    src={`${user.github}.png`} width={80} height={80} alt={user.name} />
+                <div className={styles.card_image_container} data-turma={user.turma} >
+                  <Image 
+                    className={styles.card_image}
+                    src={`${user.github}.png`} 
+                    width={80} 
+                    height={80} 
+                    alt={user.name} 
+                  />
+                  <Flag className={styles.flag} state={user.state} />
                 </div>
                 <h2>{user.name}</h2>
-                {/* <p>Cidade - Estado</p> */}
               </div>
           </Link>
         ))}

@@ -18,6 +18,9 @@ export const data = {
   // Ex: SP  
   state: "CE",
 
+  // Preencha com o país onde mora.
+  country: "Brasil",
+
   // Preencha de qual turma do Explorer você é: Ex (turma: "01")
   turma: "01",
 
