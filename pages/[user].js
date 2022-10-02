@@ -43,6 +43,7 @@ export default function User({user}) {
           width={150} height={150}
           alt={user.name}
         />
+        <h4>{`turma ${user.turma}`}</h4>
         <h2>{user.name}</h2>
         <p>{`${user.city} - ${user.state}`}</p>
       </div>
