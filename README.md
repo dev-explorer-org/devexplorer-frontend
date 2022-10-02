@@ -36,7 +36,20 @@ sudo pacman -S git
 
 ## Com o git já instalado.
 
-### 1. Crie uma cópia desse repositório em sua conta do github. Esse processo chamamos de `fork`. 
+### 1. Crie uma issue
+Na página principal do repositório clique no botão **`issues`**
+<img src="https://docs.github.com/assets/cb-25896/images/help/repository/repo-tabs-issues.png" width="500px">
+
+Depois clique no botão verde **`New Issue`**
+<img src="https://docs.github.com/assets/cb-5049/images/help/issues/new_issues_button.png">
+
+Digite um título e uma descrição informando sobre qual contribuição você irá fazer. Por exemplo.
+> Título: `Informações do aluno Valdemir Filho`
+> Descrição: `Vou adicionar as informações para networking do aluno Valdemir Filho`
+
+Clique no botão verde **`Submit new issue`**
+
+### 2. Crie uma cópia desse repositório em sua conta do github. Esse processo chamamos de `fork`. 
 Faça um **`fork`** do repositório clicando no botão no canto superio direito da página.
 <img src="https://docs.github.com/assets/cb-23088/images/help/repository/fork_button.png" width="500px">
 
@@ -44,7 +57,7 @@ Ou através do link [https://github.com/valdemirfilho/devexplorer/fork](https://
 
 > Caso tenha dificuldade em fazer o **`fork`** do Projeto veja o passo a passo na [documentação do github](https://docs.github.com/pt/get-started/quickstart/fork-a-repo).
 
-### 2. Clone o repositório.
+### 3. Clone o repositório.
 Com o **`fork`** do repositório realizado, você está pronto para cloná-lo para que você tenha uma cópia de trabalho local do código.
 Abra um terminal e clone o repositório que está em sua conta para a sua máquina local.
 Vamos utilizar o comando **`git clone`** juntamente com a **`URL`** que aponta para o seu **`fork`** do repositório.
@@ -56,13 +69,13 @@ git clone https://github.com/[seu-nome-de-usuário]/devexplorer.git
 Você pode copiar a **`URL`** usando o botão verde **`[Code]`** da página do seu repositório que você acabou de fazer **`fork`**.
 ![clone-button](https://user-images.githubusercontent.com/6961638/193442927-674f29c1-9418-4bf2-8814-3bbd7433dd39.png)
 
-### 3. Entre no diretório do projeto.
+### 4. Entre no diretório do projeto.
 Digite no terminal o código abaixo.
  ```
  cd devexplorer
  ```
  
-### 4. Crie uma Nova Branch.
+### 5. Crie uma Nova Branch.
 Crie uma branch com o nome do seu usuário do github.<br>
 > Você pode verificar o nome do seu usuário na URL do ser perfil do github: <br>`https://github.com/[seu-nome-de-usuário]`<br>
 
@@ -78,7 +91,7 @@ git checkout seu-nome-de-usuário
 > Sempre que você trabalha em um projeto colaborativo, você e outros programadores que contribuem para o repositório terão ideias diferentes para novos recursos ou correções de uma só vez. Alguns desses novos recursos não levarão tempo significativo para serem implementados, mas alguns deles estarão em andamento. Por isso, é importante ramificar o repositório para que você possa gerenciar o fluxo de trabalho, isolar seu código e controlar quais recursos serão retornados à branch principal do repositório do projeto.<br><br>
 > Alternativamente, você pode combinar os dois comandos acima, criando e mudando para a nova branch, com o seguinte comando: **`git checkout -b seu-nome-de-usuário`**
 
-### 5. Faça Alterações Localmente
+### 6. Faça Alterações Localmente
 Neste ponto você pode modificar arquivos existentes ou adicionar novos arquivos ao projeto em sua própria branch.
 Abra o diretório do projeto no seu editor de código preferido. Ex: vscode.
 Você pode digitar no terminal
@@ -104,7 +117,7 @@ Nesse ponto você pode usar o comando `git push` para enviar as alterações loc
 git push -u origin [branch-atual]
 ```
 
-### 6. Crie um Pull Request
+### 7. Crie um Pull Request
 
 Nesse ponto você poderá fazer um pull request para o repositório original.
 Você deve navegar até o seu repositório onde você fez o fork e pressionar o botão **`New pull request`**
