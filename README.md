@@ -9,7 +9,7 @@ Inspirado nessa iniciativa surgiu o [DevExplorer](http://devexplorer.vercel.app/
 
 ## Como posso contribuir?
 
-### 0. Pré-requisitos
+### Pré-requisitos
 Você deve ter o Git instalado em sua máquina local.
 ## Windows
 [Git para Windows](https://git-scm.com/download/windows)
@@ -23,7 +23,7 @@ Se você usar uma distribuição baseada em Debian como o Ubuntu, use o **`apt-g
 ```
 sudo apt-get install git-all`
 ```
-Se você usar uma distruição baseada no Arch Linux, use o **``pacman`**
+Se você usar uma distruição baseada no Arch Linux, use o **`pacman`**
 ```
 sudo pacman -S git
 ```
@@ -34,23 +34,23 @@ sudo pacman -S git
 ## Com o git já instalado.
 
 ### 1. Crie uma cópia desse repositório em sua conta do github. Esse processo chamamos de `fork`. 
-Faça um `fork` do repositório clicando no botão no canto superio direito da página.
+Faça um **`fork`** do repositório clicando no botão no canto superio direito da página.
 <img src="https://docs.github.com/assets/cb-23088/images/help/repository/fork_button.png" width="500px">
 
 Ou através do link [https://github.com/valdemirfilho/devexplorer/fork](https://github.com/valdemirfilho/devexplorer/fork)
 
-> Caso tenha dificuldade em fazer o `fork` do Projeto veja o passo a passo na [documentação do github](https://docs.github.com/pt/get-started/quickstart/fork-a-repo).
+> Caso tenha dificuldade em fazer o **`fork`** do Projeto veja o passo a passo na [documentação do github](https://docs.github.com/pt/get-started/quickstart/fork-a-repo).
 
 ### 2. Clone o repositório.
 Com o fork do repositório realizado, você está pronto para cloná-lo para que você tenha uma cópia de trabalho local do código.
 Abra um terminal e clone o repositório que está em sua conta para a sua máquina local.
-Vamos utilizar o comando `git clone` juntamente com a URL que aponta para o seu fork do repositório.
+Vamos utilizar o comando **`git clone`** juntamente com a URL que aponta para o seu fork do repositório.
 Esta URL será semelhante à URL abaixo.
 ```
 git clone https://github.com/[seu-nome-de-usuário]/devexplorer.git
 ```
 
-Você pode copiar a URL usando o botão verde `[Code]` da página do seu repositório que você acabou de fazer `fork`.
+Você pode copiar a URL usando o botão verde **`[Code]`** da página do seu repositório que você acabou de fazer **`fork`**.
 Escolha 
 ![clone-button](https://user-images.githubusercontent.com/6961638/193442927-674f29c1-9418-4bf2-8814-3bbd7433dd39.png)
 
@@ -73,7 +73,7 @@ git checkout seu-nome-de-usuário
 ```
 
 > Sempre que você trabalha em um projeto colaborativo, você e outros programadores que contribuem para o repositório terão ideias diferentes para novos recursos ou correções de uma só vez. Alguns desses novos recursos não levarão tempo significativo para serem implementados, mas alguns deles estarão em andamento. Por isso, é importante ramificar o repositório para que você possa gerenciar o fluxo de trabalho, isolar seu código e controlar quais recursos serão retornados à branch principal do repositório do projeto.<br><br>
-> Alternativamente, você pode combinar os dois comandos acima, criando e mudando para a nova branch, com o seguinte comando: `git checkout -b seu-nome-de-usuário`
+> Alternativamente, você pode combinar os dois comandos acima, criando e mudando para a nova branch, com o seguinte comando: **`git checkout -b seu-nome-de-usuário`**
 
 ### 5. Faça Alterações Localmente
 Neste ponto você pode modificar arquivos existentes ou adicionar novos arquivos ao projeto em sua própria branch.
@@ -82,12 +82,12 @@ Você pode digitar no terminal
 ```
 code .
 ```
-Vá até o diretório `users.example`. Copie o arquivo `users.js.example` para dentro do diretório `users`. Agora renomeie o arquivo `users.js.example` para `seu-nome-de-usuário.js`.
-Por exemplo. Meu nome de usuário do github é `valdemirfilho` logo o meu arquivo deve ser renomeado para `valdemirfilho.js`.
+Vá até o diretório *`users.example`*. Copie o arquivo *`users.js.example`* para dentro do diretório *`users`*. Agora renomeie o arquivo *`users.js.example`* para *`seu-nome-de-usuário.js`*.
+Por exemplo. Meu nome de usuário do github é **`valdemirfilho`** logo o meu arquivo deve ser renomeado para *`valdemirfilho.js`*.
 
 Após renomear, abra o arquivo e preencha com as suas informações.  Preencha inicialmente suas informações para networking. As informações sobre os desafios são opcionais e podem ser preenchidas a medida que você for finalizando os desafios.
 
-Depois de modificar o arquivo vamos prepará-lo para fazer o `commit`. Vamos adicionar todas as alterações que fizemos
+Depois de modificar o arquivo vamos prepará-lo para fazer o **`commit`**. Vamos adicionar todas as alterações que fizemos
 ```
 git add -A
 ```
