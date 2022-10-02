@@ -2,7 +2,7 @@
 
 ## O que é o DevExplorer?
 A Turma 1.0 do Explorer teve a iniciativa de compartilhar suas informações através de um [Google Docs](https://docs.google.com/spreadsheets/d/1SsZ9JL6ADQQ2vDfT-bXqo21PH87N_HjzKIoEeaZL-Rc/edit#gid=0) visando melhorar seu networwing.
-Inspirado nessa iniciativa surgiu o [DevExplorer](#) que é um projeto onde o aluno do Explorer podem compartilhar suas informações e ao mesmo tempo aprender como contribuir com um projeto que está no [Github](https://github.com).
+Inspirado nessa iniciativa surgiu o [DevExplorer](#) que é um projeto onde o aluno do Explorer pode compartilhar suas informações e ao mesmo tempo aprender como contribuir com um projeto que está no [Github](https://github.com).
 
 ## Como posso contribuir?
 ### 1. Crie uma cópia desse repositório em sua conta do github. Esse processo chamamos de `fork`. 
@@ -33,7 +33,7 @@ Digite no terminal o código abaixo.
  
 ### 4. Crie uma Nova Branch.
 Crie uma branch com o nome do seu usuário do github.<br>
-Você pode verificar o nome do seu usuário na URL do ser perfil do github: `https://github.com/[seu-nome-de-usuário]`
+Você pode verificar o nome do seu usuário na URL do ser perfil do github: <br>`https://github.com/[seu-nome-de-usuário]`
 Agora, vamos criar nossa nova branch com o comando `git branch`
 ```
 git branch seu-nome-de-usuário

@@ -5,7 +5,7 @@
 
 ## O que é o DevExplorer?
 A Turma 1.0 do Explorer teve a iniciativa de compartilhar suas informações através de um [Google Docs](https://docs.google.com/spreadsheets/d/1SsZ9JL6ADQQ2vDfT-bXqo21PH87N_HjzKIoEeaZL-Rc/edit#gid=0) visando melhorar seu networwing.
-Inspirado nessa iniciativa surgiu o [DevExplorer](#) que é um projeto onde o aluno do Explorer podem compartilhar suas informações e ao mesmo tempo aprender como contribuir com um projeto que está no [Github](https://github.com).
+Inspirado nessa iniciativa surgiu o [DevExplorer](http://devexplorer.vercel.app/) que é um projeto onde o aluno do Explorer podem compartilhar suas informações e ao mesmo tempo aprender como contribuir com um projeto que está no [Github](https://github.com).
 
 ## Como posso contribuir?
 ### 1. Crie uma cópia desse repositório em sua conta do github. Esse processo chamamos de `fork`. 
