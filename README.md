@@ -4,7 +4,7 @@
 # 🚀DevExplorer
 
 ## Site
-<a href="https://devexplorer.vercel.app" target="_blank">https://devexplorer.vercel.app</a>
+<a href="https://devexplorer.vercel.app" target="_blank" rel="noopener noreferrer">https://devexplorer.vercel.app</a>
 
 ## O que é o DevExplorer?
 A Turma 1.0 do Explorer teve a iniciativa de compartilhar suas informações através de um [Google Docs](https://docs.google.com/spreadsheets/d/1SsZ9JL6ADQQ2vDfT-bXqo21PH87N_HjzKIoEeaZL-Rc/edit#gid=0) visando melhorar seu networking.
