@@ -8,6 +8,31 @@ A Turma 1.0 do Explorer teve a iniciativa de compartilhar suas informações atr
 Inspirado nessa iniciativa surgiu o [DevExplorer](http://devexplorer.vercel.app/) que é um projeto onde o aluno do Explorer podem compartilhar suas informações e ao mesmo tempo aprender como contribuir com um projeto que está no [Github](https://github.com).
 
 ## Como posso contribuir?
+
+### 0. Pré-requisitos
+Você deve ter o Git instalado em sua máquina local.
+## Windows
+[Git para Windows](https://git-scm.com/download/windows)
+
+## Linux
+Se você usar Fedora por exemplo, você pode usar o **`yum`**
+```
+sudo yum install git-all
+```
+Se você usar uma distribuição baseada em Debian como o Ubuntu, use o **`apt-get`**
+```
+sudo apt-get install git-all`
+```
+Se você usar uma distruição baseada no Arch Linux, use o **``pacman`**
+```
+sudo pacman -S git
+```
+
+## MacOS
+[Guia para o MacOS](https://efficient-sloth-d85.notion.site/macOS-9463f0689d0a4c4098a6d64f01016f43)
+
+## Com o git já instalado.
+
 ### 1. Crie uma cópia desse repositório em sua conta do github. Esse processo chamamos de `fork`. 
 Faça um `fork` do repositório clicando no botão no canto superio direito da página.
 <img src="https://docs.github.com/assets/cb-23088/images/help/repository/fork_button.png" width="500px">
