@@ -31,12 +31,7 @@ export default function Flag({ state, ...rest }) {
   return (
     <div>
       {arrayStates.includes(state) && (
-        <img
-          src={`images/flags/${state}.svg`}
-          width="32px"
-          {...rest}
-          alt={state}
-        />
+        <img src={`images/flags/${state}.svg`} width="32px" {...rest} alt={state} />
       )}
     </div>
   );
