@@ -1,38 +1,35 @@
-import styles from '../styles/User.module.css'
-import Image from 'next/image'
-import fs from 'fs'
-import Link from 'next/link'
-import Challenge from '../components/Challenge'
+import Image from 'next/image';
+import fs from 'fs';
+import Link from 'next/link';
+import styles from '../styles/User.module.css';
+import Challenge from '../components/Challenge';
 
 export async function getStaticPaths() {
-  const files = listFiles()
-  const paths = files.map(file => {
-    return {
-      params: { user: file.split(".")[0]}
-    }
-  })
+  function listFiles() {
+    return fs.readdirSync('users');
+  }
+
+  const files = listFiles();
+  const paths = files.map((file) => ({
+    params: { user: file.split('.')[0] },
+  }));
 
   return {
     paths,
-    fallback: false
-  }
-  
-  function listFiles() {
-    const files = fs.readdirSync("users")
-    return files
-  }
+    fallback: false,
+  };
 }
 
 export async function getStaticProps(context) {
-  const { user } = context.params
-  const userInfo = await import(`../users/${user}`)
-  
+  const { user } = context.params;
+  const userInfo = await import(`../users/${user}`);
+
   return {
-    props: { user: userInfo.data }
-  }
+    props: { user: userInfo.data },
+  };
 }
 
-export default function User({user}) {
+export default function User({ user }) {
   return (
     <div className={styles.card}>
       <Link href="/">Home</Link>
@@ -40,7 +37,8 @@ export default function User({user}) {
         <Image
           className={styles.card_image}
           src={`${user.github}.png`}
-          width={150} height={150}
+          width={150}
+          height={150}
           alt={user.name}
         />
         <h4>{`turma ${user.turma}`}</h4>
@@ -49,65 +47,65 @@ export default function User({user}) {
       </div>
 
       <div className={styles.links}>
-        {user.email &&
+        {user.email && (
           <div className={styles.link}>
             <p>Email</p>
-            <a 
-              href={`mailto:${user.email}`} 
+            <a
+              href={`mailto:${user.email}`}
               target="_blank"
               rel="noopener noreferrer"
             >
               {user.email}
             </a>
-          </div>}
+          </div>
+        )}
 
-        {user.github &&
+        {user.github && (
           <div className={styles.link}>
             <p>Github</p>
-            <a 
-            href={user.github} 
-            target="_blank"
-            rel="noopener noreferrer"
-            >
+            <a href={user.github} target="_blank" rel="noopener noreferrer">
               {user.github}
             </a>
-          </div>}
+          </div>
+        )}
 
-        {user.linkedin_url &&
+        {user.linkedin_url && (
           <div className={styles.link}>
             <p>Linkedin</p>
-            <a 
-              href={user.linkedin_url} 
+            <a
+              href={user.linkedin_url}
               target="_blank"
               rel="noopener noreferrer"
             >
               {user.linkedin_url}
             </a>
-          </div>}
+          </div>
+        )}
 
-        {user.rocketseat_profile &&
+        {user.rocketseat_profile && (
           <div className={styles.link}>
             <p>Rocketseat</p>
-            <a 
-              href={user.rocketseat_profile} 
+            <a
+              href={user.rocketseat_profile}
               target="_blank"
               rel="noopener noreferrer"
             >
               {user.rocketseat_profile}
             </a>
-          </div>}
+          </div>
+        )}
       </div>
 
       <div className={styles.challenges}>
         <h3>Desafios</h3>
         <details>
           <summary>Stage 02</summary>
-          <Challenge 
+          <Challenge
             stage={user.stage02}
             challengeName="fase01_corrigindo_bugs01"
             title="Corrigindo Bugs (01)"
           />
-          <Challenge 
+          <Challenge
             stage={user.stage02}
             challengeName="fase02_corrigindo_bugs02"
             title="Corrigindo Bugs (02)"
@@ -128,12 +126,12 @@ export default function User({user}) {
 
         <details>
           <summary>Stage 03</summary>
-          <Challenge 
+          <Challenge
             stage={user.stage03}
             challengeName="criando_formularios"
             title="Criando Formulários"
           />
-          <Challenge 
+          <Challenge
             stage={user.stage03}
             challengeName="mobile_first"
             title="Mobile First"
@@ -148,7 +146,7 @@ export default function User({user}) {
 
         <details>
           <summary>Stage 04</summary>
-          <Challenge 
+          <Challenge
             stage={user.stage04}
             challengeName="exercicio01"
             title="Exercício 01"
@@ -163,7 +161,7 @@ export default function User({user}) {
 
         <details>
           <summary>Stage 05</summary>
-          <Challenge 
+          <Challenge
             stage={user.stage05}
             challengeName="focustimer"
             title="FocusTimer"
@@ -178,7 +176,7 @@ export default function User({user}) {
 
         <details>
           <summary>Stage 06</summary>
-          <Challenge 
+          <Challenge
             stage={user.stage06}
             challengeName="spa_universe"
             title="SPA Universe"
@@ -193,7 +191,7 @@ export default function User({user}) {
 
         <details>
           <summary>Stage 07</summary>
-          <Challenge 
+          <Challenge
             stage={user.stage07}
             challengeName="git_push"
             title="Git Push"
@@ -218,8 +216,6 @@ export default function User({user}) {
           />
         </details>
       </div>
-
     </div>
-  )
-
+  );
 }
