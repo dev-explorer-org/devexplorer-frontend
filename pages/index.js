@@ -39,10 +39,7 @@ export default function Home({ data }) {
         {data.map((user, index) => (
           <Link key={index} href={`/${user.github.split('/')[3]}`}>
             <div className={styles.card}>
-              <div
-                className={styles.card_image_container}
-                data-turma={user.turma}
-              >
+              <div className={styles.card_image_container} data-turma={user.turma}>
                 <Image
                   className={styles.card_image}
                   src={`${user.github}.png`}

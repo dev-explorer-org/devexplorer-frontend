@@ -50,11 +50,7 @@ export default function User({ user }) {
         {user.email && (
           <div className={styles.link}>
             <p>Email</p>
-            <a
-              href={`mailto:${user.email}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href={`mailto:${user.email}`} target="_blank" rel="noopener noreferrer">
               {user.email}
             </a>
           </div>
@@ -72,11 +68,7 @@ export default function User({ user }) {
         {user.linkedin_url && (
           <div className={styles.link}>
             <p>Linkedin</p>
-            <a
-              href={user.linkedin_url}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href={user.linkedin_url} target="_blank" rel="noopener noreferrer">
               {user.linkedin_url}
             </a>
           </div>
@@ -85,11 +77,7 @@ export default function User({ user }) {
         {user.rocketseat_profile && (
           <div className={styles.link}>
             <p>Rocketseat</p>
-            <a
-              href={user.rocketseat_profile}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href={user.rocketseat_profile} target="_blank" rel="noopener noreferrer">
               {user.rocketseat_profile}
             </a>
           </div>
@@ -131,11 +119,7 @@ export default function User({ user }) {
             challengeName="criando_formularios"
             title="Criando Formulários"
           />
-          <Challenge
-            stage={user.stage03}
-            challengeName="mobile_first"
-            title="Mobile First"
-          />
+          <Challenge stage={user.stage03} challengeName="mobile_first" title="Mobile First" />
 
           <Challenge
             stage={user.stage03}
@@ -146,26 +130,14 @@ export default function User({ user }) {
 
         <details>
           <summary>Stage 04</summary>
-          <Challenge
-            stage={user.stage04}
-            challengeName="exercicio01"
-            title="Exercício 01"
-          />
+          <Challenge stage={user.stage04} challengeName="exercicio01" title="Exercício 01" />
 
-          <Challenge
-            stage={user.stage04}
-            challengeName="exercicio02"
-            title="Exercício 02"
-          />
+          <Challenge stage={user.stage04} challengeName="exercicio02" title="Exercício 02" />
         </details>
 
         <details>
           <summary>Stage 05</summary>
-          <Challenge
-            stage={user.stage05}
-            challengeName="focustimer"
-            title="FocusTimer"
-          />
+          <Challenge stage={user.stage05} challengeName="focustimer" title="FocusTimer" />
 
           <Challenge
             stage={user.stage05}
@@ -176,26 +148,14 @@ export default function User({ user }) {
 
         <details>
           <summary>Stage 06</summary>
-          <Challenge
-            stage={user.stage06}
-            challengeName="spa_universe"
-            title="SPA Universe"
-          />
+          <Challenge stage={user.stage06} challengeName="spa_universe" title="SPA Universe" />
 
-          <Challenge
-            stage={user.stage06}
-            challengeName="gitfav"
-            title="GitFav"
-          />
+          <Challenge stage={user.stage06} challengeName="gitfav" title="GitFav" />
         </details>
 
         <details>
           <summary>Stage 07</summary>
-          <Challenge
-            stage={user.stage07}
-            challengeName="git_push"
-            title="Git Push"
-          />
+          <Challenge stage={user.stage07} challengeName="git_push" title="Git Push" />
         </details>
 
         <details>

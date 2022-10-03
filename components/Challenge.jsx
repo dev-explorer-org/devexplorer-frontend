@@ -15,11 +15,7 @@ export default function Challenge({ stage, challengeName, title }) {
             <>
               <p>{title}</p>
               <span>Código: </span>
-              <a
-                href={stage[challengeName].codigo_url}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href={stage[challengeName].codigo_url} target="_blank" rel="noopener noreferrer">
                 {stage[challengeName].codigo_url}
               </a>
             </>
@@ -56,11 +52,7 @@ export default function Challenge({ stage, challengeName, title }) {
             <>
               <br />
               <span>Deploy: </span>
-              <a
-                href={stage[challengeName].deploy_url}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href={stage[challengeName].deploy_url} target="_blank" rel="noopener noreferrer">
                 {stage[challengeName].deploy_url}
               </a>
             </>

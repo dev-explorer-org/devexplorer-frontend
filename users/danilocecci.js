@@ -52,8 +52,7 @@ export const data = {
       deploy_url: '',
     },
     fase02_recriando_layout: {
-      codigo_url:
-        'https://github.com/danilocecci/explorer-desafio-recriando-layout01',
+      codigo_url: 'https://github.com/danilocecci/explorer-desafio-recriando-layout01',
       deploy_url: '',
     },
   },

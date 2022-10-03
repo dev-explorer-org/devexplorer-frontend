@@ -64,13 +64,11 @@ export const data = {
       deploy_url: 'https://stage3-desafio1-mentoria.netlify.app/',
     },
     mobile_first: {
-      codigo_url:
-        'https://github.com/valdemirfilho/stage03-desafio03-space-cream',
+      codigo_url: 'https://github.com/valdemirfilho/stage03-desafio03-space-cream',
       deploy_url: 'https://space-cream.netlify.app/',
     },
     grid_com_animacoes: {
-      codigo_url:
-        'https://github.com/valdemirfilho/stage03-desafio03-space-cream',
+      codigo_url: 'https://github.com/valdemirfilho/stage03-desafio03-space-cream',
       deploy_url: 'https://space-cream.netlify.app/',
     },
   },
