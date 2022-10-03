@@ -1,7 +1,5 @@
-<!-- ![banner](https://github.githubassets.com/images/modules/memexes/projects-beta-banner-dark.png) -->
-<img src="https://github.githubassets.com/images/modules/memexes/projects-beta-banner-dark.png" style="position: absolute;">
-
 # 🚀DevExplorer
+![banner](https://user-images.githubusercontent.com/6961638/193600250-667e66d5-7194-4e04-9bae-6e0bb016a79e.png)
 
 ## Site
 
