@@ -4,8 +4,12 @@
 .page {
   padding: 20px;
   height: 100vh;
-  background-image: url(../public/images/world.svg);
-  background-size: cover;
+  background-image: url('../public/images/world.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: center;
+  background-origin: content-box;
 }
 
 .title {

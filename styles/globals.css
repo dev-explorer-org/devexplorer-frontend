@@ -26,11 +26,7 @@ body {
   background-color: rgba(0, 172, 255, 1);
 }
 
-body:before {
-}
-
 body:after {
-  opacity: 0.5;
   content: '';
   position: fixed;
   top: 0;
