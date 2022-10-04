@@ -109,6 +109,7 @@ Você deve navegar até o seu repositório onde você fez o fork e pressionar o 
 ![pull-request](https://cdn.discordapp.com/attachments/978305332130504814/1026166297039482930/unknown.png)
 
 Na página de `Open a pull request` preencha o título e deixe um comentário começando com `Fix #` e seleciona a `issue` que você criou anteriormente.
+![open-pull-request](https://cdn.discordapp.com/attachments/978305332130504814/1026166645305114705/unknown.png)
 
 Pronto! Você fez seu primeiro Pull Request! Agora é só aguardar o mantenedor do projeto avaliar a sua contribuição e fazer um merge do seu código com o código do projeto. 😁
 
