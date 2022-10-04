@@ -53,7 +53,7 @@ sudo pacman -S git
 
 Escolha qual o tipo de contribuição você quer fazer?
 
-- [Quero contribuir com as informações de aluno](https://github.com/valdemirfilho/devexplorer/blob/main/CONTRIBUTING.md) 👶`Recomendado para iniciantes`
+- [Quero contribuir com as informações de aluno](https://github.com/valdemirfilho/devexplorer/blob/main/CONTRIBUTING.md) `👶Recomendado para iniciantes`
 - [Quero contribuir com código desenvolvendo novas funcionalidades](https://github.com/valdemirfilho/devexplorer/blob/main/CONTRIBUTING2.md)
 
 ## Dúvidas?
