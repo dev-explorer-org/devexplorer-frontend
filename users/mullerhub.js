@@ -40,7 +40,7 @@ export const data = {
   // Desafios do Stage 02
   stage02: {
     fase01_corrigindo_bugs01: {
-      codigo_url: "",
+      codigo_url: "https://github.com/MullerHub/Explorer-week11/tree/main/Stage0100-git",
       deploy_url: ""
     },
     fase02_corrigindo_bugs02: {
