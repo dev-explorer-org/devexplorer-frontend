@@ -119,3 +119,6 @@ Pronto! Você fez seu primeiro Pull Request! Agora é só aguardar o mantenedor 
 Procurar **Valdemir Filho** no [Discord do Explorer](https://discord.com/channels/327861810768117763/956248170915045386).
 
 #### Eu e a comunidade agradecemos a sua ajuda 💜
+<a href="https://github.com/valdemirfilho/devexplorer/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=valdemirfilho/devexplorer"/>
+</a>
