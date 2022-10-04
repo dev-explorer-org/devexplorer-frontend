@@ -23,7 +23,7 @@ Contribuir com projetos open source é uma ótima forma de aumentar sua experiê
 
 Para participar do Hacktoberfest entre no site [https://hacktoberfest.digitalocean.com/](https://hacktoberfest.digitalocean.com/) e faça sua inscrição. Em seguida siga as instruções abaixo.
 
-## Como posso contribuir?
+## 😎Como posso contribuir?
 
 ### Pré-requisitos
 
@@ -56,7 +56,7 @@ Escolha qual o tipo de contribuição você quer fazer?
 - [Quero contribuir com as informações de aluno](https://github.com/valdemirfilho/devexplorer/blob/main/CONTRIBUTING.md) `👶Recomendado para iniciantes`
 - [Quero contribuir com código desenvolvendo novas funcionalidades](https://github.com/valdemirfilho/devexplorer/blob/main/CONTRIBUTING2.md)
 
-## Dúvidas?
+## 🤔Dúvidas?
 
 Procurar **Valdemir Filho** no [Discord do Explorer](https://discord.com/channels/327861810768117763/956248170915045386).
 
