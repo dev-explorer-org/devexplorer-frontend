@@ -22,7 +22,7 @@ export const data = {
   country: 'Brasil',
 
   // Preencha de qual turma do Explorer você é: Ex (turma: "01").
-  turma: '01',
+  turma: '00',
 
   // Preencha com a url do seu perfil no github: (https://github.com/[user]).
   github: 'https://github.com/birobirobiro',

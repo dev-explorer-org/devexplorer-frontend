@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Gugi&family=Work+Sans&display=swap');
 
 *,
-*:after,
-*:before {
+*::after,
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -26,7 +26,7 @@ body {
   background-color: rgba(0, 172, 255, 1);
 }
 
-body:after {
+body::after {
   content: '';
   position: fixed;
   top: 0;

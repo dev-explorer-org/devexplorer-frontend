@@ -101,6 +101,17 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
+  background-position: center;
+}
+
+.card_image_container[data-turma='00']::after {
+  content: '';
+  background-color: white;
+  color: rgb(1, 63, 125);
+  outline: 1px solid white;
+  background-image: url('/rocketseat_icon.svg');
+  background-position: center;
+  background-size: 100%;
 }
 
 .card a {
