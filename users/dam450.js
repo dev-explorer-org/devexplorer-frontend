@@ -6,32 +6,32 @@ export const data = {
   // Os valores devem estar dentro das aspas duplas (Ex: "Aqui dentro")
 
   // Preencha com o seu nome.
-  name: 'Valdemir Filho',
+  name: 'Evandro Damaso',
 
   // Preencha com o seu e-mail.
-  email: 'filhux@gmail.com',
+  email: 'dam450.dev@gmail.com',
 
   // Preencha com a cidade onde você mora.
-  city: 'Sobral',
+  city: 'Guarulhos',
 
   // Preencha com a sigla do estado onde você mora.
   // Ex: SP
-  state: 'CE',
+  state: 'SP',
 
   // Preencha com o país onde mora.
   country: 'Brasil',
 
   // Preencha de qual turma do Explorer você é: Ex (turma: "01").
-  turma: '01',
+  turma: '03',
 
   // Preencha com a url do seu perfil no github: (https://github.com/[user]).
-  github: 'https://github.com/valdemirfilho',
+  github: 'https://github.com/dam450',
 
   // Preencha com a url do seu perfil no linkedin: (https://www.linkedin.com/in/[user]).
-  linkedin_url: 'https://www.linkedin.com/in/valdemirfilho',
+  linkedin_url: 'https://www.linkedin.com/in/evandro-damaso',
 
   // Preencha com a url do seu perfil da rockeseat: (https://app.rocketseat.com.br/me/[user]).
-  rocketseat_profile: 'https://app.rocketseat.com.br/me/valdemir-filho',
+  rocketseat_profile: 'https://app.rocketseat.com.br/me/evandro-damaso',
 
   // Preencha os campos abaixo com os links dos desafios que você já concluiu.
   // Preencha o campo [codigo_url] com o link do codepen ou github.
@@ -40,20 +40,20 @@ export const data = {
   // Desafios do Stage 02
   stage02: {
     fase01_corrigindo_bugs01: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: 'https://github.com/dam450/rseat-challenge-01',
+      deploy_url: 'https://dam450.github.io/rseat-challenge-01/',
     },
     fase02_corrigindo_bugs02: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: 'https://github.com/dam450/rseat-challenge-02',
+      deploy_url: 'https://dam450.github.io/rseat-challenge-02/',
     },
     fase02_semantica_acessibilidade: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: 'https://github.com/dam450/rseat-challenge-03',
+      deploy_url: 'https://dam450.github.io/rseat-challenge-03/',
     },
     fase02_recriando_layout: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: 'https://github.com/dam450/rocket-sect',
+      deploy_url: 'https://dam450.github.io/rocket-sect/',
     },
   },
 
