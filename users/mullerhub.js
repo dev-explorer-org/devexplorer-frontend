@@ -44,7 +44,7 @@ export const data = {
       deploy_url: ""
     },
     fase02_corrigindo_bugs02: {
-      codigo_url: "",
+      codigo_url: "https://github.com/MullerHub/Explorer-week11/tree/main/Stage0201%20Revis%C3%A3o-git",
       deploy_url: ""
     },
     fase02_semantica_acessibilidade: {
