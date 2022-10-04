@@ -108,7 +108,7 @@
   content: '';
   background-color: white;
   color: rgb(1, 63, 125);
-  outline: 1px solid white;
+  outline: 1px solid #936cff;
   background-image: url('/rocketseat_icon.svg');
   background-position: center;
   background-size: 100%;
