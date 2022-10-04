@@ -4,7 +4,7 @@
 .page {
   padding: 20px;
   height: 100vh;
-  background-image: url('../public/world.svg');
+  background-image: url('/world.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-attachment: fixed;
