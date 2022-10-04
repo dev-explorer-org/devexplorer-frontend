@@ -48,7 +48,7 @@ export const data = {
       deploy_url: ""
     },
     fase02_semantica_acessibilidade: {
-      codigo_url: "",
+      codigo_url: "https://github.com/MullerHub/Explorer-week11/tree/main/Stage0202-Responsividade",
       deploy_url: ""
     },
     fase02_recriando_layout: {
