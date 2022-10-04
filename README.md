@@ -2,7 +2,7 @@
 
 ![banner](https://user-images.githubusercontent.com/6961638/193600250-667e66d5-7194-4e04-9bae-6e0bb016a79e.png)
 
-## Site
+## 🔗Site
 
 <a href="https://devexplorer.vercel.app" target="_blank" rel="noopener noreferrer">https://devexplorer.vercel.app</a>
 
@@ -29,40 +29,32 @@ Para participar do Hacktoberfest entre no site [https://hacktoberfest.digitaloce
 
 Você deve ter o Git instalado em sua máquina local e um editor de código de sua preferência Ex: [Visual Studio Code](https://code.visualstudio.com/)
 
-### Windows
-
+#### Windows
 [Git para Windows](https://git-scm.com/download/windows)
 
-### Linux
-
+#### Linux
 Se você usar Fedora por exemplo, você pode usar o **`yum`**
-
 ```
 sudo yum install git-all
 ```
-
 Se você usar uma distribuição baseada em Debian como o Ubuntu, use o **`apt-get`**
-
 ```
 sudo apt-get install git
 ```
-
 Se você usar uma distruição baseada no Arch Linux, use o **`pacman`**
-
 ```
 sudo pacman -S git
 ```
 
-### MacOS
-
+#### MacOS
 [Guia para o MacOS](https://efficient-sloth-d85.notion.site/macOS-9463f0689d0a4c4098a6d64f01016f43)
 
 ## Com o git já instalado.
 
 Escolha qual o tipo de contribuição você quer fazer?
 
-- [https://github.com/valdemirfilho/devexplorer/blob/main/CONTRIBUTING.md](Quero contribuir com as informações de aluno) (Recomendado para iniciantes)
-- [https://github.com/valdemirfilho/devexplorer/blob/main/CONTRIBUTING2.md](Quero contribuir com código desenvolvendo novas funcionalidades no projeto)
+- [Quero contribuir com as informações de aluno](https://github.com/valdemirfilho/devexplorer/blob/main/CONTRIBUTING.md) 👶`Recomendado para iniciantes`
+- [Quero contribuir com código desenvolvendo novas funcionalidades](https://github.com/valdemirfilho/devexplorer/blob/main/CONTRIBUTING2.md)
 
 ## Dúvidas?
 
