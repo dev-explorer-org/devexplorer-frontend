@@ -49,7 +49,7 @@ sudo pacman -S git
 #### MacOS
 [Guia para o MacOS](https://efficient-sloth-d85.notion.site/macOS-9463f0689d0a4c4098a6d64f01016f43)
 
-## Com o git já instalado.
+### Com o git já instalado.
 
 Escolha qual o tipo de contribuição você quer fazer?
 
