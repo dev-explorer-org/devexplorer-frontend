@@ -3,6 +3,9 @@
 
 .page {
   padding: 20px;
+  height: 100vh;
+  background-image: url(../public/images/world.svg);
+  background-size: cover;
 }
 
 .title {
@@ -97,10 +100,6 @@
 }
 
 .card a {
-  color:aqua;
+  color: aqua;
   font-size: 12px;
 }
-
-
-
-
