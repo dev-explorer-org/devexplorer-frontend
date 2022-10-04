@@ -33,13 +33,11 @@
   z-index: 2000;
 }
 
-
 .links,
 .challenges {
   gap: 10px;
   display: grid;
 }
-
 
 .link {
   padding: 10px;
@@ -54,6 +52,7 @@
 .challenges .link:nth-of-type(1) {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
+  margin: 10px 0;
 }
 
 .challenges .link:nth-last-of-type(1) {
@@ -73,8 +72,7 @@
 }
 
 .card a {
-  color:aqua;
+  color: aqua;
   font-size: 14px;
   text-decoration: none;
 }
-
