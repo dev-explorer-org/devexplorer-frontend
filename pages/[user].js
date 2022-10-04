@@ -119,6 +119,7 @@ export default function User({ user }) {
             challengeName="criando_formularios"
             title="Criando Formulários"
           />
+
           <Challenge stage={user.stage03} challengeName="mobile_first" title="Mobile First" />
 
           <Challenge

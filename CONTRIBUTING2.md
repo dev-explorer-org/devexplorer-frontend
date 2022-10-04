@@ -1,6 +1,8 @@
-# Para contribuir com informações de alunos siga os passos abaixo:
+# Para contribuir com novas funcionalidades no projeto siga os passos abaixo:
 
-### 1. Crie uma issue
+### 1. Crie uma issue ou verifique se já existem issues abertas esperando por contribuição.
+
+## Para criar uma nova issue:
 
 No topo da página principal do repositório clique no botão **`issues`**<br>
 <img src="https://docs.github.com/assets/cb-25896/images/help/repository/repo-tabs-issues.png" width="800px">
@@ -8,12 +10,16 @@ No topo da página principal do repositório clique no botão **`issues`**<br>
 Depois clique no botão verde **`New Issue`**<br>
 <img src="https://docs.github.com/assets/cb-5049/images/help/issues/new_issues_button.png" width="200px">
 
-Digite um título e uma descrição informando sobre qual contribuição você irá fazer. Por exemplo.
+Digite um título e uma descrição informando qual contribuição você gostaria de fazer. Por exemplo.
 
-> Título: `Informações do aluno Valdemir Filho`<br>
-> Descrição: `Vou adicionar as informações para networking do aluno Valdemir Filho`
+> Título: `Criar uma animação para os cards dos alunos`<br>
+> Descrição: `Gostaria de implementar uma animação de fade-out que faça os cards dos alunos surgirem lentamente na página.`
 
 Clique no botão verde **`Submit new issue`**
+
+Agora aguarde o mantenedor do projeto aceitar a sua sugestão ou não.
+
+## Caso a resposta seja positiva:
 
 ### 2. Crie uma cópia desse repositório em sua conta do github. Esse processo chamamos de `fork`.
 
@@ -41,10 +47,8 @@ Você pode copiar a **`URL`** usando o botão verde **`[Code]`** da página do s
 ### 4. Entre no diretório do projeto.
 
 Digite no terminal o código abaixo.
-
-```
-cd devexplorer
-```
+`cd devexplorer` para entrar no diretório do projeto
+`yarn install` ou `npm install` para instalar as dependências
 
 ### 5. Crie uma Nova Branch.
 
@@ -55,43 +59,40 @@ Crie uma branch com o nome do seu usuário do github.<br>
 Agora, vamos criar nossa nova branch com o comando `git branch`
 
 ```
-git branch seu-nome-de-usuário
+git branch seu-nome-de-usuário-do-github
 ```
 
 Agora que nossa nova branch está criada, podemos mudar para nos certificar de que estamos trabalhando nessa branch usando o comando `git checkout`
 
 ```
-git checkout seu-nome-de-usuário
+git checkout seu-nome-de-usuário-do-github
 ```
 
 > Sempre que você trabalha em um projeto colaborativo, você e outros programadores que contribuem para o repositório terão ideias diferentes para novos recursos ou correções de uma só vez. Alguns desses novos recursos não levarão tempo significativo para serem implementados, mas alguns deles estarão em andamento. Por isso, é importante ramificar o repositório para que você possa gerenciar o fluxo de trabalho, isolar seu código e controlar quais recursos serão retornados à branch principal do repositório do projeto.<br><br>
-> Alternativamente, você pode combinar os dois comandos acima, criando e mudando para a nova branch, com o seguinte comando: **`git checkout -b seu-nome-de-usuário`**
+> Alternativamente, você pode combinar os dois comandos acima, criando e mudando para a nova branch, com o seguinte comando: **`git checkout -b seu-nome-de-usuário-do-github`**
 
-### 6. Faça Alterações Localmente
+### 6. Execute o projeto
+
+Digite no terminal `yarn dev` ou `npm run dev`
+
+### 7. Faça Alterações Localmente
 
 Neste ponto você pode modificar arquivos existentes ou adicionar novos arquivos ao projeto em sua própria branch.
-Abra o diretório do projeto no seu editor de código preferido. Ex: vscode.
+Abra o diretório do projeto no seu editor de código preferido. Ex: Visual Studio Code.
 Você pode digitar no terminal
 
 ```
 code .
 ```
 
-Vá até o diretório _`users.example`_. Copie o arquivo _`users.js.example`_ para dentro do diretório _`users`_. Agora renomeie o arquivo _`users.js.example`_ para _`seu-nome-de-usuário.js`_.
-Por exemplo, meu nome de usuário do github é **`valdemirfilho`** logo o meu arquivo deve ser renomeado para _`valdemirfilho.js`_.
-
-Após renomear, abra o arquivo e preencha com as suas informações. Preencha inicialmente suas informações para networking. As informações sobre os desafios são opcionais e podem ser preenchidas a medida que você for finalizando os desafios.
-
-Depois de modificar o arquivo vamos prepará-lo para fazer o **`commit`**. Vamos adicionar todas as alterações que fizemos
+Quando finalizar de escrever sua contribuição faça o `commit`.
 
 ```
 git add -A
 ```
 
-Em seguida, queremos registrar as alterações que fizemos no repositório com o comando `git commit`.
-
 ```
-git commit -m "Adicionei as informações de [seu-nome-de-usuário]"
+git commit -m "Adiciona animação nos cards dos alunos"
 ```
 
 Nesse ponto você pode usar o comando `git push` para enviar as alterações locais para o seu repositório do github
