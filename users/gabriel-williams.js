@@ -40,36 +40,36 @@ export const data = {
   // Desafios do Stage 02
   stage02: {
     fase01_corrigindo_bugs01: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: 'https://codepen.io/gabriel-williams/pen/RwQgJvr',
+      deploy_url: 'https://codepen.io/gabriel-williams/pen/RwQgJvr',
     },
     fase02_corrigindo_bugs02: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: 'https://codepen.io/gabriel-williams/pen/JjpJBjg',
+      deploy_url: 'https://codepen.io/gabriel-williams/pen/JjpJBjg',
     },
     fase02_semantica_acessibilidade: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: 'https://codepen.io/gabriel-williams/pen/ZEryjKP',
+      deploy_url: 'https://codepen.io/gabriel-williams/pen/ZEryjKP',
     },
     fase02_recriando_layout: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: 'https://github.com/Gabriel-WilliamS/Rocket.sect',
+      deploy_url: 'https://gabriel-williams.github.io/Rocket.sect/',
     },
   },
 
   // Desafios do Stage 03
   stage03: {
     criando_formularios: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: 'https://codepen.io/gabriel-williams/pen/abqVoLL',
+      deploy_url: 'https://codepen.io/gabriel-williams/pen/abqVoLL',
     },
     mobile_first: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: 'https://github.com/Gabriel-WilliamS/stage3-challengeMobileFirst',
+      deploy_url: 'https://gabriel-williams.github.io/stage3-challengeMobileFirst/',
     },
     grid_com_animacoes: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: 'https://github.com/Gabriel-WilliamS/stage3-challengeMobileFirst',
+      deploy_url: 'https://gabriel-williams.github.io/stage3-challengeMobileFirst/',
     },
   },
 
@@ -88,40 +88,40 @@ export const data = {
   // Desafios do Stage 05
   stage05: {
     focustimer: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: 'https://github.com/Gabriel-WilliamS/FocusTimer-Pomodoro',
+      deploy_url: 'https://focus-timer-dark-mode.vercel.app/',
     },
     focustimer_dark_mode: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: 'https://github.com/Gabriel-WilliamS/FocusTimer-DarkMode',
+      deploy_url: 'https://focus-timer-dark-mode.vercel.app/',
     },
   },
 
   // Desafios do Stage 06
   stage06: {
     spa_universe: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: 'https://github.com/Gabriel-WilliamS/Explorer/tree/main/Stage6-SPAUniverse',
+      deploy_url: 'https://explorer-spa-universe.vercel.app/',
     },
     gitfav: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: 'https://github.com/Gabriel-WilliamS/Stage6-GitFav',
+      deploy_url: 'https://git-fav-gabriel-williams.vercel.app/',
     },
   },
 
   // Desafios do Stage 07
   stage07: {
     git_push: {
-      codigo_url: '',
+      codigo_url: 'https://github.com/Gabriel-WilliamS/Explorer',
     },
   },
 
   // O projeto Rocket Movies será desenvolvido nos Stages 08, 09, 10, 11
   stages_08_09_10_11: {
     rocket_movies: {
-      github_frontend: '',
-      github_backend: '',
-      deploy_url: '',
+      github_frontend: 'https://github.com/Gabriel-WilliamS/rocketMovies',
+      github_backend: 'https://github.com/Gabriel-WilliamS/Stage8-NodeJS',
+      deploy_url: 'https://rocket-movies-eight.vercel.app/',
     },
   },
 
