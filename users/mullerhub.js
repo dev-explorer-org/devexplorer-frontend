@@ -52,7 +52,7 @@ export const data = {
       deploy_url: ""
     },
     fase02_recriando_layout: {
-      codigo_url: "",
+      codigo_url: "https://github.com/MullerHub/Explorer-week11/tree/main/Stage0203-rocket.sect",
       deploy_url: ""
     }
   },
