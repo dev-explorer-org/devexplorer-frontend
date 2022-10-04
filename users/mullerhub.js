@@ -40,19 +40,19 @@ export const data = {
   // Desafios do Stage 02
   stage02: {
     fase01_corrigindo_bugs01: {
-      codigo_url: "",
+      codigo_url: "https://github.com/MullerHub/Explorer-week11/tree/main/Stage0100-git",
       deploy_url: ""
     },
     fase02_corrigindo_bugs02: {
-      codigo_url: "",
+      codigo_url: "https://github.com/MullerHub/Explorer-week11/tree/main/Stage0201%20Revis%C3%A3o-git",
       deploy_url: ""
     },
     fase02_semantica_acessibilidade: {
-      codigo_url: "",
+      codigo_url: "https://github.com/MullerHub/Explorer-week11/tree/main/Stage0202-Responsividade",
       deploy_url: ""
     },
     fase02_recriando_layout: {
-      codigo_url: "",
+      codigo_url: "https://github.com/MullerHub/Explorer-week11/tree/main/Stage0203-rocket.sect",
       deploy_url: ""
     }
   },
