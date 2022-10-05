@@ -120,5 +120,5 @@ Procurar **Valdemir Filho** no [Discord do Explorer](https://discord.com/channel
 
 #### Eu e a comunidade agradecemos a sua ajuda 💜
 <a href="https://github.com/valdemirfilho/devexplorer/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=valdemirfilho/devexplorer"/>
+  <img src="https://contrib.rocks/image?repo=birobirobiro/devexplorer" />
 </a>
