@@ -1,4 +1,4 @@
-export default function Flag({ state, ...rest }) {
+export default function Flag({ state, country, ...rest }) {
   const arrayStates = [
     'AC',
     'AL',
@@ -28,10 +28,23 @@ export default function Flag({ state, ...rest }) {
     'TO',
   ];
 
+  const countriesList = {
+    Itália: 'ITA.svg',
+  };
+
+  const isBrazil = arrayStates.includes(state);
+
   return (
     <div>
-      {arrayStates.includes(state) && (
+      {isBrazil ? (
         <img src={`images/flags/${state}.svg`} width="32px" {...rest} alt={state} />
+      ) : (
+        <img
+          src={`images/flags/countries/${countriesList[country]}`}
+          width="32px"
+          {...rest}
+          alt={country}
+        />
       )}
     </div>
   );

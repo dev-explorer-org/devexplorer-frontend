@@ -47,7 +47,7 @@ export default function Home({ data }) {
                   height={80}
                   alt={user.name}
                 />
-                <Flag className={styles.flag} state={user.state} />
+                <Flag className={styles.flag} state={user.state} country={user.country} />
               </div>
               <h2>{user.name}</h2>
             </div>
