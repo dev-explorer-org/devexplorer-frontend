@@ -9,7 +9,7 @@ export default function Challenge({ stage, challengeName, title }) {
 
   return (
     <div>
-      {existInfos && (
+      {existInfos ? (
         <div className={styles.link}>
           {stage[challengeName].codigo_url && (
             <>
@@ -57,6 +57,10 @@ export default function Challenge({ stage, challengeName, title }) {
               </a>
             </>
           )}
+        </div>
+      ) : (
+        <div className={styles.link}>
+          <p>Este usuário ainda não fez o desafio...</p>
         </div>
       )}
     </div>
