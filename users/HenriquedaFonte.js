@@ -19,7 +19,7 @@ export const data = {
   state: 'QC',
 
   // Preencha com o país onde mora.
-  country: 'Canada',
+  country: 'Canadá',
 
   // Preencha de qual turma do Explorer você é: Ex (turma: "01").
   turma: '01',
