@@ -49,7 +49,7 @@ export default function Home({ data }) {
                 />
                 <Flag className={styles.flag} state={user.state} country={user.country} />
               </div>
-              <h2>{user.name}</h2>
+              <h2>{user.name.split(' ').slice(0, 2).join(' ')}</h2>
             </div>
           </Link>
         ))}
