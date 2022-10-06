@@ -47,7 +47,7 @@
   align-items: center;
 }
 
-.link {
+.links .link {
   display: flex;
   align-items: center;
   gap: 16px;
@@ -58,6 +58,15 @@
 
 .challenges .link {
   border-radius: 0px;
+  display: grid;
+  padding: 10px;
+  background-color: hsla(0, 0%, 0%, 0.2);
+  border-radius: 8px;
+  text-align: left;
+}
+
+.challenges .link p {
+  text-align: center;
 }
 
 .challenges .link:nth-of-type(1) {

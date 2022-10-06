@@ -214,7 +214,7 @@ export default function User({ user }) {
           <Challenge
             stage={user.stages_08_09_10_11}
             challengeName="rocket_movies"
-            title="Rocker Movies"
+            title="Rocket Movies"
           />
         </details>
 
