@@ -5,6 +5,16 @@ import fs from 'fs';
 import styles from '../styles/Home.module.css';
 import Flag from '../components/Flag';
 
+function formatUserTitle(name) {
+  const arrayNames = name.split(' ');
+
+  if (arrayNames[1].length <= 2) {
+    return name.split(' ').slice(0, 3).join(' ');
+  }
+
+  return name.split(' ').slice(0, 2).join(' ');
+}
+
 export async function getStaticProps() {
   function listFiles() {
     const files = fs.readdirSync('users');
@@ -49,7 +59,7 @@ export default function Home({ data }) {
                 />
                 <Flag className={styles.flag} state={user.state} country={user.country} />
               </div>
-              <h2>{user.name.split(' ').slice(0, 2).join(' ')}</h2>
+              <h2>{formatUserTitle(user.name)}</h2>
             </div>
           </Link>
         ))}

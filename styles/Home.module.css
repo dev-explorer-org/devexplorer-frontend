@@ -31,7 +31,7 @@
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(185px, 1fr));
   gap: 8px;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .card h2 {
-  font-size: clamp(12rem, 3vw, 16rem);
+  font-size: clamp(12rem, 2.5vw, 16rem);
   white-space: nowrap;
   overflow: hidden;
 }
