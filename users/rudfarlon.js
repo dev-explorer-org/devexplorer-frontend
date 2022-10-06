@@ -78,11 +78,11 @@ export const data = {
   // Desafios do Stage 04
   stage04: {
     exercicio01: {
-      codigo_url: '',
+      codigo_url: 'https://codepen.io/rudfarlon/pen/dydbvOx',
       deploy_url: '',
     },
     exercicio02: {
-      codigo_url: '',
+      codigo_url: 'https://codepen.io/rudfarlon/pen/bGLGwwe',
       deploy_url: '',
     },
   },
@@ -90,7 +90,7 @@ export const data = {
   // Desafios do Stage 05
   stage05: {
     focustimer: {
-      codigo_url: '',
+      codigo_url: 'https://github.com/rudfarlon/FocusTimer2',
       deploy_url: '',
     },
     focustimer_dark_mode: {
@@ -102,11 +102,11 @@ export const data = {
   // Desafios do Stage 06
   stage06: {
     spa_universe: {
-      codigo_url: '',
+      codigo_url: 'https://github.com/rudfarlon/SPA-UNIVERSE',
       deploy_url: '',
     },
     gitfav: {
-      codigo_url: '',
+      codigo_url: 'https://github.com/rudfarlon/GitFav',
       deploy_url: '',
     },
   },
