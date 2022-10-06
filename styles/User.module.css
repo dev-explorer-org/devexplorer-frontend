@@ -33,13 +33,24 @@
   z-index: 2000;
 }
 
+.icons {
+  font-size: 24px;
+  color: rgb(0, 158, 200);
+  background-color: hsla(0, 0%, 0%, 0.2);
+  padding: 1px;
+}
+
 .links,
 .challenges {
   gap: 10px;
   display: grid;
+  align-items: center;
 }
 
 .link {
+  display: flex;
+  align-items: center;
+  gap: 16px;
   padding: 10px;
   background-color: hsla(0, 0%, 0%, 0.2);
   border-radius: 8px;
@@ -72,7 +83,13 @@
 }
 
 .card a {
-  color: aqua;
-  font-size: 14px;
+  /* color: rgb(0, 200, 255); */
+  color: rgb(169, 234, 255);
+  font-size: 16px;
   text-decoration: none;
+}
+
+.card a:hover {
+  color: aqua;
+  transition: 400ms;
 }
