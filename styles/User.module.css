@@ -36,7 +36,7 @@
 .icons {
   font-size: 24px;
   color: rgb(0, 158, 200);
-  background-color: hsla(0, 0%, 0%, 0.2);
+  /* background-color: hsla(0, 0%, 0%, 0.2); */
   padding: 1px;
 }
 
@@ -49,24 +49,80 @@
 
 .links .link {
   display: flex;
+  gap: 8px;
   align-items: center;
-  gap: 16px;
+  border-radius: 8px;
+  background-color: hsla(0, 0%, 0%, 0.2);
+  padding: 0px 0px 0px 10px;
+}
+
+.links .link a {
+  background-color: hsla(0, 0%, 0%, 0.2);
+  padding: 10px 0px 10px 10px;
+  height: 100%;
+  width: 100%;
+  text-align: left;
+  border-radius: 0 8px 8px 0;
+}
+
+.links .link a:hover {
+  background-color: hsla(0, 0%, 0%, 0.5);
+}
+
+.challenges summary {
+  background-color: hsla(0, 0%, 0%, 0.2);
+  list-style: none;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+}
+
+.challenges summary:hover {
+  background-color: hsla(0, 0%, 0%, 0.5);
+}
+
+.challenges summary span {
   padding: 10px;
   background-color: hsla(0, 0%, 0%, 0.2);
-  border-radius: 8px;
+}
+
+.challenges summary h3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.challenges small {
+  color: rgb(169, 234, 255);
+  font-size: 14rem;
+  font-weight: 400;
+}
+
+.challenger strong {
+  font-weight: 700;
 }
 
 .challenges .link {
   border-radius: 0px;
-  display: grid;
-  padding: 10px;
   background-color: hsla(0, 0%, 0%, 0.2);
   border-radius: 8px;
   text-align: left;
 }
 
 .challenges .link p {
-  text-align: center;
+  padding: 10px 0 10px 56px;
+  text-align: left;
+  font-size: 20rem;
+  margin-bottom: 5px;
+  background-color: hsla(0, 0%, 0%, 0.2);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.challenges .link div {
+  padding: 10px;
 }
 
 .challenges .link:nth-of-type(1) {

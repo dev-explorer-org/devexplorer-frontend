@@ -2,6 +2,7 @@ import Image from 'next/image';
 import fs from 'fs';
 import Link from 'next/link';
 import Challenge from '../components/Challenge';
+import Stage from '../components/Stage';
 
 import styles from '../styles/User.module.css';
 
@@ -137,7 +138,7 @@ export default function User({ user }) {
       <div className={styles.challenges}>
         <h3>Desafios</h3>
         <details>
-          <summary>Stage 02</summary>
+          <Stage title="Stage 02" subtitle="Introdução ao HTML e CSS" />
           <Challenge
             stage={user.stage02}
             challengeName="fase01_corrigindo_bugs01"
@@ -163,7 +164,7 @@ export default function User({ user }) {
         </details>
 
         <details>
-          <summary>Stage 03</summary>
+          <Stage title="Stage 03" subtitle="Avançando no HTML e CSS" />
           <Challenge
             stage={user.stage03}
             challengeName="criando_formularios"
@@ -180,14 +181,14 @@ export default function User({ user }) {
         </details>
 
         <details>
-          <summary>Stage 04</summary>
+          <Stage title="Stage 04" subtitle="Introdução ao JavaScript" />
           <Challenge stage={user.stage04} challengeName="exercicio01" title="Exercício 01" />
 
           <Challenge stage={user.stage04} challengeName="exercicio02" title="Exercício 02" />
         </details>
 
         <details>
-          <summary>Stage 05</summary>
+          <Stage title="Stage 05" subtitle="Avançando no JavaScript" />
           <Challenge stage={user.stage05} challengeName="focustimer" title="FocusTimer" />
 
           <Challenge
@@ -198,19 +199,22 @@ export default function User({ user }) {
         </details>
 
         <details>
-          <summary>Stage 06</summary>
+          <Stage title="Stage 06" subtitle="JavaScript antes do framework" />
           <Challenge stage={user.stage06} challengeName="spa_universe" title="SPA Universe" />
 
           <Challenge stage={user.stage06} challengeName="gitfav" title="GitFav" />
         </details>
 
         <details>
-          <summary>Stage 07</summary>
+          <Stage title="Stage 07" subtitle="Git e Github" />
           <Challenge stage={user.stage07} challengeName="git_push" title="Git Push" />
         </details>
 
         <details>
-          <summary>Stages 08 09 10 11</summary>
+          <Stage
+            title="Stages 08 09 10"
+            subtitle="RocketMovies: Backend, Frontend, API Restful, Deploy, Testes"
+          />
           <Challenge
             stage={user.stages_08_09_10_11}
             challengeName="rocket_movies"
@@ -219,7 +223,7 @@ export default function User({ user }) {
         </details>
 
         <details>
-          <summary>Desafio Final</summary>
+          <Stage title="Desafio final" subtitle="Food Explorer" />
           <Challenge
             stage={user.desafio_final}
             challengeName="food_explorer"

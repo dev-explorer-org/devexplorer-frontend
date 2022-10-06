@@ -14,15 +14,17 @@ export default function Challenge({ stage, challengeName, title }) {
           {stage[challengeName].codigo_url && (
             <>
               <p>{title}</p>
-              <span>Código: </span>
-              <a href={stage[challengeName].codigo_url} target="_blank" rel="noopener noreferrer">
-                {stage[challengeName].codigo_url}
-              </a>
+              <div>
+                <span>Código: </span>
+                <a href={stage[challengeName].codigo_url} target="_blank" rel="noopener noreferrer">
+                  {stage[challengeName].codigo_url}
+                </a>
+              </div>
             </>
           )}
 
           {stage[challengeName].github_frontend && (
-            <>
+            <div>
               <span>Front-end: </span>
               <a
                 href={stage[challengeName].github_frontend}
@@ -31,12 +33,11 @@ export default function Challenge({ stage, challengeName, title }) {
               >
                 {stage[challengeName].github_frontend}
               </a>
-            </>
+            </div>
           )}
 
           {stage[challengeName].github_backend && (
-            <>
-              <br />
+            <div>
               <span>Back-end: </span>
               <a
                 href={stage[challengeName].github_backend}
@@ -45,22 +46,23 @@ export default function Challenge({ stage, challengeName, title }) {
               >
                 {stage[challengeName].github_backend}
               </a>
-            </>
+            </div>
           )}
 
           {stage[challengeName].deploy_url && (
-            <>
-              <br />
+            <div>
               <span>Deploy: </span>
               <a href={stage[challengeName].deploy_url} target="_blank" rel="noopener noreferrer">
                 {stage[challengeName].deploy_url}
               </a>
-            </>
+            </div>
           )}
         </div>
       ) : (
         <div className={styles.link}>
-          <span>Este usuário ainda não fez o desafio... {title}</span>
+          <div>
+            <span>Este usuário ainda não fez o desafio... {title}</span>
+          </div>
         </div>
       )}
     </div>
