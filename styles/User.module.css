@@ -89,7 +89,7 @@
   background-color: hsla(0, 0%, 0%, 0.2);
 }
 
-.challenges summary h3 {
+.challenges summary div {
   display: flex;
   flex-direction: column;
 }
@@ -100,8 +100,10 @@
   font-weight: 400;
 }
 
-.challenger strong {
+.challenges strong {
   font-weight: 700;
+  letter-spacing: 3rem;
+  font-size: 18px;
 }
 
 .challenges .link {
@@ -114,7 +116,7 @@
 .challenges .link p {
   padding: 10px 0 10px 56px;
   text-align: left;
-  font-size: 20rem;
+  font-size: 16rem;
   margin-bottom: 5px;
   background-color: hsla(0, 0%, 0%, 0.2);
   border-top-left-radius: 8px;
