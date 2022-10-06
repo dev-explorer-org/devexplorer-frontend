@@ -29,7 +29,7 @@ export const data = {
   github: "https://github.com/FabioLuizz",
 
   // Preencha com a url do seu perfil no linkedin: (https://www.linkedin.com/in/[user]).
-  linkedin_url: "www.linkedin.com/in/fabioluizz",
+  linkedin_url: "https://www.linkedin.com/in/fabioluizz",
 
   // Preencha com a url do seu perfil da rockeseat: (https://app.rocketseat.com.br/me/[user]).
   rocketseat_profile: "https://app.rocketseat.com.br/me/fabioluizz",
