@@ -24,6 +24,8 @@ export async function getStaticProps() {
   const data = await Promise.all(
     users.map(async (item) => {
       const user = await import(`../users/${item}`);
+      const filename = item.split('.')[0];
+      user.data.filename = filename;
       return user.data;
     })
   );
@@ -45,7 +47,7 @@ export default function Home({ data }) {
       </h1>
       <div className={styles.cards}>
         {data.map((user, index) => (
-          <Link key={index} href={`/${user.github.split('/')[3]}`}>
+          <Link key={index} href={`/${user.filename}`}>
             <div className={styles.card}>
               <div className={styles.card_image_container} data-turma={user.turma}>
                 <Image
