@@ -60,15 +60,15 @@ export const data = {
   // Desafios do Stage 03
   stage03: {
     criando_formularios: {
-      codigo_url: '',
+      codigo_url: 'https://github.com/danilocecci/explorer-desafio-criandoFormularios',
       deploy_url: '',
     },
     mobile_first: {
-      codigo_url: '',
+      codigo_url: 'https://github.com/danilocecci/explorer-desafio-mobileFirst',
       deploy_url: '',
     },
     grid_com_animacoes: {
-      codigo_url: '',
+      codigo_url: 'https://github.com/danilocecci/explorer-desafio-gridComAnimacoes',
       deploy_url: '',
     },
   },
