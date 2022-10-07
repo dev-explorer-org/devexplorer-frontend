@@ -74,8 +74,8 @@ export default function Level({ user }) {
   const isStage03 = checkChallengesExists(user.stage03);
   const isStage04 = checkChallengesExists(user.stage04);
   const isStage05 = checkChallengesExists(user.stage05);
-  const isStage06 = checkChallengesExists(user.stage05);
-  const isStage07 = checkChallengesExists(user.stage05);
+  const isStage06 = checkChallengesExists(user.stage06);
+  const isStage07 = checkChallengesExists(user.stage07);
   const rocketMovies = checkRocketMoviesChallenges(user.stages_08_09_10_11);
   const foodExplorer = checkFinalChallenge(user.desafio_final);
 
