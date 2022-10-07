@@ -2,8 +2,9 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import fs from 'fs';
-import styles from '../styles/Home.module.css';
 import Flag from '../components/Flag';
+import Level from '../components/Level';
+import styles from '../styles/Home.module.css';
 
 function formatUserTitle(name) {
   const arrayNames = name.split(' ');
@@ -49,6 +50,7 @@ export default function Home({ data }) {
         {data.map((user, index) => (
           <Link key={index} href={`/${user.filename}`}>
             <div className={styles.card}>
+              <Level user={user} />
               <div className={styles.card_image_container} data-turma={user.turma}>
                 <Image
                   className={styles.card_image}
