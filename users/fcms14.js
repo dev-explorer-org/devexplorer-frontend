@@ -40,61 +40,61 @@ export const data = {
   // Desafios do Stage 02
   stage02: {
     fase01_corrigindo_bugs01: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: "https://github.com/fcms14/rocketSeat_rep/tree/main/stage02/challenge01",
+      deploy_url: "https://fcms14.github.io/rocketSeat_rep/stage02/challenge01/"
     },
     fase02_corrigindo_bugs02: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: "https://github.com/fcms14/rocketSeat_rep/tree/main/stage02/challenge02",
+      deploy_url: "https://fcms14.github.io/rocketSeat_rep/stage02/challenge02/"
     },
     fase02_semantica_acessibilidade: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: "https://github.com/fcms14/rocketSeat_rep/tree/main/stage02/challenge03",
+      deploy_url: "https://fcms14.github.io/rocketSeat_rep/stage02/challenge03/"
     },
     fase02_recriando_layout: {
-      codigo_url: '',
-      deploy_url: '',
-    },
+      codigo_url: "https://github.com/fcms14/rocketSeat_rep/tree/main/stage02/challenge04",
+      deploy_url: "https://fcms14.github.io/rocketSeat_rep/stage02/challenge04/"
+    }
   },
 
   // Desafios do Stage 03
   stage03: {
     criando_formularios: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: "https://github.com/fcms14/rocketSeat_rep/tree/main/stage03/challenge01-1",
+      deploy_url: "https://fcms14.github.io/rocketSeat_rep/stage03/challenge01-1/"
     },
     mobile_first: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: "https://github.com/fcms14/rocketSeat_rep/tree/main/stage03/challenge02",
+      deploy_url: "https://fcms14.github.io/rocketSeat_rep/stage03/challenge02/"
     },
     grid_com_animacoes: {
-      codigo_url: '',
-      deploy_url: '',
-    },
+      codigo_url: "https://github.com/fcms14/rocketSeat_rep/tree/main/stage03/challenge03",
+      deploy_url: "https://fcms14.github.io/rocketSeat_rep/stage03/challenge03/"
+    }
   },
 
   // Desafios do Stage 04
   stage04: {
     exercicio01: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: "https://github.com/fcms14/rocketSeat_rep/tree/main/stage04/challenge01",
+      deploy_url: "https://fcms14.github.io/rocketSeat_rep/stage04/challenge01/"
     },
     exercicio02: {
-      codigo_url: '',
-      deploy_url: '',
-    },
+      codigo_url: "https://github.com/fcms14/rocketSeat_rep/tree/main/stage04/challenge02",
+      deploy_url: "https://fcms14.github.io/rocketSeat_rep/stage04/challenge02/"
+    }
   },
 
   // Desafios do Stage 05
   stage05: {
     focustimer: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: "https://github.com/fcms14/rocketSeat_rep/tree/main/stage05/challenge01",
+      deploy_url: "https://fcms14.github.io/rocketSeat_rep/stage05/challenge01/"
     },
     focustimer_dark_mode: {
-      codigo_url: '',
-      deploy_url: '',
-    },
+      codigo_url: "https://github.com/fcms14/rocketSeat_rep/tree/main/stage05/challenge01",
+      deploy_url: "https://fcms14.github.io/rocketSeat_rep/stage05/challenge01/"
+    }
   },
 
   // Desafios do Stage 06
