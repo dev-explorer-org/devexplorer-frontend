@@ -1,0 +1,115 @@
+import styles from '../styles/Level.module.css';
+
+function checkChallengesExists(challenges) {
+  const arrayChallenges = Object.values(challenges);
+  const arrayUrlsChallenges = [];
+
+  arrayChallenges.forEach((item) => {
+    const urls = Object.values(item);
+    urls.forEach((url) => arrayUrlsChallenges.push(url.length));
+  });
+
+  const allChallengesIsEmpty = arrayUrlsChallenges.every((item) => item === 0);
+
+  if (allChallengesIsEmpty) return false;
+
+  return true;
+}
+
+function checkRocketMoviesChallenges(challenges) {
+  const arrayChallenges = Object.values(challenges);
+  const arrayUrlsChallenges = [];
+
+  arrayChallenges.forEach((item) => {
+    const urls = Object.values(item);
+    urls.forEach((url) => arrayUrlsChallenges.push(url.length));
+  });
+
+  if (arrayUrlsChallenges[2]) return { existUrl: true, text: 'Level 10' };
+  if (arrayUrlsChallenges[1]) return { existUrl: true, text: 'Level 9' };
+  if (arrayUrlsChallenges[0]) return { existUrl: true, text: 'Level 8' };
+
+  return { existUrl: false };
+}
+
+function checkFinalChallenge(challenges) {
+  const arrayChallenges = Object.values(challenges);
+  const arrayUrlsChallenges = [];
+
+  arrayChallenges.forEach((item) => {
+    const urls = Object.values(item);
+    urls.forEach((url) => arrayUrlsChallenges.push(url));
+  });
+
+  if (arrayUrlsChallenges[2].length > 0) return { existUrl: true, text: 'FINAL' };
+  if (arrayUrlsChallenges[1].length > 0) return { existUrl: true, text: 'FINAL' };
+  if (arrayUrlsChallenges[0].length > 0) return { existUrl: true, text: 'FINAL' };
+
+  return { existUrl: false };
+}
+
+function checkUserLevel({
+  isStage07,
+  isStage06,
+  isStage05,
+  isStage04,
+  isStage03,
+  isStage02,
+  rocketMovies,
+  foodExplorer,
+}) {
+  if (foodExplorer.existUrl) return foodExplorer.text;
+  if (rocketMovies.existUrl) return rocketMovies.text;
+  if (isStage07) return 'Level 7';
+  if (isStage06) return 'Level 6';
+  if (isStage05) return 'Level 5';
+  if (isStage04) return 'Level 4';
+  if (isStage03) return 'Level 3';
+  if (isStage02) return 'Level 2';
+  return 'Level 1';
+}
+
+export default function Level({ user }) {
+  const isStage02 = checkChallengesExists(user.stage02);
+  const isStage03 = checkChallengesExists(user.stage03);
+  const isStage04 = checkChallengesExists(user.stage04);
+  const isStage05 = checkChallengesExists(user.stage05);
+  const isStage06 = checkChallengesExists(user.stage05);
+  const isStage07 = checkChallengesExists(user.stage05);
+  const rocketMovies = checkRocketMoviesChallenges(user.stages_08_09_10_11);
+  const foodExplorer = checkFinalChallenge(user.desafio_final);
+
+  return (
+    <span className={styles.level}>
+      {checkUserLevel({
+        isStage02,
+        isStage03,
+        isStage04,
+        isStage05,
+        isStage06,
+        isStage07,
+        rocketMovies,
+        foodExplorer,
+      })}
+    </span>
+  );
+}
+
+// stage02: {
+//   fase01_corrigindo_bugs01: {
+//     codigo_url: '',
+//     deploy_url: '',
+//   },
+//   fase02_corrigindo_bugs02: {
+//     codigo_url: '',
+//     deploy_url: '',
+//   },
+//   fase02_semantica_acessibilidade: {
+//     codigo_url: '',
+//     deploy_url: '',
+//   },
+//   fase02_recriando_layout: {
+//     codigo_url: '',
+//     deploy_url: '',
+//   },
+// },
