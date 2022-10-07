@@ -100,28 +100,28 @@ export const data = {
   // Desafios do Stage 06
   stage06: {
     spa_universe: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: 'https://github.com/fcms14/rocketSeat_rep/tree/main/stage06/challenge01',
+      deploy_url: 'https://rocket-stage06-spa.glitch.me/',
     },
     gitfav: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: 'https://github.com/fcms14/rocketSeat_rep/tree/main/stage06/challenge02',
+      deploy_url: 'https://lynxsw.com.br/gitFav/',
     },
   },
 
   // Desafios do Stage 07
   stage07: {
     git_push: {
-      codigo_url: '',
+      codigo_url: 'https://github.com/fcms14/rocketSeat_rep/tree/main/stage07/challenge01',
     },
   },
 
   // O projeto Rocket Movies será desenvolvido nos Stages 08, 09, 10, 11
   stages_08_09_10_11: {
     rocket_movies: {
-      github_frontend: '',
-      github_backend: '',
-      deploy_url: '',
+      github_frontend: 'https://github.com/fcms14/rocketSeat_rep/tree/main/stage09/rocketMovies',
+      github_backend: 'https://github.com/fcms14/rocketSeat_rep/tree/main/stage08/challenge01#',
+      deploy_url: 'https://rocket-seat-91axhc87y-fcms14.vercel.app/',
     },
   },
 
