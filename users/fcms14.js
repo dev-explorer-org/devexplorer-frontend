@@ -119,8 +119,8 @@ export const data = {
   // O projeto Rocket Movies será desenvolvido nos Stages 08, 09, 10, 11
   stages_08_09_10_11: {
     rocket_movies: {
-      github_frontend: 'https://github.com/fcms14/rocketSeat_rep/tree/main/stage09/rocketMovies',
       github_backend: 'https://github.com/fcms14/rocketSeat_rep/tree/main/stage08/challenge01#',
+      github_frontend: 'https://github.com/fcms14/rocketSeat_rep/tree/main/stage09/rocketMovies',
       deploy_url: 'https://rocket-seat-91axhc87y-fcms14.vercel.app/',
     },
   },
@@ -128,8 +128,8 @@ export const data = {
   // Projeto final
   desafio_final: {
     food_explorer: {
-      github_frontend: 'https://github.com/fcms14/foodExplorer-front',
       github_backend: 'https://github.com/fcms14/foodExplorer-api',
+      github_frontend: 'https://github.com/fcms14/foodExplorer-front',
       deploy_url: 'https://silver-lollipop-47c35e.netlify.app/',
     },
   },
