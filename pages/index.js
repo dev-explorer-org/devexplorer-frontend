@@ -8,7 +8,7 @@ import styles from '../styles/Home.module.css';
 
 function formatUserTitle(name) {
   const arrayNames = name.split(' ');
-  if (arrayNames[1].length <= 2) {
+  if (arrayNames.length > 1 && arrayNames[1].length <= 2) {
     return name.split(' ').slice(0, 3).join(' ');
   }
   return name.split(' ').slice(0, 2).join(' ');
