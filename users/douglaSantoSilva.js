@@ -101,12 +101,12 @@ export const data = {
   // Desafios do Stage 06
   stage06: {
     spa_universe: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/douglaSantoSilva/Explorer/tree/master/stage_6/single_page_application",
+      deploy_url: "https://single-page-application-eight.vercel.app/"
     },
     gitfav: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/douglaSantoSilva/Explorer/tree/master/stage_6/GitFav",
+      deploy_url: "https://douglasantosilva.github.io/Explorer/stage_6/GitFav/index.html"
     }
   },
 
