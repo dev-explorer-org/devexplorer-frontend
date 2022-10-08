@@ -29,10 +29,10 @@ export const data = {
   github: "https://github.com/douglaSantoSilva",
 
   // Preencha com a url do seu perfil no linkedin: (https://www.linkedin.com/in/[user]).
-  linkedin_url: "https://www.linkedin.com/in/douglaSantoSilva",
+  linkedin_url: "https://www.linkedin.com/in/douglas-santos-ba24a31a5",
 
   // Preencha com a url do seu perfil da rockeseat: (https://app.rocketseat.com.br/me/[user]).
-  rocketseat_profile: "https://app.rocketseat.com.br/me/douglaSantoSilva",
+  rocketseat_profile: "https://app.rocketseat.com.br/me/douglas-santos-da-silva-08977",
 
   // Preencha os campos abaixo com os links dos desafios que você já concluiu.
   // Preencha o campo [codigo_url] com o link do codepen ou github.
@@ -41,20 +41,20 @@ export const data = {
   // Desafios do Stage 02
   stage02: {
     fase01_corrigindo_bugs01: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/douglaSantoSilva/Explorer/tree/master/stage_2/corrigindo_bugs",
+      deploy_url: "https://douglasantosilva.github.io/Explorer/stage_2/corrigindo_bugs/index.html"
     },
     fase02_corrigindo_bugs02: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/douglaSantoSilva/Explorer/tree/master/stage_2/corrigindo_bugs_2",
+      deploy_url: "https://douglasantosilva.github.io/Explorer/stage_2/corrigindo_bugs_2/index.html"
     },
     fase02_semantica_acessibilidade: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/douglaSantoSilva/Explorer/tree/master/stage_2/acessibilidade",
+      deploy_url: "https://douglasantosilva.github.io/Explorer/stage_2/acessibilidade/index.html"
     },
     fase02_recriando_layout: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/douglaSantoSilva/Explorer/tree/master/stage_2/recriando_layout",
+      deploy_url: "https://douglasantosilva.github.io/Explorer/stage_2/recriando_layout/index.html"
     }
   },
 
