@@ -61,16 +61,16 @@ export const data = {
   // Desafios do Stage 03
   stage03: {
     criando_formularios: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/douglaSantoSilva/Explorer/tree/master/stage_3/formularios",
+      deploy_url: "https://douglasantosilva.github.io/Explorer/stage_3/formularios/index.html"
     },
     mobile_first: {
       codigo_url: "",
       deploy_url: ""
     },
     grid_com_animacoes: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/douglaSantoSilva/Explorer/tree/master/stage_3/space_cream",
+      deploy_url: "https://douglasantosilva.github.io/Explorer/stage_3/space_cream/index.html"
     }
   },
 
@@ -93,8 +93,8 @@ export const data = {
       deploy_url: ""
     },
     focustimer_dark_mode: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/douglaSantoSilva/Explorer/tree/master/stage_5",
+      deploy_url: "https://douglasantosilva.github.io/Explorer/stage_5/timer_focus_dark_mode/index.html"
     }
   },
 
