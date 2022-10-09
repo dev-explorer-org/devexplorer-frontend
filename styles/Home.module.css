@@ -69,14 +69,13 @@
 }
 
 .card:hover .card_image {
-  border: 2px solid aqua !important;
-  box-shadow: 0 0 5px aqua !important;
+  border: 2px solid aqua;
+  box-shadow: 0 0 5px aqua;
 }
 
 .card_image {
   border-radius: 50%;
-  border: 2px solid rgb(0, 158, 194) !important;
-  /* box-shadow: 0 0 5px white !important; */
+  border: 2px solid rgb(0, 158, 194);
   transition: 500ms;
 }
 
