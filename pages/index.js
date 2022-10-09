@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Image from 'next/image';
+import Image from 'next/future/image';
 import Link from 'next/link';
 import fs from 'fs';
 import Flag from '../components/Flag';

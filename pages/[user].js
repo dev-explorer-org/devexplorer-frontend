@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from 'next/future/image';
 import fs from 'fs';
 import Link from 'next/link';
 import Challenge from '../components/Challenge';
