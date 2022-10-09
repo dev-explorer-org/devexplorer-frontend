@@ -61,16 +61,16 @@ export const data = {
   // Desafios do Stage 03
   stage03: {
     criando_formularios: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/lfoalves/explorer/tree/master/step3/stage3/formularios",
+      deploy_url: "https://lfoalves.github.io/explorer/step3/stage3/index.html"
     },
     mobile_first: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/lfoalves/explorer/tree/master/step3/stage3/introducao_responsividade",
+      deploy_url: "https://lfoalves.github.io/explorer/step3/stage3/introducao_responsividade/index.html"
     },
     grid_com_animacoes: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/lfoalves/explorer/tree/master/step3/stage3/space_cream",
+      deploy_url: "https://lfoalves.github.io/explorer/step3/stage3/space_cream/index.html"
     }
   },
 
