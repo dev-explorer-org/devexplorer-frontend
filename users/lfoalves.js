@@ -41,20 +41,20 @@ export const data = {
   // Desafios do Stage 02
   stage02: {
     fase01_corrigindo_bugs01: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/lfoalves/explorer/tree/master/step2/stage2/desafios/fase01",
+      deploy_url: "https://lfoalves.github.io/explorer/step2/stage2/desafios/fase01/index.html"
     },
     fase02_corrigindo_bugs02: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/lfoalves/explorer/tree/master/step2/stage2/desafios/fase02",
+      deploy_url: "https://lfoalves.github.io/explorer/step2/stage2/desafios/fase02/index.html"
     },
     fase02_semantica_acessibilidade: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/lfoalves/explorer/tree/master/step2/stage2/desafios/acessibilidade",
+      deploy_url: "https://lfoalves.github.io/explorer/step2/stage2/desafios/acessibilidade/index.html"
     },
     fase02_recriando_layout: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/lfoalves/explorer/tree/master/step2/stage2/desafios/recriando_layout",
+      deploy_url: "https://lfoalves.github.io/explorer/step2/stage2/desafios/recriando_layout/index.html"
     }
   },
 
