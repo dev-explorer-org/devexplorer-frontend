@@ -6,33 +6,33 @@ export const data = {
   // Os valores devem estar dentro das aspas duplas (Ex: "Aqui dentro")
 
   // Preencha com o seu nome.
-  name: "Valdemir Filho",
+  name: "Marcus Vinícius",
 
   // Preencha com o seu e-mail.
-  email: "filhux@gmail.com",
+  email: "marcusv892@gmail.com",
 
   // Preencha com a cidade onde você mora.
-  city: "Sobral",
+  city: "Rio Maria",
 
   // Preencha com a sigla do estado onde você mora.
   // Ex: SP
-  state: "CE",
+  state: "PA",
 
   // Preencha com o país onde mora.
   country: "Brasil",
 
   // Preencha de qual turma do Explorer você é: Ex (turma: "01").
   // Se você for instrutor da Rocketseat coloque "00".
-  turma: "01",
+  turma: "03",
 
   // Preencha com a url do seu perfil no github: (https://github.com/[user]).
-  github: "https://github.com/valdemirfilho",
+  github: "https://github.com/viniseven",
 
   // Preencha com a url do seu perfil no linkedin: (https://www.linkedin.com/in/[user]).
-  linkedin_url: "https://www.linkedin.com/in/valdemirfilho",
+  linkedin_url: "https://www.linkedin.com/in/marcus-vinicius-525b0716a/",
 
   // Preencha com a url do seu perfil da rockeseat: (https://app.rocketseat.com.br/me/[user]).
-  rocketseat_profile: "https://app.rocketseat.com.br/me/valdemir-filho",
+  rocketseat_profile: "https://app.rocketseat.com.br/me/marcus-vinicius-1574269890",
 
   // Preencha os campos abaixo com os links dos desafios que você já concluiu.
   // Preencha o campo [codigo_url] com o link do codepen ou github.
@@ -41,36 +41,36 @@ export const data = {
   // Desafios do Stage 02
   stage02: {
     fase01_corrigindo_bugs01: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/viniseven/explorer_challenge_correct_bugs02",
+      deploy_url: "https://viniseven.github.io/explorer_challenge_correct_bugs01/"
     },
     fase02_corrigindo_bugs02: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/viniseven/explorer_challenge_correct_bugs02",
+      deploy_url: "https://viniseven.github.io/explorer_challenge_correct_bugs02/"
     },
     fase02_semantica_acessibilidade: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/viniseven/explorer_challenge_semantics_and_accessibility",
+      deploy_url: "https://viniseven.github.io/explorer_challenge_semantics_and_accessibility/"
     },
     fase02_recriando_layout: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/viniseven/explorer_challenge_recreating-_layout",
+      deploy_url: "https://viniseven.github.io/explorer_challenge_recreating-_layout/"
     }
   },
 
   // Desafios do Stage 03
   stage03: {
     criando_formularios: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/viniseven/explorer_creating_form",
+      deploy_url: "https://viniseven.github.io/explorer_creating_form/"
     },
     mobile_first: {
       codigo_url: "",
       deploy_url: ""
     },
     grid_com_animacoes: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/viniseven/explorer_creating_grid_layout",
+      deploy_url: "https://viniseven.github.io/explorer_creating_grid_layout/"
     }
   },
 
