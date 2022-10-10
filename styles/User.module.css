@@ -8,6 +8,12 @@
   max-width: 800px;
 }
 
+.user_info {
+  display: grid;
+  place-items: center;
+  gap: 10px;
+}
+
 .user_info h2 {
   margin-top: 10px;
 }
@@ -146,7 +152,7 @@
 
 .card_image {
   border-radius: 50%;
-  border: 2px solid aqua !important;
+  border: 2px solid aqua;
 }
 
 .card a {

@@ -1,13 +1,14 @@
 import Head from 'next/head';
-import Image from 'next/image';
+import Image from 'next/future/image';
 import Link from 'next/link';
 import fs from 'fs';
-import styles from '../styles/Home.module.css';
 import Flag from '../components/Flag';
+import Level from '../components/Level';
+import styles from '../styles/Home.module.css';
 
 function formatUserTitle(name) {
   const arrayNames = name.split(' ');
-  if (arrayNames[1].length <= 2) {
+  if (arrayNames.length > 1 && arrayNames[1].length <= 2) {
     return name.split(' ').slice(0, 3).join(' ');
   }
   return name.split(' ').slice(0, 2).join(' ');
@@ -24,6 +25,8 @@ export async function getStaticProps() {
   const data = await Promise.all(
     users.map(async (item) => {
       const user = await import(`../users/${item}`);
+      const filename = item.split('.')[0];
+      user.data.filename = filename;
       return user.data;
     })
   );
@@ -45,8 +48,9 @@ export default function Home({ data }) {
       </h1>
       <div className={styles.cards}>
         {data.map((user, index) => (
-          <Link key={index} href={`/${user.github.split('/')[3]}`}>
+          <Link key={index} href={`/${user.filename}`}>
             <div className={styles.card}>
+              <Level user={user} />
               <div className={styles.card_image_container} data-turma={user.turma}>
                 <Image
                   className={styles.card_image}

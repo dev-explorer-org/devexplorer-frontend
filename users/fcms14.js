@@ -40,97 +40,97 @@ export const data = {
   // Desafios do Stage 02
   stage02: {
     fase01_corrigindo_bugs01: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: "https://github.com/fcms14/rocketSeat_rep/tree/main/stage02/challenge01",
+      deploy_url: "https://fcms14.github.io/rocketSeat_rep/stage02/challenge01/"
     },
     fase02_corrigindo_bugs02: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: "https://github.com/fcms14/rocketSeat_rep/tree/main/stage02/challenge02",
+      deploy_url: "https://fcms14.github.io/rocketSeat_rep/stage02/challenge02/"
     },
     fase02_semantica_acessibilidade: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: "https://github.com/fcms14/rocketSeat_rep/tree/main/stage02/challenge03",
+      deploy_url: "https://fcms14.github.io/rocketSeat_rep/stage02/challenge03/"
     },
     fase02_recriando_layout: {
-      codigo_url: '',
-      deploy_url: '',
-    },
+      codigo_url: "https://github.com/fcms14/rocketSeat_rep/tree/main/stage02/challenge04",
+      deploy_url: "https://fcms14.github.io/rocketSeat_rep/stage02/challenge04/"
+    }
   },
 
   // Desafios do Stage 03
   stage03: {
     criando_formularios: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: "https://github.com/fcms14/rocketSeat_rep/tree/main/stage03/challenge01-1",
+      deploy_url: "https://fcms14.github.io/rocketSeat_rep/stage03/challenge01-1/"
     },
     mobile_first: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: "https://github.com/fcms14/rocketSeat_rep/tree/main/stage03/challenge02",
+      deploy_url: "https://fcms14.github.io/rocketSeat_rep/stage03/challenge02/"
     },
     grid_com_animacoes: {
-      codigo_url: '',
-      deploy_url: '',
-    },
+      codigo_url: "https://github.com/fcms14/rocketSeat_rep/tree/main/stage03/challenge03",
+      deploy_url: "https://fcms14.github.io/rocketSeat_rep/stage03/challenge03/"
+    }
   },
 
   // Desafios do Stage 04
   stage04: {
     exercicio01: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: "https://github.com/fcms14/rocketSeat_rep/tree/main/stage04/challenge01",
+      deploy_url: "https://fcms14.github.io/rocketSeat_rep/stage04/challenge01/"
     },
     exercicio02: {
-      codigo_url: '',
-      deploy_url: '',
-    },
+      codigo_url: "https://github.com/fcms14/rocketSeat_rep/tree/main/stage04/challenge02",
+      deploy_url: "https://fcms14.github.io/rocketSeat_rep/stage04/challenge02/"
+    }
   },
 
   // Desafios do Stage 05
   stage05: {
     focustimer: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: "https://github.com/fcms14/rocketSeat_rep/tree/main/stage05/challenge01",
+      deploy_url: "https://fcms14.github.io/rocketSeat_rep/stage05/challenge01/"
     },
     focustimer_dark_mode: {
-      codigo_url: '',
-      deploy_url: '',
-    },
+      codigo_url: "https://github.com/fcms14/rocketSeat_rep/tree/main/stage05/challenge01",
+      deploy_url: "https://fcms14.github.io/rocketSeat_rep/stage05/challenge01/"
+    }
   },
 
   // Desafios do Stage 06
   stage06: {
     spa_universe: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: 'https://github.com/fcms14/rocketSeat_rep/tree/main/stage06/challenge01',
+      deploy_url: 'https://rocket-stage06-spa.glitch.me/',
     },
     gitfav: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: 'https://github.com/fcms14/rocketSeat_rep/tree/main/stage06/challenge02',
+      deploy_url: 'https://lynxsw.com.br/gitFav/',
     },
   },
 
   // Desafios do Stage 07
   stage07: {
     git_push: {
-      codigo_url: '',
+      codigo_url: 'https://github.com/fcms14/rocketSeat_rep/tree/main/stage07/challenge01',
     },
   },
 
   // O projeto Rocket Movies será desenvolvido nos Stages 08, 09, 10, 11
   stages_08_09_10_11: {
     rocket_movies: {
-      github_frontend: '',
-      github_backend: '',
-      deploy_url: '',
+      github_backend: 'https://github.com/fcms14/rocketSeat_rep/tree/main/stage08/challenge01#',
+      github_frontend: 'https://github.com/fcms14/rocketSeat_rep/tree/main/stage09/rocketMovies',
+      deploy_url: 'https://rocket-seat-91axhc87y-fcms14.vercel.app/',
     },
   },
 
   // Projeto final
   desafio_final: {
     food_explorer: {
-      github_frontend: '',
-      github_backend: '',
-      deploy_url: '',
+      github_backend: 'https://github.com/fcms14/foodExplorer-api',
+      github_frontend: 'https://github.com/fcms14/foodExplorer-front',
+      deploy_url: 'https://silver-lollipop-47c35e.netlify.app/',
     },
   },
 };

@@ -1,8 +1,9 @@
-import Image from 'next/image';
+import Image from 'next/future/image';
 import fs from 'fs';
 import Link from 'next/link';
 import Challenge from '../components/Challenge';
 import Stage from '../components/Stage';
+import Level from '../components/Level';
 
 import styles from '../styles/User.module.css';
 
@@ -36,6 +37,7 @@ export default function User({ user }) {
     <div className={styles.card}>
       <Link href="/">Home</Link>
       <div className={styles.user_info}>
+        <Level user={user} />
         <Image
           className={styles.card_image}
           src={`${user.github}.png`}

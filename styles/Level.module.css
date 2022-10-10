@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Work+Sans&display=swap');
+
+.level {
+  font-family: 'Gugi';
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  /* background-color: rgb(0, 175, 0); */
+  background-color: #7e4fff;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
