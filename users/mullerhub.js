@@ -60,11 +60,11 @@ export const data = {
   // Desafios do Stage 03
   stage03: {
     criando_formularios: {
-      codigo_url: "",
+      codigo_url: "https://github.com/MullerHub/Explorer-week11/tree/main/Stage0302-entrego-form",
       deploy_url: ""
     },
     mobile_first: {
-      codigo_url: "",
+      codigo_url: "https://github.com/MullerHub/Explorer-week11/tree/main/Stage0303-Mobile-first",
       deploy_url: ""
     },
     grid_com_animacoes: {
