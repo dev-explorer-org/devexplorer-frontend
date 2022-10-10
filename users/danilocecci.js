@@ -76,11 +76,11 @@ export const data = {
   // Desafios do Stage 04
   stage04: {
     exercicio01: {
-      codigo_url: '',
+      codigo_url: 'https://codepen.io/danilocecci/pen/gOoEjvG',
       deploy_url: '',
     },
     exercicio02: {
-      codigo_url: '',
+      codigo_url: 'https://codepen.io/danilocecci/pen/popYGKW',
       deploy_url: '',
     },
   },
@@ -88,24 +88,24 @@ export const data = {
   // Desafios do Stage 05
   stage05: {
     focustimer: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: 'https://github.com/danilocecci/explorer-desafio-focustimer2.0',
+      deploy_url: 'https://explorer-desafio-focustimer2-0-cmaxbyg3w-danilocecci.vercel.app/',
     },
     focustimer_dark_mode: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: 'https://github.com/danilocecci/explorer-desafio-focustimer2.0',
+      deploy_url: 'https://explorer-desafio-focustimer2-0-cmaxbyg3w-danilocecci.vercel.app/',
     },
   },
 
   // Desafios do Stage 06
   stage06: {
     spa_universe: {
-      codigo_url: '',
+      codigo_url: 'https://github.com/danilocecci/explorer-desafio-spaUniverse',
       deploy_url: '',
     },
     gitfav: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: 'https://github.com/danilocecci/explorer-desafio-gitfav',
+      deploy_url: 'https://danilocecci.github.io/explorer-desafio-gitfav/',
     },
   },
 
