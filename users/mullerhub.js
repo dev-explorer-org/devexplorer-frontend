@@ -80,7 +80,7 @@ export const data = {
       deploy_url: ""
     },
     exercicio02: {
-      codigo_url: "",
+      codigo_url: "https://github.com/MullerHub/Explorer-week11/tree/main/Stage0402",
       deploy_url: ""
     }
   },
