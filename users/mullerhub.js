@@ -88,7 +88,7 @@ export const data = {
   // Desafios do Stage 05
   stage05: {
     focustimer: {
-      codigo_url: "",
+      codigo_url: "https://github.com/MullerHub/Explorer-week11/tree/main/Stage0501",
       deploy_url: ""
     },
     focustimer_dark_mode: {
