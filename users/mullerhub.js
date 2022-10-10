@@ -60,15 +60,15 @@ export const data = {
   // Desafios do Stage 03
   stage03: {
     criando_formularios: {
-      codigo_url: "",
+      codigo_url: "https://github.com/MullerHub/Explorer-week11/tree/main/Stage0302-entrego-form",
       deploy_url: ""
     },
     mobile_first: {
-      codigo_url: "",
+      codigo_url: "https://github.com/MullerHub/Explorer-week11/tree/main/Stage0303-Mobile-first",
       deploy_url: ""
     },
     grid_com_animacoes: {
-      codigo_url: "",
+      codigo_url: "https://github.com/MullerHub/Explorer-week11/tree/main/Stage0304-ice-cream-Grid-revisar",
       deploy_url: ""
     }
   },
@@ -76,11 +76,11 @@ export const data = {
   // Desafios do Stage 04
   stage04: {
     exercicio01: {
-      codigo_url: "",
+      codigo_url: "https://github.com/MullerHub/Explorer-week11/tree/main/Stage0401",
       deploy_url: ""
     },
     exercicio02: {
-      codigo_url: "",
+      codigo_url: "https://github.com/MullerHub/Explorer-week11/tree/main/Stage0402",
       deploy_url: ""
     }
   },
@@ -88,7 +88,7 @@ export const data = {
   // Desafios do Stage 05
   stage05: {
     focustimer: {
-      codigo_url: "",
+      codigo_url: "https://github.com/MullerHub/Explorer-week11/tree/main/Stage0501",
       deploy_url: ""
     },
     focustimer_dark_mode: {
@@ -100,11 +100,11 @@ export const data = {
   // Desafios do Stage 06
   stage06: {
     spa_universe: {
-      codigo_url: "",
+      codigo_url: "https://github.com/MullerHub/Explorer-week11/tree/main/Stage0602",
       deploy_url: ""
     },
     gitfav: {
-      codigo_url: "",
+      codigo_url: "https://github.com/MullerHub/Explorer-week11/tree/main/Stage0603",
       deploy_url: ""
     }
   },
