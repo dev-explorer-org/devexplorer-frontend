@@ -76,7 +76,7 @@ export const data = {
   // Desafios do Stage 04
   stage04: {
     exercicio01: {
-      codigo_url: "",
+      codigo_url: "https://github.com/MullerHub/Explorer-week11/tree/main/Stage0401",
       deploy_url: ""
     },
     exercicio02: {
