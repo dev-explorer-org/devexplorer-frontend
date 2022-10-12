@@ -3,12 +3,7 @@
     "browser": true,
     "es2021": true
   },
-  "extends": [
-    "plugin:react/recommended",
-    "airbnb",
-    "plugin:@next/next/recommended",
-    "prettier"
-  ],
+  "extends": ["plugin:react/recommended", "airbnb", "plugin:@next/next/recommended", "prettier"],
   "overrides": [],
   "parserOptions": {
     "ecmaVersion": "latest",
@@ -23,6 +18,8 @@
     "@next/next/no-img-element": "off",
     "react/jsx-props-no-spreading": "off",
     "react/no-array-index-key": "off",
-    "import/prefer-default-export": "off"
+    "import/prefer-default-export": "off",
+    "no-plusplus": "off",
+    "react/no-unknown-property": "off"
   }
 }

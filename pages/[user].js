@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Challenge from '../components/Challenge';
 import Stage from '../components/Stage';
 import Level from '../components/Level';
+import Skill from '../components/Skill';
 
 import styles from '../styles/User.module.css';
 
@@ -36,18 +37,33 @@ export default function User({ user }) {
   return (
     <div className={styles.card}>
       <Link href="/">Home</Link>
+
       <div className={styles.user_info}>
-        <Level user={user} />
-        <Image
-          className={styles.card_image}
-          src={`${user.github}.png`}
-          width={150}
-          height={150}
-          alt={user.name}
-        />
-        <h4>{`turma ${user.turma}`}</h4>
-        <h2>{user.name}</h2>
-        <p>{`${user.city} - ${user.state}`}</p>
+        <div className={styles.image_container}>
+          <Image
+            className={styles.card_image}
+            src={`${user.github}.png`}
+            width={150}
+            height={150}
+            alt={user.name}
+          />
+        </div>
+
+        <div className={styles.text_info}>
+          <Level user={user} />
+          <h4>{`turma ${user.turma}`}</h4>
+          <h2>{user.name}</h2>
+          <p>{`${user.city} - ${user.state}`}</p>
+        </div>
+
+        <div className={styles.user_skills}>
+          <Skill tech="html5" user={user} />
+          <Skill tech="css3" user={user} />
+          <Skill tech="javascript" user={user} />
+          <Skill tech="git" user={user} />
+          <Skill tech="nodejs" user={user} />
+          <Skill tech="reactjs" user={user} />
+        </div>
       </div>
 
       <div className={styles.links}>
@@ -136,7 +152,6 @@ export default function User({ user }) {
           </div>
         )}
       </div>
-
       <div className={styles.challenges}>
         <h3>Desafios</h3>
         <details>
