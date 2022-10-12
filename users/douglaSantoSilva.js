@@ -77,11 +77,11 @@ export const data = {
   // Desafios do Stage 04
   stage04: {
     exercicio01: {
-      codigo_url: "",
+      codigo_url: "https://codepen.io/DouglaSantos/pen/MWVQoqz?editors=0010",
       deploy_url: ""
     },
     exercicio02: {
-      codigo_url: "",
+      codigo_url: "https://codepen.io/DouglaSantos/pen/VwXQzpW",
       deploy_url: ""
     }
   },
