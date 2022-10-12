@@ -1,5 +1,3 @@
-/* eslint-disable no-plusplus */
-/* eslint-disable react/no-unknown-property */
 import { useEffect, useState } from 'react';
 import { checkChallengesExists, checkRocketMoviesChallenges } from '../utils/checkChallenges';
 
@@ -16,7 +14,6 @@ export default function Skill({ tech, user }) {
   const rocketMovies = checkRocketMoviesChallenges(user.stages_08_09_10_11);
 
   useEffect(() => {
-    console.log(tech, isStage02)
     if (isStage02 && (tech === 'html5' || tech === 'css3')) setEndValue(25);
     if (isStage03 && (tech === 'html5' || tech === 'css3')) setEndValue(50);
     if (isStage04 && tech === 'javascript') setEndValue(33);
@@ -26,14 +23,13 @@ export default function Skill({ tech, user }) {
     if (isStage06 && tech === 'javascript') setEndValue(100);
     if (isStage07 && tech === 'git') setEndValue(100);
     if (rocketMovies.text === 'Level 8' && tech === 'reactjs') setEndValue(50);
-    if (rocketMovies.text === 'Level 9' && (tech === 'reactjs' || tech === 'nodejs')) setEndValue(50);
-    if (rocketMovies.text === 'Level 10' && (tech === 'reactjs' || tech === 'nodejs')) setEndValue(100);
-
-    // const progressEndValue = endValue;
+    if (rocketMovies.text === 'Level 9' && (tech === 'reactjs' || tech === 'nodejs'))
+      setEndValue(50);
+    if (rocketMovies.text === 'Level 10' && (tech === 'reactjs' || tech === 'nodejs'))
+      setEndValue(100);
 
     const progressTimer = setInterval(() => {
       setProgress((prevProgress) => {
-        console.log(prevProgress);
         if (prevProgress === endValue) {
           clearInterval(progressTimer);
           return prevProgress;
