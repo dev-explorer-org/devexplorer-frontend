@@ -128,8 +128,8 @@ export const data = {
   // Projeto final
   desafio_final: {
     food_explorer: {
-      github_frontend: '',
-      github_backend: '',
+      github_frontend: 'https://github.com/Gabriel-WilliamS/food-explorer-backend',
+      github_backend: 'https://github.com/Gabriel-WilliamS/food-explorer-backend',
       deploy_url: '',
     },
   },
