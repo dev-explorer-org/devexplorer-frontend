@@ -61,15 +61,15 @@ export const data = {
   // Desafios do Stage 03
   stage03: {
     criando_formularios: {
-      codigo_url: '',
+      codigo_url: 'https://github.com/hanyelC/explorer/tree/main/stage3/desafioFase01',
       deploy_url: '',
     },
     mobile_first: {
-      codigo_url: '',
+      codigo_url: 'https://github.com/hanyelC/explorer/tree/main/stage3/desafioFase02e03',
       deploy_url: '',
     },
     grid_com_animacoes: {
-      codigo_url: '',
+      codigo_url: 'https://github.com/hanyelC/explorer/tree/main/stage3/desafioFase02e03',
       deploy_url: '',
     },
   },
