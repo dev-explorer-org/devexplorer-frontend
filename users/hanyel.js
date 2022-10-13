@@ -41,19 +41,19 @@ export const data = {
   // Desafios do Stage 02
   stage02: {
     fase01_corrigindo_bugs01: {
-      codigo_url: '',
+      codigo_url: 'https://github.com/hanyelC/explorer/tree/main/stage2/desafioFase01',
       deploy_url: '',
     },
     fase02_corrigindo_bugs02: {
-      codigo_url: '',
+      codigo_url: 'https://github.com/hanyelC/explorer/tree/main/stage2/desafioFase02',
       deploy_url: '',
     },
     fase02_semantica_acessibilidade: {
-      codigo_url: '',
+      codigo_url: 'https://github.com/hanyelC/explorer/tree/main/stage2/desafioFase02Intermediario',
       deploy_url: '',
     },
     fase02_recriando_layout: {
-      codigo_url: '',
+      codigo_url: 'https://github.com/hanyelC/explorer/tree/main/stage2/desafioFase02xAvancado',
       deploy_url: '',
     },
   },
