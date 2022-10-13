@@ -77,7 +77,7 @@ export const data = {
   // Desafios do Stage 04
   stage04: {
     exercicio01: {
-      codigo_url: '',
+      codigo_url: 'https://github.com/hanyelC/explorer/tree/main/stage4/desafio01',
       deploy_url: '',
     },
     exercicio02: {
