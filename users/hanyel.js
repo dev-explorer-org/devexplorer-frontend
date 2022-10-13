@@ -101,7 +101,7 @@ export const data = {
   // Desafios do Stage 06
   stage06: {
     spa_universe: {
-      codigo_url: '',
+      codigo_url: 'https://github.com/hanyelC/explorer/tree/main/stage6/desafio01',
       deploy_url: '',
     },
     gitfav: {
