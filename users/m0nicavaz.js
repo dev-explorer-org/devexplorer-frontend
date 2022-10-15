@@ -93,20 +93,20 @@ export const data = {
       deploy_url: ""
     },
     focustimer_dark_mode: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/M0nicaVaz/FocusTimer",
+      deploy_url: "https://m0nicavaz.github.io/FocusTimer/"
     }
   },
 
   // Desafios do Stage 06
   stage06: {
     spa_universe: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/M0nicaVaz/UniverseSPA",
+      deploy_url: "https://spa-universe.netlify.app/"
     },
     gitfav: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/M0nicaVaz/GitFav",
+      deploy_url: "https://m0nicavaz.github.io/GitFav/"
     }
   },
 
@@ -130,9 +130,9 @@ export const data = {
   // Projeto final
   desafio_final: {
     food_explorer: {
-      github_frontend: "",
+      github_frontend: "https://github.com/M0nicaVaz/food-explorer",
       github_backend: "",
-      deploy_url: ""
+      deploy_url: "https://food-explorer-hazel.vercel.app/"
     }
   }
 }
