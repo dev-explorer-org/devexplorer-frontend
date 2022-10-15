@@ -41,19 +41,19 @@ export const data = {
   // Desafios do Stage 02
   stage02: {
     fase01_corrigindo_bugs01: {
-      codigo_url: '',
+      codigo_url: 'https://github.com/hanyelC/explorer/tree/main/stage2/desafioFase01',
       deploy_url: '',
     },
     fase02_corrigindo_bugs02: {
-      codigo_url: '',
+      codigo_url: 'https://github.com/hanyelC/explorer/tree/main/stage2/desafioFase02',
       deploy_url: '',
     },
     fase02_semantica_acessibilidade: {
-      codigo_url: '',
+      codigo_url: 'https://github.com/hanyelC/explorer/tree/main/stage2/desafioFase02Intermediario',
       deploy_url: '',
     },
     fase02_recriando_layout: {
-      codigo_url: '',
+      codigo_url: 'https://github.com/hanyelC/explorer/tree/main/stage2/desafioFase02xAvancado',
       deploy_url: '',
     },
   },
@@ -77,7 +77,7 @@ export const data = {
   // Desafios do Stage 04
   stage04: {
     exercicio01: {
-      codigo_url: '',
+      codigo_url: 'https://github.com/hanyelC/explorer/tree/main/stage4/desafio01',
       deploy_url: '',
     },
     exercicio02: {
@@ -89,7 +89,7 @@ export const data = {
   // Desafios do Stage 05
   stage05: {
     focustimer: {
-      codigo_url: '',
+      codigo_url: 'https://github.com/hanyelC/explorer/tree/main/stage5',
       deploy_url: '',
     },
     focustimer_dark_mode: {
@@ -101,7 +101,7 @@ export const data = {
   // Desafios do Stage 06
   stage06: {
     spa_universe: {
-      codigo_url: '',
+      codigo_url: 'https://github.com/hanyelC/explorer/tree/main/stage6/desafio01',
       deploy_url: '',
     },
     gitfav: {
@@ -120,8 +120,8 @@ export const data = {
   // O projeto Rocket Movies será desenvolvido nos Stages 08, 09, 10, 11
   stages_08_09_10_11: {
     rocket_movies: {
-      github_frontend: '',
-      github_backend: '',
+      github_frontend: 'https://github.com/hanyelC/explorer/tree/main/stage9/desafio',
+      github_backend: 'https://github.com/hanyelC/explorer/tree/main/stage8/desafio',
       deploy_url: '',
     },
   },

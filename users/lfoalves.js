@@ -81,36 +81,36 @@ export const data = {
   // Desafios do Stage 04
   stage04: {
     exercicio01: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: 'https://codesandbox.io/s/ep76hl',
+      deploy_url: 'https://ep76hl.csb.app/',
     },
     exercicio02: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: 'https://codesandbox.io/s/82qkwy',
+      deploy_url: 'https://82qkwy.csb.app/',
     },
   },
 
   // Desafios do Stage 05
   stage05: {
     focustimer: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: 'https://github.com/lfoalves/explorer/tree/master/step5/stage5/aulas/focus_timer',
+      deploy_url: 'https://lfoalves.github.io/explorer/step5/stage5/aulas/focus_timer/index.html',
     },
     focustimer_dark_mode: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: 'https://github.com/lfoalves/explorer/tree/master/step5/stage5/desafios/focus_timer_dark',
+      deploy_url: 'https://lfoalves.github.io/explorer/step5/stage5/desafios/focus_timer_dark/index.html',
     },
   },
 
   // Desafios do Stage 06
   stage06: {
     spa_universe: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: 'https://github.com/lfoalves/explorer/tree/master/step6/stage6/desafios/spa_universe',
+      deploy_url: 'https://spa-universe-mu.vercel.app/',
     },
     gitfav: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: 'https://github.com/lfoalves/explorer/tree/master/step6/stage6/desafios/gitfav',
+      deploy_url: 'https://beautiful-monstera-984a12.netlify.app/',
     },
   },
 

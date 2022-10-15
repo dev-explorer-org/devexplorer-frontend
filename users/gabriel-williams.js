@@ -76,12 +76,12 @@ export const data = {
   // Desafios do Stage 04
   stage04: {
     exercicio01: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: 'https://codepen.io/gabriel-williams/pen/ExQeVea',
+      deploy_url: 'https://codepen.io/gabriel-williams/pen/ExQeVea',
     },
     exercicio02: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: 'https://codepen.io/gabriel-williams/pen/XWZPmQJ',
+      deploy_url: 'https://codepen.io/gabriel-williams/pen/XWZPmQJ',
     },
   },
 
@@ -128,8 +128,8 @@ export const data = {
   // Projeto final
   desafio_final: {
     food_explorer: {
-      github_frontend: '',
-      github_backend: '',
+      github_frontend: 'https://github.com/Gabriel-WilliamS/food-explorer-backend',
+      github_backend: 'https://github.com/Gabriel-WilliamS/food-explorer-backend',
       deploy_url: '',
     },
   },
