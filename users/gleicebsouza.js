@@ -64,12 +64,12 @@ export const data = {
       deploy_url: '',
     },
     mobile_first: {
-      codigo_url: 'https://codepen.io/gleicebsouza/pen/bGvEjvJ',
-      deploy_url: '',
+      codigo_url: 'https://github.com/gleicebsouza/grid-animacoes-mobile.git',
+      deploy_url: 'https://grid-animacoes-mobile-sdvn.vercel.app/',
     },
     grid_com_animacoes: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: 'https://github.com/gleicebsouza/grid-animacoes-mobile.git',
+      deploy_url: 'https://grid-animacoes-mobile-sdvn.vercel.app/',
     },
   },
 
