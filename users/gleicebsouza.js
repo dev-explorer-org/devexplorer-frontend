@@ -40,19 +40,19 @@ export const data = {
   // Desafios do Stage 02
   stage02: {
     fase01_corrigindo_bugs01: {
-      codigo_url: '',
+      codigo_url: 'https://codepen.io/gleicebsouza/pen/YzePqjN',
       deploy_url: '',
     },
     fase02_corrigindo_bugs02: {
-      codigo_url: '',
+      codigo_url: 'https://codepen.io/gleicebsouza/pen/YzeNMmX',
       deploy_url: '',
     },
     fase02_semantica_acessibilidade: {
-      codigo_url: '',
+      codigo_url: 'https://codepen.io/gleicebsouza/pen/GRQraRj',
       deploy_url: '',
     },
     fase02_recriando_layout: {
-      codigo_url: '',
+      codigo_url: 'https://codepen.io/gleicebsouza/pen/qBxPLrN',
       deploy_url: '',
     },
   },
