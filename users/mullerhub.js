@@ -43,15 +43,18 @@ export const data = {
       codigo_url: 'https://github.com/MullerHub/Explorer-week11/tree/main/Stage0100-git',
       deploy_url: '',
     },
+
     fase02_corrigindo_bugs02: {
       codigo_url:
         'https://github.com/MullerHub/Explorer-week11/tree/main/Stage0201%20Revis%C3%A3o-git',
       deploy_url: '',
     },
+
     fase02_semantica_acessibilidade: {
       codigo_url: 'https://github.com/MullerHub/Explorer-week11/tree/main/Stage0202-Responsividade',
       deploy_url: '',
     },
+
     fase02_recriando_layout: {
       codigo_url: 'https://github.com/MullerHub/Explorer-week11/tree/main/Stage0203-rocket.sect',
       deploy_url: '',
@@ -114,15 +117,17 @@ export const data = {
   // Desafios do Stage 07
   stage07: {
     git_push: {
-      codigo_url: '',
+      codigo_url: 'https://github.com/MullerHub/Explorer-week11/tree/main/Stage0801-Node-SQL',
     },
   },
 
   // O projeto Rocket Movies será desenvolvido nos Stages 08, 09, 10, 11
   stages_08_09_10_11: {
     rocket_movies: {
-      github_frontend: '',
-      github_backend: '',
+      github_frontend:
+        'https://github.com/MullerHub/Explorer-week11/tree/main/Stage0902_desafio/RocketMovies',
+      github_backend:
+        'https://github.com/MullerHub/Explorer-week11/tree/main/Stage0802-QueryBuilder',
       deploy_url: '',
     },
   },
