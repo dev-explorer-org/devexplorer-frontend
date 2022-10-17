@@ -60,16 +60,16 @@ export const data = {
   // Desafios do Stage 03
   stage03: {
     criando_formularios: {
-      codigo_url: 'https://codepen.io/gleicebsouza/pen/rNdxrZW',
+      codigo_url: '',
       deploy_url: '',
     },
     mobile_first: {
-      codigo_url: 'https://github.com/gleicebsouza/grid-animacoes-mobile.git',
-      deploy_url: 'https://grid-animacoes-mobile-sdvn.vercel.app/',
+      codigo_url: '',
+      deploy_url: '',
     },
     grid_com_animacoes: {
-      codigo_url: 'https://github.com/gleicebsouza/grid-animacoes-mobile.git',
-      deploy_url: 'https://grid-animacoes-mobile-sdvn.vercel.app/',
+      codigo_url: '',
+      deploy_url: '',
     },
   },
 
