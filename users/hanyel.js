@@ -129,9 +129,9 @@ export const data = {
   // Projeto final
   desafio_final: {
     food_explorer: {
-      github_frontend: '',
-      github_backend: '',
-      deploy_url: '',
+      github_frontend: 'https://github.com/hanyelC/food-explorer',
+      github_backend: 'https://github.com/hanyelC/food-explorer-api',
+      deploy_url: 'https://food-explorer.netlify.app/',
     },
   },
 };
