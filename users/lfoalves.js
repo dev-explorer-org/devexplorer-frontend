@@ -117,7 +117,7 @@ export const data = {
   // Desafios do Stage 07
   stage07: {
     git_push: {
-      codigo_url: '',
+      codigo_url: 'https://github.com/lfoalves/explorer/',
     },
   },
 
@@ -125,7 +125,7 @@ export const data = {
   stages_08_09_10_11: {
     rocket_movies: {
       github_frontend: '',
-      github_backend: '',
+      github_backend: 'https://github.com/lfoalves/explorer/tree/master/step8/stage8/desafios/desafio_backend_node_knex',
       deploy_url: '',
     },
   },
