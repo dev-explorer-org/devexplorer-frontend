@@ -80,8 +80,8 @@ export const data = {
       deploy_url: '',
     },
     exercicio02: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: 'https://github.com/HenriquedaFonte/rocketseat-explorer-projects/tree/main/project06',
+      deploy_url: 'https://henriquedafonte.github.io/rocketseat-explorer-projects/project06/',
     },
   },
 
