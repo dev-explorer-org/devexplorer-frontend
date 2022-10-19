@@ -121,7 +121,7 @@ export const data = {
     rocket_movies: {
       github_frontend: 'https://github.com/HenriquedaFonte/foodreview',
       github_backend: 'https://github.com/HenriquedaFonte/foodreview-api',
-      deploy_url: '',
+      deploy_url: 'https://foodreview23.netlify.app/',
     },
   },
 
