@@ -9,7 +9,7 @@ export const data = {
   name: "Grace Kelly",
 
   // Preencha com o seu e-mail.
-  email: "gkosouza@gmail.com",
+  email: "gkoliver2020@gmail.com",
 
   // Preencha com a cidade onde você mora.
   city: "Florianópolis",
