@@ -77,11 +77,11 @@ export const data = {
   // Desafios do Stage 04
   stage04: {
     exercicio01: {
-      codigo_url: "",
+      codigo_url: "https://codepen.io/Grace-Kelly4ever/pen/QWmPEbE",
       deploy_url: ""
     },
     exercicio02: {
-      codigo_url: "",
+      codigo_url: "https://codepen.io/Grace-Kelly4ever/pen/vYRwGwz",
       deploy_url: ""
     }
   },
