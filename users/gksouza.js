@@ -61,15 +61,15 @@ export const data = {
   // Desafios do Stage 03
   stage03: {
     criando_formularios: {
-      codigo_url: "",
+      codigo_url: "https://codepen.io/Grace-Kelly4ever/pen/QWQZRry",
       deploy_url: ""
     },
     mobile_first: {
-      codigo_url: "",
+      codigo_url: "https://codepen.io/Grace-Kelly4ever/pen/yLKzOxQ",
       deploy_url: ""
     },
     grid_com_animacoes: {
-      codigo_url: "",
+      codigo_url: "https://codepen.io/Grace-Kelly4ever/pen/abYmyML",
       deploy_url: ""
     }
   },
