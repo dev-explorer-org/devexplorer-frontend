@@ -41,11 +41,11 @@ export const data = {
   // Desafios do Stage 02
   stage02: {
     fase01_corrigindo_bugs01: {
-      codigo_url: "",
+      codigo_url: "https://codepen.io/WhosMonica/pen/JjMprvQ",
       deploy_url: ""
     },
     fase02_corrigindo_bugs02: {
-      codigo_url: "",
+      codigo_url: "https://codepen.io/WhosMonica/details/MWrVaeZ",
       deploy_url: ""
     },
     fase02_semantica_acessibilidade: {
@@ -53,7 +53,7 @@ export const data = {
       deploy_url: ""
     },
     fase02_recriando_layout: {
-      codigo_url: "",
+      codigo_url: "https://codepen.io/WhosMonica/pen/popLEjz",
       deploy_url: ""
     }
   },
@@ -61,7 +61,7 @@ export const data = {
   // Desafios do Stage 03
   stage03: {
     criando_formularios: {
-      codigo_url: "",
+      codigo_url: "https://codepen.io/WhosMonica/pen/vYpVWvM",
       deploy_url: ""
     },
     mobile_first: {
@@ -69,7 +69,7 @@ export const data = {
       deploy_url: ""
     },
     grid_com_animacoes: {
-      codigo_url: "",
+      codigo_url: "https://codepen.io/WhosMonica/pen/dyJQXGZ",
       deploy_url: ""
     }
   },
@@ -114,16 +114,16 @@ export const data = {
   // Desafios do Stage 07
   stage07: {
     git_push: {
-      codigo_url: ""
+      codigo_url: "https://github.com/M0nicaVaz/explorer"
     }
   },
 
   // O projeto Rocket Movies será desenvolvido nos Stages 08, 09, 10, 11
   stages_08_09_10_11: {
     rocket_movies: {
-      github_frontend: "",
-      github_backend: "",
-      deploy_url: ""
+      github_frontend: "https://github.com/M0nicaVaz/animeranking",
+      github_backend: "https://github.com/M0nicaVaz/animeranking-api",
+      deploy_url: "https://animeranking.vercel.app/"
     }
   },
 
