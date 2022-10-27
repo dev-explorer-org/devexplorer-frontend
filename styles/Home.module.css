@@ -60,6 +60,7 @@
   position: absolute;
   right: -10px;
   bottom: 0px;
+  outline: 1px solid black;
 }
 
 .card:hover {
@@ -77,12 +78,17 @@
   border-radius: 50%;
   border: 2px solid rgb(0, 158, 194);
   transition: 500ms;
+  height: 80px;
+  width: 80px;
 }
 
 .card_image_container {
   position: relative;
   width: fit-content;
   margin: 0 auto;
+  height: 80px;
+  width: 80px;
+  display: flex;
 }
 
 .card_image_container::after {
