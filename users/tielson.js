@@ -41,20 +41,20 @@ export const data = {
   // Desafios do Stage 02
   stage02: {
     fase01_corrigindo_bugs01: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://codepen.io/tielson/pen/jOYemzR",
+      deploy_url: "https://codepen.io/tielson/pen/jOYemzR"
     },
     fase02_corrigindo_bugs02: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://codepen.io/tielson/pen/OJzBvRG",
+      deploy_url: "https://codepen.io/tielson/pen/OJzBvRG"
     },
     fase02_semantica_acessibilidade: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://codepen.io/tielson/pen/JjMejwv",
+      deploy_url: "https://codepen.io/tielson/pen/JjMejwv"
     },
     fase02_recriando_layout: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://codepen.io/tielson/pen/popQVJR",
+      deploy_url: "https://codepen.io/tielson/pen/popQVJR"
     }
   },
 
