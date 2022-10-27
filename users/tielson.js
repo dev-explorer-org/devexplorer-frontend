@@ -61,16 +61,16 @@ export const data = {
   // Desafios do Stage 03
   stage03: {
     criando_formularios: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://ajar-beryllium-9dd.notion.site/Formularios-b37985acd03e44519e21423ffbcb792a",
+      deploy_url: "https://ajar-beryllium-9dd.notion.site/Formularios-b37985acd03e44519e21423ffbcb792a"
     },
     mobile_first: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://codepen.io/tielson/pen/poajRNQ",
+      deploy_url: "https://codepen.io/tielson/pen/poajRNQ"
     },
     grid_com_animacoes: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://codepen.io/tielson/pen/XWZNbbr",
+      deploy_url: "https://codepen.io/tielson/pen/XWZNbbr"
     }
   },
 
