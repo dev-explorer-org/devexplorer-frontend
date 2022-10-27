@@ -77,12 +77,12 @@ export const data = {
   // Desafios do Stage 04
   stage04: {
     exercicio01: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://codepen.io/tielson/pen/LYQOdPJ",
+      deploy_url: "https://codepen.io/tielson/pen/LYQOdPJ"
     },
     exercicio02: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://codepen.io/tielson/pen/gOvodqG",
+      deploy_url: "https://codepen.io/tielson/pen/gOvodqG"
     }
   },
 
