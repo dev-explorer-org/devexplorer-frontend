@@ -42,19 +42,19 @@ export const data = {
   stage02: {
     fase01_corrigindo_bugs01: {
       codigo_url: "https://github.com/ErickPova/C-digo-do-desafio---Fase-01---Explorer",
-      deploy_url: ""
+      deploy_url: "https://github.com/ErickPova/C-digo-do-desafio---Fase-01---Explorer"
     },
     fase02_corrigindo_bugs02: {
       codigo_url: "https://github.com/ErickPova/C-digo-do-desafio---Fase-02",
-      deploy_url: ""
+      deploy_url: "https://github.com/ErickPova/C-digo-do-desafio---Fase-02"
     },
     fase02_semantica_acessibilidade: {
       codigo_url: "https://github.com/ErickPova/Desafio---Intermedi-rio",
-      deploy_url: ""
+      deploy_url: "https://github.com/ErickPova/Desafio---Intermedi-rio"
     },
     fase02_recriando_layout: {
       codigo_url: "https://github.com/ErickPova/Desafio-avancado---Recriando-Layout",
-      deploy_url: ""
+      deploy_url: "https://github.com/ErickPova/Desafio-avancado---Recriando-Layout"
     }
   },
 
