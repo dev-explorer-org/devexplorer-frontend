@@ -77,11 +77,11 @@ export const data = {
   // Desafios do Stage 04
   stage04: {
     exercicio01: {
-      codigo_url: "",
+      codigo_url: "https://codepen.io/Apolo222/pen/xxWNovy",
       deploy_url: ""
     },
     exercicio02: {
-      codigo_url: "",
+      codigo_url: "https://codepen.io/Apolo222/pen/RwMzbLj",
       deploy_url: ""
     }
   },
