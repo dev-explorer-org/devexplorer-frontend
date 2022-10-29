@@ -45,8 +45,8 @@ export const data = {
       deploy_url: "https://vhraposo.github.io/explorerprojeto01/"
     },
     fase02_corrigindo_bugs02: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/vhraposo/explorerprojeto02",
+      deploy_url: "https://vhraposo.github.io/explorerprojeto02/"
     },
     fase02_semantica_acessibilidade: {
       codigo_url: "",
