@@ -41,8 +41,8 @@ export const data = {
   // Desafios do Stage 02
   stage02: {
     fase01_corrigindo_bugs01: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/vhraposo/explorerprojeto01",
+      deploy_url: "https://vhraposo.github.io/explorerprojeto01/"
     },
     fase02_corrigindo_bugs02: {
       codigo_url: "",
