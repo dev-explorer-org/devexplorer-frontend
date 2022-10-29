@@ -101,8 +101,8 @@ export const data = {
   // Desafios do Stage 06
   stage06: {
     spa_universe: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/apolomoraes/spa-universe",
+      deploy_url: "https://spa-universe-jb62p5bm7-apolomoraes.vercel.app/"
     },
     gitfav: {
       codigo_url: "",
