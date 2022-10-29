@@ -41,19 +41,19 @@ export const data = {
   // Desafios do Stage 02
   stage02: {
     fase01_corrigindo_bugs01: {
-      codigo_url: "",
+      codigo_url: "https://github.com/apolomoraes/explorer-corrigindo-bugs01",
       deploy_url: ""
     },
     fase02_corrigindo_bugs02: {
-      codigo_url: "",
+      codigo_url: "https://github.com/apolomoraes/explorer-corrigindo-bugs02",
       deploy_url: ""
     },
     fase02_semantica_acessibilidade: {
-      codigo_url: "",
+      codigo_url: "https://github.com/apolomoraes/explorer-semantica-e-acessibilidade",
       deploy_url: ""
     },
     fase02_recriando_layout: {
-      codigo_url: "",
+      codigo_url: "https://github.com/apolomoraes/explorer-recriando-layout",
       deploy_url: ""
     }
   },
