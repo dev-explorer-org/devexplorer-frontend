@@ -89,12 +89,12 @@ export const data = {
   // Desafios do Stage 05
   stage05: {
     focustimer: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/apolomoraes/focus-timer",
+      deploy_url: "https://apolomoraes.github.io/focus-timer/"
     },
     focustimer_dark_mode: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/apolomoraes/focus-timer",
+      deploy_url: "https://apolomoraes.github.io/focus-timer/"
     }
   },
 
