@@ -53,8 +53,8 @@ export const data = {
       deploy_url: ""
     },
     fase02_recriando_layout: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/vhraposo/explorer_finalstg02-",
+      deploy_url: "https://vhraposo.github.io/explorer_finalstg02-/"
     }
   },
 
