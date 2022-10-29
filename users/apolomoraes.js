@@ -61,27 +61,27 @@ export const data = {
   // Desafios do Stage 03
   stage03: {
     criando_formularios: {
-      codigo_url: "",
+      codigo_url: "https://github.com/apolomoraes/recriando-layout02",
       deploy_url: ""
     },
     mobile_first: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/apolomoraes/recriando-layout-mobilefirst",
+      deploy_url: "https://apolomoraes.github.io/recriando-layout-mobilefirst/"
     },
     grid_com_animacoes: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/apolomoraes/recriando-layout-mobilefirst",
+      deploy_url: "https://apolomoraes.github.io/recriando-layout-mobilefirst"
     }
   },
 
   // Desafios do Stage 04
   stage04: {
     exercicio01: {
-      codigo_url: "",
+      codigo_url: "https://codepen.io/Apolo222/pen/xxWNovy",
       deploy_url: ""
     },
     exercicio02: {
-      codigo_url: "",
+      codigo_url: "https://codepen.io/Apolo222/pen/RwMzbLj",
       deploy_url: ""
     }
   },
