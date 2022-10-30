@@ -61,8 +61,8 @@ export const data = {
   // Desafios do Stage 03
   stage03: {
     criando_formularios: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/lucyanovidio/rocketseat-explorer/tree/main/Nível-03/Stage/Fase-01/Desafio-02",
+      deploy_url: "https://lucyanovidio.github.io/rocketseat-explorer/Nível-03/Stage/Fase-01/Desafio-02/"
     },
     mobile_first: {
       codigo_url: "",
