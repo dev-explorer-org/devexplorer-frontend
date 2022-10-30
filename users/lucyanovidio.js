@@ -41,20 +41,20 @@ export const data = {
   // Desafios do Stage 02
   stage02: {
     fase01_corrigindo_bugs01: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/lucyanovidio/rocketseat-explorer/tree/main/Nível-02/Stage/Desafio-01",
+      deploy_url: "https://lucyanovidio.github.io/rocketseat-explorer/Nível-02/Stage/Desafio-01/"
     },
     fase02_corrigindo_bugs02: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/lucyanovidio/rocketseat-explorer/tree/main/Nível-02/Stage/Desafio-02",
+      deploy_url: "https://lucyanovidio.github.io/rocketseat-explorer/Nível-02/Stage/Desafio-02/"
     },
     fase02_semantica_acessibilidade: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/lucyanovidio/rocketseat-explorer/tree/main/Nível-02/Stage/Desafio-03",
+      deploy_url: "https://lucyanovidio.github.io/rocketseat-explorer/Nível-02/Stage/Desafio-03/"
     },
     fase02_recriando_layout: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/lucyanovidio/rocketseat-explorer/tree/main/Nível-02/Stage/Desafio-04",
+      deploy_url: "https://lucyanovidio.github.io/rocketseat-explorer/Nível-02/Stage/Desafio-04/"
     }
   },
 
