@@ -41,28 +41,28 @@ export const data = {
   // Desafios do Stage 02
   stage02: {
     fase01_corrigindo_bugs01: {
-      codigo_url: "https://github.com/lucyanovidio/rocketseat-explorer/tree/main/Nível-02/Stage/Desafio-01",
-      deploy_url: "https://lucyanovidio.github.io/rocketseat-explorer/Nível-02/Stage/Desafio-01/"
+      codigo_url: "https://github.com/lucyanovidio/rocketseat-explorer/tree/main/nivel-02/stage/desafio-01",
+      deploy_url: "https://lucyanovidio.github.io/rocketseat-explorer/nivel-02/stage/desafio-01/"
     },
     fase02_corrigindo_bugs02: {
-      codigo_url: "https://github.com/lucyanovidio/rocketseat-explorer/tree/main/Nível-02/Stage/Desafio-02",
-      deploy_url: "https://lucyanovidio.github.io/rocketseat-explorer/Nível-02/Stage/Desafio-02/"
+      codigo_url: "https://github.com/lucyanovidio/rocketseat-explorer/tree/main/nivel-02/stage/desafio-02",
+      deploy_url: "https://lucyanovidio.github.io/rocketseat-explorer/nivel-02/stage/desafio-02/"
     },
     fase02_semantica_acessibilidade: {
-      codigo_url: "https://github.com/lucyanovidio/rocketseat-explorer/tree/main/Nível-02/Stage/Desafio-03",
-      deploy_url: "https://lucyanovidio.github.io/rocketseat-explorer/Nível-02/Stage/Desafio-03/"
+      codigo_url: "https://github.com/lucyanovidio/rocketseat-explorer/tree/main/nivel-02/stage/desafio-03",
+      deploy_url: "https://lucyanovidio.github.io/rocketseat-explorer/nivel-02/stage/desafio-03/"
     },
     fase02_recriando_layout: {
-      codigo_url: "https://github.com/lucyanovidio/rocketseat-explorer/tree/main/Nível-02/Stage/Desafio-04",
-      deploy_url: "https://lucyanovidio.github.io/rocketseat-explorer/Nível-02/Stage/Desafio-04/"
+      codigo_url: "https://github.com/lucyanovidio/rocketseat-explorer/tree/main/nivel-02/stage/desafio-04",
+      deploy_url: "https://lucyanovidio.github.io/rocketseat-explorer/nivel-02/stage/desafio-04/"
     }
   },
 
   // Desafios do Stage 03
   stage03: {
     criando_formularios: {
-      codigo_url: "https://github.com/lucyanovidio/rocketseat-explorer/tree/main/Nível-03/Stage/Fase-01/Desafio-02",
-      deploy_url: "https://lucyanovidio.github.io/rocketseat-explorer/Nível-03/Stage/Fase-01/Desafio-02/"
+      codigo_url: "https://github.com/lucyanovidio/rocketseat-explorer/tree/main/nivel-03/stage/fase-01/desafio-02",
+      deploy_url: "https://lucyanovidio.github.io/rocketseat-explorer/nivel-03/stage/fase-01/desafio-02/"
     },
     mobile_first: {
       codigo_url: "",
