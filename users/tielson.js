@@ -6,13 +6,13 @@ export const data = {
   // Os valores devem estar dentro das aspas duplas (Ex: "Aqui dentro")
 
   // Preencha com o seu nome.
-  name: "Monica Vaz",
+  name: "Filipe Tielson",
 
   // Preencha com o seu e-mail.
-  email: "contatomonicavaz@gmail.com",
+  email: "filipe_thielsom@hotmail.com",
 
   // Preencha com a cidade onde você mora.
-  city: "Salvador",
+  city: "Feira de Santana",
 
   // Preencha com a sigla do estado onde você mora.
   // Ex: SP
@@ -26,13 +26,13 @@ export const data = {
   turma: "01",
 
   // Preencha com a url do seu perfil no github: (https://github.com/[user]).
-  github: "https://github.com/m0nicavaz",
+  github: "https://github.com/tielson",
 
   // Preencha com a url do seu perfil no linkedin: (https://www.linkedin.com/in/[user]).
-  linkedin_url: "https://www.linkedin.com/in/monica-vaz",
+  linkedin_url: "https://www.linkedin.com/in/filipe-tielson-developer/",
 
   // Preencha com a url do seu perfil da rockeseat: (https://app.rocketseat.com.br/me/[user]).
-  rocketseat_profile: "https://app.rocketseat.com.br/me/monica--vaz",
+  rocketseat_profile: "https://app.rocketseat.com.br/me/filipetielsom-1644412867125",
 
   // Preencha os campos abaixo com os links dos desafios que você já concluiu.
   // Preencha o campo [codigo_url] com o link do codepen ou github.
@@ -41,48 +41,48 @@ export const data = {
   // Desafios do Stage 02
   stage02: {
     fase01_corrigindo_bugs01: {
-      codigo_url: "https://codepen.io/WhosMonica/pen/JjMprvQ",
-      deploy_url: ""
+      codigo_url: "https://codepen.io/tielson/pen/jOYemzR",
+      deploy_url: "https://codepen.io/tielson/pen/jOYemzR"
     },
     fase02_corrigindo_bugs02: {
-      codigo_url: "https://codepen.io/WhosMonica/details/MWrVaeZ",
-      deploy_url: ""
+      codigo_url: "https://codepen.io/tielson/pen/OJzBvRG",
+      deploy_url: "https://codepen.io/tielson/pen/OJzBvRG"
     },
     fase02_semantica_acessibilidade: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://codepen.io/tielson/pen/JjMejwv",
+      deploy_url: "https://codepen.io/tielson/pen/JjMejwv"
     },
     fase02_recriando_layout: {
-      codigo_url: "https://codepen.io/WhosMonica/pen/popLEjz",
-      deploy_url: ""
+      codigo_url: "https://codepen.io/tielson/pen/popQVJR",
+      deploy_url: "https://codepen.io/tielson/pen/popQVJR"
     }
   },
 
   // Desafios do Stage 03
   stage03: {
     criando_formularios: {
-      codigo_url: "https://codepen.io/WhosMonica/pen/vYpVWvM",
-      deploy_url: ""
+      codigo_url: "https://ajar-beryllium-9dd.notion.site/Formularios-b37985acd03e44519e21423ffbcb792a",
+      deploy_url: "https://ajar-beryllium-9dd.notion.site/Formularios-b37985acd03e44519e21423ffbcb792a"
     },
     mobile_first: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://codepen.io/tielson/pen/poajRNQ",
+      deploy_url: "https://codepen.io/tielson/pen/poajRNQ"
     },
     grid_com_animacoes: {
-      codigo_url: "https://codepen.io/WhosMonica/pen/dyJQXGZ",
-      deploy_url: ""
+      codigo_url: "https://codepen.io/tielson/pen/XWZNbbr",
+      deploy_url: "https://codepen.io/tielson/pen/XWZNbbr"
     }
   },
 
   // Desafios do Stage 04
   stage04: {
     exercicio01: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://codepen.io/tielson/pen/LYQOdPJ",
+      deploy_url: "https://codepen.io/tielson/pen/LYQOdPJ"
     },
     exercicio02: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://codepen.io/tielson/pen/gOvodqG",
+      deploy_url: "https://codepen.io/tielson/pen/gOvodqG"
     }
   },
 
@@ -93,20 +93,20 @@ export const data = {
       deploy_url: ""
     },
     focustimer_dark_mode: {
-      codigo_url: "https://github.com/M0nicaVaz/FocusTimer",
-      deploy_url: "https://m0nicavaz.github.io/FocusTimer/"
+      codigo_url: "",
+      deploy_url: ""
     }
   },
 
   // Desafios do Stage 06
   stage06: {
     spa_universe: {
-      codigo_url: "https://github.com/M0nicaVaz/UniverseSPA",
-      deploy_url: "https://spa-universe.netlify.app/"
+      codigo_url: "",
+      deploy_url: ""
     },
     gitfav: {
-      codigo_url: "https://github.com/M0nicaVaz/GitFav",
-      deploy_url: "https://m0nicavaz.github.io/GitFav/"
+      codigo_url: "",
+      deploy_url: ""
     }
   },
 
@@ -114,25 +114,25 @@ export const data = {
   // Desafios do Stage 07
   stage07: {
     git_push: {
-      codigo_url: "https://github.com/M0nicaVaz/explorer"
+      codigo_url: ""
     }
   },
 
   // O projeto Rocket Movies será desenvolvido nos Stages 08, 09, 10, 11
   stages_08_09_10_11: {
     rocket_movies: {
-      github_frontend: "https://github.com/M0nicaVaz/animeranking",
-      github_backend: "https://github.com/M0nicaVaz/animeranking-api",
-      deploy_url: "https://animeranking.vercel.app/"
+      github_frontend: "",
+      github_backend: "",
+      deploy_url: ""
     }
   },
 
   // Projeto final
   desafio_final: {
     food_explorer: {
-      github_frontend: "https://github.com/M0nicaVaz/food-explorer",
+      github_frontend: "",
       github_backend: "",
-      deploy_url: "https://food-explorer-hazel.vercel.app/"
+      deploy_url: ""
     }
   }
 }

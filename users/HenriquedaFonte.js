@@ -80,8 +80,8 @@ export const data = {
       deploy_url: '',
     },
     exercicio02: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: 'https://github.com/HenriquedaFonte/rocketseat-explorer-projects/tree/main/project06',
+      deploy_url: 'https://henriquedafonte.github.io/rocketseat-explorer-projects/project06/',
     },
   },
 
@@ -121,14 +121,14 @@ export const data = {
     rocket_movies: {
       github_frontend: 'https://github.com/HenriquedaFonte/foodreview',
       github_backend: 'https://github.com/HenriquedaFonte/foodreview-api',
-      deploy_url: '',
+      deploy_url: 'https://foodreview23.netlify.app/',
     },
   },
 
   // Projeto final
   desafio_final: {
     food_explorer: {
-      github_frontend: '',
+      github_frontend: 'https://github.com/HenriquedaFonte/foodexplorer_front',
       github_backend: '',
       deploy_url: '',
     },

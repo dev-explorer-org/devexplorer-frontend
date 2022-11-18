@@ -6,33 +6,32 @@ export const data = {
   // Os valores devem estar dentro das aspas duplas (Ex: "Aqui dentro")
 
   // Preencha com o seu nome.
-  name: 'Hanyel',
+  name: 'Amanda Barbosa',
 
   // Preencha com o seu e-mail.
-  email: 'hanyel.chamon@gmail.com',
+  email: 'amandahpereira@gmail.com',
 
   // Preencha com a cidade onde você mora.
-  city: 'Muniz Freire',
+  city: 'Recife',
 
   // Preencha com a sigla do estado onde você mora.
   // Ex: SP
-  state: 'ES',
+  state: 'PE',
 
   // Preencha com o país onde mora.
   country: 'Brasil',
 
   // Preencha de qual turma do Explorer você é: Ex (turma: "01").
-  // Se você for instrutor da Rocketseat coloque "00".
-  turma: '01',
+  turma: '00',
 
   // Preencha com a url do seu perfil no github: (https://github.com/[user]).
-  github: 'https://github.com/hanyelC',
+  github: 'https://github.com/lenalightning',
 
   // Preencha com a url do seu perfil no linkedin: (https://www.linkedin.com/in/[user]).
-  linkedin_url: 'https://www.linkedin.com/in/hanyel',
+  linkedin_url: 'https://www.linkedin.com/in/barbosaamanda',
 
   // Preencha com a url do seu perfil da rockeseat: (https://app.rocketseat.com.br/me/[user]).
-  rocketseat_profile: 'https://app.rocketseat.com.br/me/hanyel',
+  rocketseat_profile: 'https://app.rocketseat.com.br/me/barbosaamanda',
 
   // Preencha os campos abaixo com os links dos desafios que você já concluiu.
   // Preencha o campo [codigo_url] com o link do codepen ou github.
@@ -41,19 +40,19 @@ export const data = {
   // Desafios do Stage 02
   stage02: {
     fase01_corrigindo_bugs01: {
-      codigo_url: 'https://github.com/hanyelC/explorer/tree/main/stage2/desafioFase01',
+      codigo_url: '',
       deploy_url: '',
     },
     fase02_corrigindo_bugs02: {
-      codigo_url: 'https://github.com/hanyelC/explorer/tree/main/stage2/desafioFase02',
+      codigo_url: '',
       deploy_url: '',
     },
     fase02_semantica_acessibilidade: {
-      codigo_url: 'https://github.com/hanyelC/explorer/tree/main/stage2/desafioFase02Intermediario',
+      codigo_url: '',
       deploy_url: '',
     },
     fase02_recriando_layout: {
-      codigo_url: 'https://github.com/hanyelC/explorer/tree/main/stage2/desafioFase02xAvancado',
+      codigo_url: '',
       deploy_url: '',
     },
   },
@@ -61,15 +60,15 @@ export const data = {
   // Desafios do Stage 03
   stage03: {
     criando_formularios: {
-      codigo_url: 'https://github.com/hanyelC/explorer/tree/main/stage3/desafioFase01',
+      codigo_url: '',
       deploy_url: '',
     },
     mobile_first: {
-      codigo_url: 'https://github.com/hanyelC/explorer/tree/main/stage3/desafioFase02e03',
+      codigo_url: '',
       deploy_url: '',
     },
     grid_com_animacoes: {
-      codigo_url: 'https://github.com/hanyelC/explorer/tree/main/stage3/desafioFase02e03',
+      codigo_url: '',
       deploy_url: '',
     },
   },
@@ -77,7 +76,7 @@ export const data = {
   // Desafios do Stage 04
   stage04: {
     exercicio01: {
-      codigo_url: 'https://github.com/hanyelC/explorer/tree/main/stage4/desafio01',
+      codigo_url: '',
       deploy_url: '',
     },
     exercicio02: {
@@ -89,7 +88,7 @@ export const data = {
   // Desafios do Stage 05
   stage05: {
     focustimer: {
-      codigo_url: 'https://github.com/hanyelC/explorer/tree/main/stage5',
+      codigo_url: '',
       deploy_url: '',
     },
     focustimer_dark_mode: {
@@ -101,7 +100,7 @@ export const data = {
   // Desafios do Stage 06
   stage06: {
     spa_universe: {
-      codigo_url: 'https://github.com/hanyelC/explorer/tree/main/stage6/desafio01',
+      codigo_url: '',
       deploy_url: '',
     },
     gitfav: {
@@ -120,8 +119,8 @@ export const data = {
   // O projeto Rocket Movies será desenvolvido nos Stages 08, 09, 10, 11
   stages_08_09_10_11: {
     rocket_movies: {
-      github_frontend: 'https://github.com/hanyelC/explorer/tree/main/stage9/desafio',
-      github_backend: 'https://github.com/hanyelC/explorer/tree/main/stage8/desafio',
+      github_frontend: '',
+      github_backend: '',
       deploy_url: '',
     },
   },
@@ -129,9 +128,9 @@ export const data = {
   // Projeto final
   desafio_final: {
     food_explorer: {
-      github_frontend: 'https://github.com/hanyelC/food-explorer',
-      github_backend: 'https://github.com/hanyelC/food-explorer-api',
-      deploy_url: 'https://food-explorer.netlify.app/',
+      github_frontend: '',
+      github_backend: '',
+      deploy_url: '',
     },
   },
 };
