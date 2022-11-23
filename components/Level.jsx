@@ -10,9 +10,9 @@ function checkFinalChallenge(challenges) {
     urls.forEach((url) => arrayUrlsChallenges.push(url));
   });
 
-  if (arrayUrlsChallenges[2].length > 0) return { existUrl: true, text: 'FINAL' };
-  if (arrayUrlsChallenges[1].length > 0) return { existUrl: true, text: 'FINAL' };
-  if (arrayUrlsChallenges[0].length > 0) return { existUrl: true, text: 'FINAL' };
+  if (arrayUrlsChallenges[2].length > 0) return { existUrl: true, text: 'FINALIZOU 🏅' };
+  if (arrayUrlsChallenges[1].length > 0) return { existUrl: true, text: 'FINALIZOU 🏅' };
+  if (arrayUrlsChallenges[0].length > 0) return { existUrl: true, text: 'FINALIZOU 🏅' };
 
   return { existUrl: false };
 }
