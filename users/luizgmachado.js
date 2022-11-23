@@ -42,7 +42,7 @@ export const data = {
     stage02: {
       fase01_corrigindo_bugs01: {
         codigo_url: "https://github.com/Luiz-Gustavo-Machado/Projeto-01",
-        deploy_url: ""
+        deploy_url: "https://github.com/Luiz-Gustavo-Machado/Projeto-01"
       },
       fase02_corrigindo_bugs02: {
         codigo_url: "https://www.notion.so/Sem-ntica-e-acessibilidade-e6a99fa0a37c414292f9b4ed11911f17",
