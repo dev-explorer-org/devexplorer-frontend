@@ -101,6 +101,7 @@ export default function Flag({ state, country, ...rest }) {
     'Ilhas Wallis e Futura': 'wf.svg',
     India: 'in.svg',
     Indonésia: 'id.svg',
+    Inglaterra: 'gb.svg',
     Irã: 'ir.svg',
     Iraque: 'iq.svg',
     Irlanda: 'ie.svg',
