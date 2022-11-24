@@ -36,6 +36,8 @@
 }
 
 .card {
+  will-change: contents;
+  position: relative;
   background-color: hsla(0, 0%, 0%, 0.2);
   color: white;
   padding: 20px;
@@ -47,7 +49,7 @@
   transition: background-color 500ms;
   margin: auto;
   justify-content: center;
-  transition: transform 1s;
+  transition: transform .4s;
 }
 
 .card h2 {
