@@ -105,8 +105,8 @@ export const data = {
       deploy_url: "https://spa-universe-jb62p5bm7-apolomoraes.vercel.app/"
     },
     gitfav: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/apolomoraes/git-fav",
+      deploy_url: "http://git-fav-jade.vercel.app/"
     }
   },
 
