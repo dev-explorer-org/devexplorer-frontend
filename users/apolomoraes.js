@@ -130,9 +130,9 @@ export const data = {
   // Projeto final
   desafio_final: {
     food_explorer: {
-      github_frontend: "",
-      github_backend: "",
-      deploy_url: ""
+      github_frontend: "https://github.com/apolomoraes/food-explorer_front-end",
+      github_backend: "https://github.com/apolomoraes/food-explorer_back-end",
+      deploy_url: "https://foodexplorer-apolomoraes.netlify.app/"
     }
   }
 }
