@@ -105,8 +105,8 @@ export const data = {
       deploy_url: "https://spa-universe-jb62p5bm7-apolomoraes.vercel.app/"
     },
     gitfav: {
-      codigo_url: "",
-      deploy_url: ""
+      codigo_url: "https://github.com/apolomoraes/git-fav",
+      deploy_url: "http://git-fav-jade.vercel.app/"
     }
   },
 
@@ -114,7 +114,7 @@ export const data = {
   // Desafios do Stage 07
   stage07: {
     git_push: {
-      codigo_url: ""
+      codigo_url: "https://www.evernote.com/shard/s489/sh/6491e99c-e2ec-f8cc-25ab-7bc2b424182a/oqpKXnDBESByihR_hXzz_2Yvigiuva7UPgr_fhovxW1ueQpwmu8mhDTqrA"
     }
   },
 
