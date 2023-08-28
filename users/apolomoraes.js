@@ -114,7 +114,7 @@ export const data = {
   // Desafios do Stage 07
   stage07: {
     git_push: {
-      codigo_url: ""
+      codigo_url: "https://www.evernote.com/shard/s489/sh/6491e99c-e2ec-f8cc-25ab-7bc2b424182a/oqpKXnDBESByihR_hXzz_2Yvigiuva7UPgr_fhovxW1ueQpwmu8mhDTqrA"
     }
   },
 
