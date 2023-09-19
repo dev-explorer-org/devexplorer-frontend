@@ -121,18 +121,18 @@ export const data = {
   // O projeto Rocket Movies será desenvolvido nos Stages 08, 09, 10, 11
   stages_08_09_10_11: {
     rocket_movies: {
-      github_frontend: "",
-      github_backend: "",
-      deploy_url: ""
+      github_frontend: "https://github.com/FabioLuizz/RocketMovies-FrontEnd",
+      github_backend: "https://github.com/FabioLuizz/RocketMovies-Api",
+      deploy_url: "https://rocketmovies-fb.netlify.app/"
     }
   },
 
   // Projeto final
   desafio_final: {
     food_explorer: {
-      github_frontend: "",
-      github_backend: "",
-      deploy_url: ""
+      github_frontend: "https://github.com/FabioLuizz/FoodExplorer-FrontEnd",
+      github_backend: "https://github.com/FabioLuizz/FoodExplorer-Api",
+      deploy_url: "https://candid-heliotrope-55beb7.netlify.app/"
     }
   }
 }
