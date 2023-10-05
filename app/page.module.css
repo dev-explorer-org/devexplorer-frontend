@@ -13,43 +13,54 @@
 }
 
 .title {
-  font-family: 'Lora', serif;
+  /* font-family: 'Lora', serif; */
+  font-family: 'Metropolis', serif;
   text-align: center;
   width: 100%;
   margin-bottom: 24px;
   color: white;
-  filter: drop-shadow(0 0 5px aqua);
-  letter-spacing: 10px;
-  font-size: clamp(12rem, 5vw, 60rem);
+  /* filter: drop-shadow(0 0 2px aqua); */
+  /* letter-spacing: 10px; */
+  font-size: clamp(20rem, 5vw, 60rem);
   font-weight: 700;
 }
 
-.title span {
-  font-weight: 400;
-  opacity: 0.5;
+.subtitle {
+  font-family: 'Metropolis', serif;
+  text-align: center;
+  /* font-size: 24px; */
+  font-size: clamp(10rem, 4vw, 20rem);
+  color: white;
+  font-weight: 500;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+.subtitle span {
+  font-weight: 700;
+  /* opacity: 0.5; */
 }
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(185px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 8px;
 }
 
 .card {
   will-change: contents;
   position: relative;
-  background-color: hsla(0, 0%, 0%, 0.2);
+  /* background-color: hsla(0, 0%, 0%, 0.2); */
   color: white;
-  padding: 20px;
+  padding: 8px;
   text-align: center;
   display: grid;
   gap: 10px;
   border-radius: 8px;
-  width: 100%;
+  width: fit-content;
   transition: background-color 500ms;
   margin: auto;
   justify-content: center;
-  transition: transform .4s;
 }
 
 .card h2 {
@@ -67,21 +78,24 @@
 
 .card:hover {
   cursor: pointer;
-  background-color: hsla(0, 0%, 0%, 0.5);
-  /* transform: scale(1.05); */
+  /* background-color: hsla(0, 0%, 0%, 0.5); */
 }
 
-.card:hover .card_image {
+.card:hover .card_image,
+a:focus .card_image {
   border: 2px solid aqua;
-  box-shadow: 0 0 5px aqua;
+  box-shadow: 0 0 15px aqua;
+  transition: transform .1s ease-in-out, box-shadow .1s ease-in-out;
+  transform: scale(1.1);
 }
 
-.card_image {
+.card .card_image {
   border-radius: 50%;
   border: 2px solid rgb(0, 158, 194);
-  transition: 500ms;
+  /* transition: 100ms; */
   height: 80px;
   width: 80px;
+  transition: transform .1s ease-in-out, box-shadow .1s ease-in-out;
 }
 
 .card_image_container {
@@ -106,7 +120,8 @@
   padding: 2px;
   width: 20px;
   height: 20px;
-  display: flex;
+  /* display: flex; */
+  display: none;
   align-items: center;
   justify-content: center;
   border-radius: 50%;

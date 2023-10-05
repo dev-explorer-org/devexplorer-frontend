@@ -4,7 +4,7 @@ import Link from "next/link";
 import fs from "fs";
 import styles from "./page.module.css";
 import Flag from "./components/Flag";
-import Level from "./components/Level";
+// import Level from "./components/Level";
 // import styles from '../styles/Home.module.css';
 
 function formatUserTitle(name) {
@@ -39,15 +39,17 @@ export default function Home() {
       {/* <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head> */}
-      <h1 className={styles.title}>
-        🚀 <span>DEV</span>
-        EXPLORER{" "}
-      </h1>
+      <h1 className={styles.title}>Welcome to DevExplorer ✌</h1>
+      <p className={styles.subtitle}>
+        Junte-se a mais de 🚀 <span>100.000</span> estudantes e profissionais cadastrados em nossa
+        plataforma.{" "}
+      </p>
+
       <div className={styles.cards}>
         {data.map((user, index) => (
           <Link key={index} href={`/${user.filename}`}>
             <div className={styles.card}>
-              <Level user={user} />
+              {/* <Level user={user} /> */}
               <div className={styles.card_image_container} data-turma={user.turma}>
                 <Image
                   className={styles.card_image}
