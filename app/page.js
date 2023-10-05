@@ -1,10 +1,12 @@
-import Head from 'next/head';
-import Image from 'next/future/image';
+import styles from './page.module.css'
+
+// import Head from 'next/head';
+import Image from 'next/image';
 import Link from 'next/link';
 import fs from 'fs';
-import Flag from '../components/Flag';
-import Level from '../components/Level';
-import styles from '../styles/Home.module.css';
+import Flag from './components/Flag';
+import Level from './components/Level';
+// import styles from '../styles/Home.module.css';
 
 function formatUserTitle(name) {
   const arrayNames = name.split(' ');
@@ -14,34 +16,30 @@ function formatUserTitle(name) {
   return name.split(' ').slice(0, 2).join(' ');
 }
 
-export async function getStaticProps() {
-  function listFiles() {
-    const files = fs.readdirSync('users');
-    return files;
-  }
-
-  const users = listFiles();
-
-  const data = await Promise.all(
-    users.map(async (item) => {
-      const user = await import(`../users/${item}`);
-      const filename = item.split('.')[0];
-      user.data.filename = filename;
-      return user.data;
-    })
-  );
-
-  return {
-    props: { data },
-  };
+function listFiles() {
+  const files = fs.readdirSync('app/users');
+  return files;
 }
 
-export default function Home({ data }) {
+const users = listFiles();
+
+const data = await Promise.all(
+  users.map(async (item) => {
+    const user = await import(`./users/${item}`);
+    const filename = item.split('.')[0];
+    user.data.filename = filename;
+    return user.data;
+  })
+);
+
+// console.log(data)
+
+export default function Home() {
   return (
     <div className={styles.page}>
-      <Head>
+      {/* <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      </Head>
+      </Head> */}
       <h1 className={styles.title}>
         🚀 <span>DEV</span>
         EXPLORER{' '}
