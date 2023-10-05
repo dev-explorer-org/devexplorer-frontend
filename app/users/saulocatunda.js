@@ -42,80 +42,79 @@ export const data = {
   stage02: {
     fase01_corrigindo_bugs01: {
       codigo_url: "https://codepen.io/saulocatunda/pen/dyJwojp",
-      deploy_url: "https://codepen.io/saulocatunda/full/dyJwojp"
+      deploy_url: "https://codepen.io/saulocatunda/full/dyJwojp",
     },
     fase02_corrigindo_bugs02: {
       codigo_url: "https://codepen.io/saulocatunda/pen/jOZNrar",
-      deploy_url: "https://codepen.io/saulocatunda/full/jOZNrar"
+      deploy_url: "https://codepen.io/saulocatunda/full/jOZNrar",
     },
     fase02_semantica_acessibilidade: {
       codigo_url: "https://codepen.io/saulocatunda/pen/MWQgeQm",
-      deploy_url: "https://codepen.io/saulocatunda/full/MWQgeQm"
+      deploy_url: "https://codepen.io/saulocatunda/full/MWQgeQm",
     },
     fase02_recriando_layout: {
       codigo_url: "https://codepen.io/saulocatunda/pen/GRQKqLR",
-      deploy_url: "https://codepen.io/saulocatunda/full/GRQKqLR"
-    }
+      deploy_url: "https://codepen.io/saulocatunda/full/GRQKqLR",
+    },
   },
 
   // Desafios do Stage 03
   stage03: {
     criando_formularios: {
       codigo_url: "https://codepen.io/saulocatunda/pen/JjLayez",
-      deploy_url: "https://codepen.io/saulocatunda/full/JjLayez"
+      deploy_url: "https://codepen.io/saulocatunda/full/JjLayez",
     },
     mobile_first: {
       codigo_url: "https://codepen.io/saulocatunda/pen/jOzVYpj",
-      deploy_url: "https://codepen.io/saulocatunda/full/jOzVYpj"
+      deploy_url: "https://codepen.io/saulocatunda/full/jOzVYpj",
     },
     grid_com_animacoes: {
       codigo_url: "https://codepen.io/saulocatunda/pen/xxjbrJw",
-      deploy_url: "https://codepen.io/saulocatunda/full/xxjbrJw"
-    }
+      deploy_url: "https://codepen.io/saulocatunda/full/xxjbrJw",
+    },
   },
 
   // Desafios do Stage 04
   stage04: {
     exercicio01: {
       codigo_url: "https://codepen.io/saulocatunda/pen/yLEeePO",
-      deploy_url: "https://codepen.io/saulocatunda/full/yLEeePO"
+      deploy_url: "https://codepen.io/saulocatunda/full/yLEeePO",
     },
     exercicio02: {
       codigo_url: "https://codepen.io/saulocatunda/pen/XWYXdwO",
-      deploy_url: "https://codepen.io/saulocatunda/full/XWYXdwO"
-    }
+      deploy_url: "https://codepen.io/saulocatunda/full/XWYXdwO",
+    },
   },
 
   // Desafios do Stage 05
   stage05: {
     focustimer: {
       codigo_url: "",
-      deploy_url: ""
+      deploy_url: "",
     },
     focustimer_dark_mode: {
       codigo_url: "",
-      deploy_url: ""
-    }
+      deploy_url: "",
+    },
   },
 
   // Desafios do Stage 06
   stage06: {
     spa_universe: {
       codigo_url: "",
-      deploy_url: ""
+      deploy_url: "",
     },
     gitfav: {
       codigo_url: "",
-      deploy_url: ""
-    }
+      deploy_url: "",
+    },
   },
-
 
   // Desafios do Stage 07
   stage07: {
     git_push: {
-      codigo_url: ""
-    }
+      codigo_url: "",
+    },
   },
 
   // O projeto Rocket Movies será desenvolvido nos Stages 08, 09, 10, 11
@@ -123,8 +122,8 @@ export const data = {
     rocket_movies: {
       github_frontend: "",
       github_backend: "",
-      deploy_url: ""
-    }
+      deploy_url: "",
+    },
   },
 
   // Projeto final
@@ -132,7 +131,7 @@ export const data = {
     food_explorer: {
       github_frontend: "",
       github_backend: "",
-      deploy_url: ""
-    }
-  }
-}
+      deploy_url: "",
+    },
+  },
+};

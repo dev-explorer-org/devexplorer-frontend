@@ -42,80 +42,88 @@ export const data = {
   stage02: {
     fase01_corrigindo_bugs01: {
       codigo_url: "https://codepen.io/diegommagno/pen/wvyvrey",
-      deploy_url: ""
+      deploy_url: "",
     },
     fase02_corrigindo_bugs02: {
       codigo_url: "https://codepen.io/diegommagno/pen/QWQWxrZ",
-      deploy_url: ""
+      deploy_url: "",
     },
     fase02_semantica_acessibilidade: {
-      codigo_url: "https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-02/train-me/accessibility-challenge",
-      deploy_url: "https://diegommagno.com/github/rocketseat/explorer/stage-02/train-me/accessibility-challenge/"
+      codigo_url:
+        "https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-02/train-me/accessibility-challenge",
+      deploy_url:
+        "https://diegommagno.com/github/rocketseat/explorer/stage-02/train-me/accessibility-challenge/",
     },
     fase02_recriando_layout: {
-      codigo_url: "https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-02/rocket-sect/pt-br",
-      deploy_url: "https://diegommagno.com/github/rocketseat/explorer/stage-02/rocket-sect/pt-br/"
-    }
+      codigo_url:
+        "https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-02/rocket-sect/pt-br",
+      deploy_url: "https://diegommagno.com/github/rocketseat/explorer/stage-02/rocket-sect/pt-br/",
+    },
   },
 
   // Desafios do Stage 03
   stage03: {
     criando_formularios: {
-      codigo_url: "https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/mentorship-form/pt-br",
-      deploy_url: "https://diegommagno.com/github/rocketseat/explorer/stage-03/mentorship-form/pt-br/"
+      codigo_url:
+        "https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/mentorship-form/pt-br",
+      deploy_url:
+        "https://diegommagno.com/github/rocketseat/explorer/stage-03/mentorship-form/pt-br/",
     },
     mobile_first: {
-      codigo_url: "https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/advanced-css/space-cream",
-      deploy_url: "https://diegommagno.com/github/rocketseat/explorer/stage-03/advanced-css/space-cream/pt-br/"
+      codigo_url:
+        "https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/advanced-css/space-cream",
+      deploy_url:
+        "https://diegommagno.com/github/rocketseat/explorer/stage-03/advanced-css/space-cream/pt-br/",
     },
     grid_com_animacoes: {
-      codigo_url: "https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/advanced-css/space-cream/update/pt-br/",
-      deploy_url: "https://diegommagno.com/github/rocketseat/explorer/stage-03/advanced-css/space-cream/update/pt-br/"
-    }
+      codigo_url:
+        "https://github.com/diegommagno/rocketseat/tree/main/explorer/stage-03/advanced-css/space-cream/update/pt-br/",
+      deploy_url:
+        "https://diegommagno.com/github/rocketseat/explorer/stage-03/advanced-css/space-cream/update/pt-br/",
+    },
   },
 
   // Desafios do Stage 04
   stage04: {
     exercicio01: {
       codigo_url: "",
-      deploy_url: ""
+      deploy_url: "",
     },
     exercicio02: {
       codigo_url: "",
-      deploy_url: ""
-    }
+      deploy_url: "",
+    },
   },
 
   // Desafios do Stage 05
   stage05: {
     focustimer: {
       codigo_url: "",
-      deploy_url: ""
+      deploy_url: "",
     },
     focustimer_dark_mode: {
       codigo_url: "",
-      deploy_url: ""
-    }
+      deploy_url: "",
+    },
   },
 
   // Desafios do Stage 06
   stage06: {
     spa_universe: {
       codigo_url: "",
-      deploy_url: ""
+      deploy_url: "",
     },
     gitfav: {
       codigo_url: "",
-      deploy_url: ""
-    }
+      deploy_url: "",
+    },
   },
-
 
   // Desafios do Stage 07
   stage07: {
     git_push: {
-      codigo_url: "https://github.com/diegommagno/rocketseat"
-    }
+      codigo_url: "https://github.com/diegommagno/rocketseat",
+    },
   },
 
   // O projeto Rocket Movies será desenvolvido nos Stages 08, 09, 10, 11
@@ -123,8 +131,8 @@ export const data = {
     rocket_movies: {
       github_frontend: "",
       github_backend: "",
-      deploy_url: ""
-    }
+      deploy_url: "",
+    },
   },
 
   // Projeto final
@@ -132,7 +140,7 @@ export const data = {
     food_explorer: {
       github_frontend: "",
       github_backend: "",
-      deploy_url: ""
-    }
-  }
-}
+      deploy_url: "",
+    },
+  },
+};

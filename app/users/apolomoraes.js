@@ -42,80 +42,80 @@ export const data = {
   stage02: {
     fase01_corrigindo_bugs01: {
       codigo_url: "https://github.com/apolomoraes/explorer-corrigindo-bugs01",
-      deploy_url: ""
+      deploy_url: "",
     },
     fase02_corrigindo_bugs02: {
       codigo_url: "https://github.com/apolomoraes/explorer-corrigindo-bugs02",
-      deploy_url: ""
+      deploy_url: "",
     },
     fase02_semantica_acessibilidade: {
       codigo_url: "https://github.com/apolomoraes/explorer-semantica-e-acessibilidade",
-      deploy_url: ""
+      deploy_url: "",
     },
     fase02_recriando_layout: {
       codigo_url: "https://github.com/apolomoraes/explorer-recriando-layout",
-      deploy_url: ""
-    }
+      deploy_url: "",
+    },
   },
 
   // Desafios do Stage 03
   stage03: {
     criando_formularios: {
       codigo_url: "https://github.com/apolomoraes/recriando-layout02",
-      deploy_url: ""
+      deploy_url: "",
     },
     mobile_first: {
       codigo_url: "https://github.com/apolomoraes/recriando-layout-mobilefirst",
-      deploy_url: "https://apolomoraes.github.io/recriando-layout-mobilefirst/"
+      deploy_url: "https://apolomoraes.github.io/recriando-layout-mobilefirst/",
     },
     grid_com_animacoes: {
       codigo_url: "https://github.com/apolomoraes/recriando-layout-mobilefirst",
-      deploy_url: "https://apolomoraes.github.io/recriando-layout-mobilefirst"
-    }
+      deploy_url: "https://apolomoraes.github.io/recriando-layout-mobilefirst",
+    },
   },
 
   // Desafios do Stage 04
   stage04: {
     exercicio01: {
       codigo_url: "https://codepen.io/Apolo222/pen/xxWNovy",
-      deploy_url: ""
+      deploy_url: "",
     },
     exercicio02: {
       codigo_url: "https://codepen.io/Apolo222/pen/RwMzbLj",
-      deploy_url: ""
-    }
+      deploy_url: "",
+    },
   },
 
   // Desafios do Stage 05
   stage05: {
     focustimer: {
       codigo_url: "https://github.com/apolomoraes/focus-timer",
-      deploy_url: "https://apolomoraes.github.io/focus-timer/"
+      deploy_url: "https://apolomoraes.github.io/focus-timer/",
     },
     focustimer_dark_mode: {
       codigo_url: "https://github.com/apolomoraes/focus-timer",
-      deploy_url: "https://apolomoraes.github.io/focus-timer/"
-    }
+      deploy_url: "https://apolomoraes.github.io/focus-timer/",
+    },
   },
 
   // Desafios do Stage 06
   stage06: {
     spa_universe: {
       codigo_url: "https://github.com/apolomoraes/spa-universe",
-      deploy_url: "https://spa-universe-jb62p5bm7-apolomoraes.vercel.app/"
+      deploy_url: "https://spa-universe-jb62p5bm7-apolomoraes.vercel.app/",
     },
     gitfav: {
       codigo_url: "https://github.com/apolomoraes/git-fav",
-      deploy_url: "http://git-fav-jade.vercel.app/"
-    }
+      deploy_url: "http://git-fav-jade.vercel.app/",
+    },
   },
-
 
   // Desafios do Stage 07
   stage07: {
     git_push: {
-      codigo_url: "https://www.evernote.com/shard/s489/sh/6491e99c-e2ec-f8cc-25ab-7bc2b424182a/oqpKXnDBESByihR_hXzz_2Yvigiuva7UPgr_fhovxW1ueQpwmu8mhDTqrA"
-    }
+      codigo_url:
+        "https://www.evernote.com/shard/s489/sh/6491e99c-e2ec-f8cc-25ab-7bc2b424182a/oqpKXnDBESByihR_hXzz_2Yvigiuva7UPgr_fhovxW1ueQpwmu8mhDTqrA",
+    },
   },
 
   // O projeto Rocket Movies será desenvolvido nos Stages 08, 09, 10, 11
@@ -123,8 +123,8 @@ export const data = {
     rocket_movies: {
       github_frontend: "https://github.com/apolomoraes/rocketmovies",
       github_backend: "https://github.com/apolomoraes/rocket_movies-back",
-      deploy_url: "https://rocketmoviesaplication.netlify.app/"
-    }
+      deploy_url: "https://rocketmoviesaplication.netlify.app/",
+    },
   },
 
   // Projeto final
@@ -132,7 +132,7 @@ export const data = {
     food_explorer: {
       github_frontend: "https://github.com/apolomoraes/food-explorer_front-end",
       github_backend: "https://github.com/apolomoraes/food-explorer_back-end",
-      deploy_url: "https://foodexplorer-apolomoraes.netlify.app/"
-    }
-  }
-}
+      deploy_url: "https://foodexplorer-apolomoraes.netlify.app/",
+    },
+  },
+};

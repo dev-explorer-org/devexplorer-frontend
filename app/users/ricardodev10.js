@@ -42,80 +42,79 @@ export const data = {
   stage02: {
     fase01_corrigindo_bugs01: {
       codigo_url: "https://github.com/ricardodev10/moveis-planejados",
-      deploy_url: "https://ricardodev10.github.io/moveis-planejados"
+      deploy_url: "https://ricardodev10.github.io/moveis-planejados",
     },
     fase02_corrigindo_bugs02: {
       codigo_url: "",
-      deploy_url: ""
+      deploy_url: "",
     },
     fase02_semantica_acessibilidade: {
       codigo_url: "https://github.com/ricardodev10/treine-me",
-      deploy_url: "https://ricardodev10.github.io/treine-me"
+      deploy_url: "https://ricardodev10.github.io/treine-me",
     },
     fase02_recriando_layout: {
       codigo_url: "https://github.com/ricardodev10/Rocket.sect",
-      deploy_url: "https://ricardodev10.github.io/Rocket.sect"
-    }
+      deploy_url: "https://ricardodev10.github.io/Rocket.sect",
+    },
   },
 
   // Desafios do Stage 03
   stage03: {
     criando_formularios: {
       codigo_url: "https://github.com/ricardodev10/formulario-avalie-sua-mentoria",
-      deploy_url: "https://ricardodev10.github.io/formulario-avalie-sua-mentoria"
+      deploy_url: "https://ricardodev10.github.io/formulario-avalie-sua-mentoria",
     },
     mobile_first: {
       codigo_url: "",
-      deploy_url: ""
+      deploy_url: "",
     },
     grid_com_animacoes: {
       codigo_url: "https://github.com/ricardodev10/space-cream",
-      deploy_url: "https://ricardodev10.github.io/space-cream"
-    }
+      deploy_url: "https://ricardodev10.github.io/space-cream",
+    },
   },
 
   // Desafios do Stage 04
   stage04: {
     exercicio01: {
       codigo_url: "",
-      deploy_url: ""
+      deploy_url: "",
     },
     exercicio02: {
       codigo_url: "",
-      deploy_url: ""
-    }
+      deploy_url: "",
+    },
   },
 
   // Desafios do Stage 05
   stage05: {
     focustimer: {
       codigo_url: "https://github.com/ricardodev10/focus-timer-2",
-      deploy_url: "https://ricardodev10.github.io/focus-timer-2"
+      deploy_url: "https://ricardodev10.github.io/focus-timer-2",
     },
     focustimer_dark_mode: {
       codigo_url: "https://github.com/ricardodev10/focus-timer",
-      deploy_url: "https://ricardodev10.github.io/focus-timer"
-    }
+      deploy_url: "https://ricardodev10.github.io/focus-timer",
+    },
   },
 
   // Desafios do Stage 06
   stage06: {
     spa_universe: {
       codigo_url: "",
-      deploy_url: ""
+      deploy_url: "",
     },
     gitfav: {
       codigo_url: "",
-      deploy_url: ""
-    }
+      deploy_url: "",
+    },
   },
-
 
   // Desafios do Stage 07
   stage07: {
     git_push: {
-      codigo_url: ""
-    }
+      codigo_url: "",
+    },
   },
 
   // O projeto Rocket Movies será desenvolvido nos Stages 08, 09, 10, 11
@@ -123,8 +122,8 @@ export const data = {
     rocket_movies: {
       github_frontend: "",
       github_backend: "",
-      deploy_url: ""
-    }
+      deploy_url: "",
+    },
   },
 
   // Projeto final
@@ -132,7 +131,7 @@ export const data = {
     food_explorer: {
       github_frontend: "",
       github_backend: "",
-      deploy_url: ""
-    }
-  }
-}
+      deploy_url: "",
+    },
+  },
+};

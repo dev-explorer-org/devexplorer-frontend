@@ -1,26 +1,15 @@
-import Image from 'next/image';
-import fs from 'fs';
-import Link from 'next/link';
-import Challenge from '../components/Challenge';
-import Stage from '../components/Stage';
+import Image from "next/image";
+import Link from "next/link";
+import Challenge from "../components/Challenge";
+import Stage from "../components/Stage";
 // import Level from '../components/Level';
-import Skill from '../components/Skill';
+import Skill from "../components/Skill";
 
-import styles from '../styles/User.module.css';
-
-function listFiles() {
-  return fs.readdirSync('app/users');
-}
-
-const files = listFiles();
-
-const paths = files.map((file) => ({
-  params: { user: file.split('.')[0] },
-}));
+import styles from "../styles/User.module.css";
 
 export default async function User({ params }) {
   const userInfo = await import(`../users/${params.user}.js`);
-  const user = userInfo.data
+  const user = userInfo.data;
 
   return (
     <div className={styles.card}>
@@ -248,8 +237,6 @@ export default async function User({ params }) {
 //     props: { user: userInfo.data },
 //   };
 // }
-
-
 
 // export default function User({ user }) {
 //   return (

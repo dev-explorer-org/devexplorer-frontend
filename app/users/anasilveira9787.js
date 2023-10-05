@@ -6,32 +6,32 @@ export const data = {
   // Os valores devem estar dentro das aspas duplas (Ex: "Aqui dentro")
 
   // Preencha com o seu nome.
-  name: 'Ana Carolina Silveira',
+  name: "Ana Carolina Silveira",
 
   // Preencha com o seu e-mail.
-  email: 'ana.silveira@rocketseat.team',
+  email: "ana.silveira@rocketseat.team",
 
   // Preencha com a cidade onde você mora.
-  city: 'Piracicaba',
+  city: "Piracicaba",
 
   // Preencha com a sigla do estado onde você mora.
   // Ex: SP
-  state: 'SP',
+  state: "SP",
 
   // Preencha com o país onde mora.
-  country: 'Brasil',
+  country: "Brasil",
 
   // Preencha de qual turma do Explorer você é: Ex (turma: "01").
-  turma: '00',
+  turma: "00",
 
   // Preencha com a url do seu perfil no github: (https://github.com/[user]).
-  github: 'https://github.com/anasilveira9787',
+  github: "https://github.com/anasilveira9787",
 
   // Preencha com a url do seu perfil no linkedin: (https://www.linkedin.com/in/[user]).
-  linkedin_url: 'https://www.linkedin.com/in/anaccord',
+  linkedin_url: "https://www.linkedin.com/in/anaccord",
 
   // Preencha com a url do seu perfil da rockeseat: (https://app.rocketseat.com.br/me/[user]).
-  rocketseat_profile: 'https://app.rocketseat.com.br/me/anaccord',
+  rocketseat_profile: "https://app.rocketseat.com.br/me/anaccord",
 
   // Preencha os campos abaixo com os links dos desafios que você já concluiu.
   // Preencha o campo [codigo_url] com o link do codepen ou github.
@@ -40,97 +40,97 @@ export const data = {
   // Desafios do Stage 02
   stage02: {
     fase01_corrigindo_bugs01: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: "",
+      deploy_url: "",
     },
     fase02_corrigindo_bugs02: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: "",
+      deploy_url: "",
     },
     fase02_semantica_acessibilidade: {
-      codigo_url: 'https://github.com/anasilveira9787/Stage02-project01',
-      deploy_url: '',
+      codigo_url: "https://github.com/anasilveira9787/Stage02-project01",
+      deploy_url: "",
     },
     fase02_recriando_layout: {
-      codigo_url: 'https://github.com/anasilveira9787/rocketsect',
-      deploy_url: '',
+      codigo_url: "https://github.com/anasilveira9787/rocketsect",
+      deploy_url: "",
     },
   },
 
   // Desafios do Stage 03
   stage03: {
     criando_formularios: {
-      codigo_url: 'https://github.com/anasilveira9787/Explorer-Stage2-Criando-formularios',
-      deploy_url: 'https://anasilveira9787.github.io/Explorer-Stage2-Criando-formularios/',
+      codigo_url: "https://github.com/anasilveira9787/Explorer-Stage2-Criando-formularios",
+      deploy_url: "https://anasilveira9787.github.io/Explorer-Stage2-Criando-formularios/",
     },
     mobile_first: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: "",
+      deploy_url: "",
     },
     grid_com_animacoes: {
-      codigo_url: 'https://github.com/anasilveira9787/Space-Cream',
-      deploy_url: 'https://anasilveira9787.github.io/Space-Cream/',
+      codigo_url: "https://github.com/anasilveira9787/Space-Cream",
+      deploy_url: "https://anasilveira9787.github.io/Space-Cream/",
     },
   },
 
   // Desafios do Stage 04
   stage04: {
     exercicio01: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: "",
+      deploy_url: "",
     },
     exercicio02: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: "",
+      deploy_url: "",
     },
   },
 
   // Desafios do Stage 05
   stage05: {
     focustimer: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: "",
+      deploy_url: "",
     },
     focustimer_dark_mode: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: "",
+      deploy_url: "",
     },
   },
 
   // Desafios do Stage 06
   stage06: {
     spa_universe: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: "",
+      deploy_url: "",
     },
     gitfav: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: "",
+      deploy_url: "",
     },
   },
 
   // Desafios do Stage 07
   stage07: {
     git_push: {
-      codigo_url: '',
+      codigo_url: "",
     },
   },
 
   // O projeto Rocket Movies será desenvolvido nos Stages 08, 09, 10, 11
   stages_08_09_10_11: {
     rocket_movies: {
-      github_frontend: '',
-      github_backend: '',
-      deploy_url: '',
+      github_frontend: "",
+      github_backend: "",
+      deploy_url: "",
     },
   },
 
   // Projeto final
   desafio_final: {
     food_explorer: {
-      github_frontend: '',
-      github_backend: '',
-      deploy_url: '',
+      github_frontend: "",
+      github_backend: "",
+      deploy_url: "",
     },
   },
 };

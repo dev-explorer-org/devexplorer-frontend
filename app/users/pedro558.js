@@ -42,80 +42,79 @@ export const data = {
   stage02: {
     fase01_corrigindo_bugs01: {
       codigo_url: "",
-      deploy_url: ""
+      deploy_url: "",
     },
     fase02_corrigindo_bugs02: {
       codigo_url: "",
-      deploy_url: ""
+      deploy_url: "",
     },
     fase02_semantica_acessibilidade: {
       codigo_url: "",
-      deploy_url: ""
+      deploy_url: "",
     },
     fase02_recriando_layout: {
       codigo_url: "",
-      deploy_url: ""
-    }
+      deploy_url: "",
+    },
   },
 
   // Desafios do Stage 03
   stage03: {
     criando_formularios: {
       codigo_url: "",
-      deploy_url: ""
+      deploy_url: "",
     },
     mobile_first: {
       codigo_url: "",
-      deploy_url: ""
+      deploy_url: "",
     },
     grid_com_animacoes: {
       codigo_url: "https://github.com/Pedro558/Space-Cream",
-      deploy_url: "https://pedro558.github.io/Space-Cream/"
-    }
+      deploy_url: "https://pedro558.github.io/Space-Cream/",
+    },
   },
 
   // Desafios do Stage 04
   stage04: {
     exercicio01: {
       codigo_url: "",
-      deploy_url: ""
+      deploy_url: "",
     },
     exercicio02: {
       codigo_url: "",
-      deploy_url: ""
-    }
+      deploy_url: "",
+    },
   },
 
   // Desafios do Stage 05
   stage05: {
     focustimer: {
       codigo_url: "",
-      deploy_url: ""
+      deploy_url: "",
     },
     focustimer_dark_mode: {
       codigo_url: "https://github.com/Pedro558/PomodoroTimer",
-      deploy_url: "https://pedro558.github.io/PomodoroTimer/"
-    }
+      deploy_url: "https://pedro558.github.io/PomodoroTimer/",
+    },
   },
 
   // Desafios do Stage 06
   stage06: {
     spa_universe: {
       codigo_url: "https://github.com/Pedro558/SPA-Universe",
-      deploy_url: "https://spa-universe-pedro558.netlify.app/"
+      deploy_url: "https://spa-universe-pedro558.netlify.app/",
     },
     gitfav: {
       codigo_url: "https://github.com/Pedro558/GitFav",
-      deploy_url: "https://pedro558.github.io/GitFav/"
-    }
+      deploy_url: "https://pedro558.github.io/GitFav/",
+    },
   },
-
 
   // Desafios do Stage 07
   stage07: {
     git_push: {
-      codigo_url: ""
-    }
+      codigo_url: "",
+    },
   },
 
   // O projeto Rocket Movies será desenvolvido nos Stages 08, 09, 10, 11
@@ -123,8 +122,8 @@ export const data = {
     rocket_movies: {
       github_frontend: "",
       github_backend: "",
-      deploy_url: ""
-    }
+      deploy_url: "",
+    },
   },
 
   // Projeto final
@@ -132,7 +131,7 @@ export const data = {
     food_explorer: {
       github_frontend: "",
       github_backend: "",
-      deploy_url: ""
-    }
-  }
-}
+      deploy_url: "",
+    },
+  },
+};

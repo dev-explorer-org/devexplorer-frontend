@@ -1,4 +1,4 @@
-import styles from '../styles/User.module.css';
+import styles from "../styles/User.module.css";
 
 export default function Stage({ title, subtitle }) {
   return (

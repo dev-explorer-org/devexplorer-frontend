@@ -42,80 +42,88 @@ export const data = {
   stage02: {
     fase01_corrigindo_bugs01: {
       codigo_url: "https://codepen.io/eduardonobrega/pen/xxYorjV",
-      deploy_url: "https://codepen.io/eduardonobrega/pen/xxYorjV"
+      deploy_url: "https://codepen.io/eduardonobrega/pen/xxYorjV",
     },
     fase02_corrigindo_bugs02: {
-      codigo_url: "https://github.com/eduardonobrega/rocketseat-explore/tree/main/stage-02/treine-me",
-      deploy_url: "https://eduardonobrega.github.io/rocketseat-explore/stage-02/treine-me/"
+      codigo_url:
+        "https://github.com/eduardonobrega/rocketseat-explore/tree/main/stage-02/treine-me",
+      deploy_url: "https://eduardonobrega.github.io/rocketseat-explore/stage-02/treine-me/",
     },
     fase02_semantica_acessibilidade: {
-      codigo_url: "https://github.com/eduardonobrega/rocketseat-explore/tree/main/stage-02/treine-me",
-      deploy_url: "https://eduardonobrega.github.io/rocketseat-explore/stage-02/treine-me/"
+      codigo_url:
+        "https://github.com/eduardonobrega/rocketseat-explore/tree/main/stage-02/treine-me",
+      deploy_url: "https://eduardonobrega.github.io/rocketseat-explore/stage-02/treine-me/",
     },
     fase02_recriando_layout: {
-      codigo_url: "https://github.com/eduardonobrega/rocketseat-explore/tree/main/stage-02/rocket-sect",
-      deploy_url: "https://eduardonobrega.github.io/rocketseat-explore/stage-02/rocket-sect/"
-    }
+      codigo_url:
+        "https://github.com/eduardonobrega/rocketseat-explore/tree/main/stage-02/rocket-sect",
+      deploy_url: "https://eduardonobrega.github.io/rocketseat-explore/stage-02/rocket-sect/",
+    },
   },
 
   // Desafios do Stage 03
   stage03: {
     criando_formularios: {
       codigo_url: "https://github.com/eduardonobrega/rocketseat-explore/tree/main/stage-03",
-      deploy_url: "https://eduardonobrega.github.io/rocketseat-explore/stage-03/form-avaliacao/"
+      deploy_url: "https://eduardonobrega.github.io/rocketseat-explore/stage-03/form-avaliacao/",
     },
     mobile_first: {
       codigo_url: "https://codepen.io/eduardonobrega/pen/oNqLbpy",
-      deploy_url: "https://codepen.io/eduardonobrega/pen/oNqLbpy"
+      deploy_url: "https://codepen.io/eduardonobrega/pen/oNqLbpy",
     },
     grid_com_animacoes: {
-      codigo_url: "https://github.com/eduardonobrega/rocketseat-explore/tree/main/stage-03/space-cream",
-      deploy_url: "https://eduardonobrega.github.io/rocketseat-explore/stage-03/space-cream/"
-    }
+      codigo_url:
+        "https://github.com/eduardonobrega/rocketseat-explore/tree/main/stage-03/space-cream",
+      deploy_url: "https://eduardonobrega.github.io/rocketseat-explore/stage-03/space-cream/",
+    },
   },
 
   // Desafios do Stage 04
   stage04: {
     exercicio01: {
-      codigo_url: "https://github.com/eduardonobrega/rocketseat-explore/tree/main/stage-04/notas-estudantes",
-      deploy_url: ""
+      codigo_url:
+        "https://github.com/eduardonobrega/rocketseat-explore/tree/main/stage-04/notas-estudantes",
+      deploy_url: "",
     },
     exercicio02: {
-      codigo_url: "https://github.com/eduardonobrega/rocketseat-explore/tree/main/stage-04/operacoes",
-      deploy_url: ""
-    }
+      codigo_url:
+        "https://github.com/eduardonobrega/rocketseat-explore/tree/main/stage-04/operacoes",
+      deploy_url: "",
+    },
   },
 
   // Desafios do Stage 05
   stage05: {
     focustimer: {
-      codigo_url: "https://github.com/eduardonobrega/rocketseat-explore/tree/main/stage-05/focus-timer",
-      deploy_url: "https://eduardonobrega.github.io/rocketseat-explore/stage-05/focus-timer/"
+      codigo_url:
+        "https://github.com/eduardonobrega/rocketseat-explore/tree/main/stage-05/focus-timer",
+      deploy_url: "https://eduardonobrega.github.io/rocketseat-explore/stage-05/focus-timer/",
     },
     focustimer_dark_mode: {
-      codigo_url: "https://github.com/eduardonobrega/rocketseat-explore/tree/main/stage-05/focus-timer-2.0",
-      deploy_url: "https://eduardonobrega.github.io/rocketseat-explore/stage-05/focus-timer-2.0/"
-    }
+      codigo_url:
+        "https://github.com/eduardonobrega/rocketseat-explore/tree/main/stage-05/focus-timer-2.0",
+      deploy_url: "https://eduardonobrega.github.io/rocketseat-explore/stage-05/focus-timer-2.0/",
+    },
   },
 
   // Desafios do Stage 06
   stage06: {
     spa_universe: {
-      codigo_url: "https://github.com/eduardonobrega/rocketseat-explore/tree/main/stage-06/spa-universe",
-      deploy_url: "https://eduardonobrega.github.io/rocketseat-explore/stage-06/spa-universe/"
+      codigo_url:
+        "https://github.com/eduardonobrega/rocketseat-explore/tree/main/stage-06/spa-universe",
+      deploy_url: "https://eduardonobrega.github.io/rocketseat-explore/stage-06/spa-universe/",
     },
     gitfav: {
       codigo_url: "https://github.com/eduardonobrega/rocketseat-explore/tree/main/stage-06/git-fav",
-      deploy_url: "https://eduardonobrega.github.io/rocketseat-explore/stage-06/git-fav/"
-    }
+      deploy_url: "https://eduardonobrega.github.io/rocketseat-explore/stage-06/git-fav/",
+    },
   },
-
 
   // Desafios do Stage 07
   stage07: {
     git_push: {
-      codigo_url: "https://github.com/eduardonobrega/rocketseat-explore/tree/main/stage-07"
-    }
+      codigo_url: "https://github.com/eduardonobrega/rocketseat-explore/tree/main/stage-07",
+    },
   },
 
   // O projeto Rocket Movies será desenvolvido nos Stages 08, 09, 10, 11
@@ -123,8 +131,8 @@ export const data = {
     rocket_movies: {
       github_frontend: "",
       github_backend: "",
-      deploy_url: ""
-    }
+      deploy_url: "",
+    },
   },
 
   // Projeto final
@@ -132,7 +140,7 @@ export const data = {
     food_explorer: {
       github_frontend: "",
       github_backend: "",
-      deploy_url: ""
-    }
-  }
-}
+      deploy_url: "",
+    },
+  },
+};
