@@ -37,101 +37,100 @@ export const data = {
   // Preencha o campo [codigo_url] com o link do codepen ou github.
   // Preencha o campo [deploy_url] caso tenha feito o deploy do seu projeto: Ex: Github Pages, Netlify, Vercel
 
-    // Desafios do Stage 02
-    stage02: {
-      fase01_corrigindo_bugs01: {
-        codigo_url: "",
-        deploy_url: ""
-      },
-      fase02_corrigindo_bugs02: {
-        codigo_url: "",
-        deploy_url: ""
-      },
-      fase02_semantica_acessibilidade: {
-        codigo_url: "",
-        deploy_url: ""
-      },
-      fase02_recriando_layout: {
-        codigo_url: "",
-        deploy_url: ""
-      }
+  // Desafios do Stage 02
+  stage02: {
+    fase01_corrigindo_bugs01: {
+      codigo_url: "",
+      deploy_url: "",
     },
-
-    // Desafios do Stage 03
-    stage03: {
-      criando_formularios: {
-        codigo_url: "https://github.com/valdemirfilho/stage03-desafio01",
-        deploy_url: "https://stage3-desafio1-mentoria.netlify.app/"
-      },
-      mobile_first: {
-        codigo_url: "https://github.com/valdemirfilho/stage03-desafio03-space-cream",
-        deploy_url: "https://space-cream.netlify.app/"
-      },
-      grid_com_animacoes: {
-        codigo_url: "https://github.com/valdemirfilho/stage03-desafio03-space-cream",
-        deploy_url: "https://space-cream.netlify.app/"
-      }
+    fase02_corrigindo_bugs02: {
+      codigo_url: "",
+      deploy_url: "",
     },
-
-    // Desafios do Stage 04
-    stage04: {
-      exercicio01: {
-        codigo_url: "https://codepen.io/filhux/pen/gOoqgwo",
-        deploy_url: ""
-      },
-      exercicio02: {
-        codigo_url: "",
-        deploy_url: ""
-      }
+    fase02_semantica_acessibilidade: {
+      codigo_url: "",
+      deploy_url: "",
     },
-
-    // Desafios do Stage 05
-    stage05: {
-      focustimer: {
-        codigo_url: "https://github.com/valdemirfilho/stage05-exercicio01",
-        deploy_url: "https://stage5-focustimer.netlify.app/"
-      },
-      focustimer_dark_mode: {
-        codigo_url: "",
-        deploy_url: ""
-      }
+    fase02_recriando_layout: {
+      codigo_url: "",
+      deploy_url: "",
     },
+  },
 
-    // Desafios do Stage 06
-    stage06: {
-      spa_universe: {
-        codigo_url: "https://github.com/valdemirfilho/stage06-desafio01",
-        deploy_url: "https://stage6-desafio1-spa-universe.netlify.app"
-      },
-      gitfav: {
-        codigo_url: "",
-        deploy_url: ""
-      }
+  // Desafios do Stage 03
+  stage03: {
+    criando_formularios: {
+      codigo_url: "https://github.com/valdemirfilho/stage03-desafio01",
+      deploy_url: "https://stage3-desafio1-mentoria.netlify.app/",
     },
-
-
-    // Desafios do Stage 07
-    stage07: {
-      git_push: {
-        codigo_url: ""
-      }
+    mobile_first: {
+      codigo_url: "https://github.com/valdemirfilho/stage03-desafio03-space-cream",
+      deploy_url: "https://space-cream.netlify.app/",
     },
-
-    // O projeto Rocket Movies será desenvolvido nos Stages 08, 09, 10, 11
-    stages_08_09_10_11: {
-      rocket_movies: {
-        github_frontend: "",
-        github_backend: "",
-        deploy_url: ""
-      }
+    grid_com_animacoes: {
+      codigo_url: "https://github.com/valdemirfilho/stage03-desafio03-space-cream",
+      deploy_url: "https://space-cream.netlify.app/",
     },
+  },
 
-    // Projeto final
-    desafio_final: {
-      food_explorer: {
-        github_frontend: "",
-        github_backend: "",
-        deploy_url: ""
-      }
-    }
-}
+  // Desafios do Stage 04
+  stage04: {
+    exercicio01: {
+      codigo_url: "https://codepen.io/filhux/pen/gOoqgwo",
+      deploy_url: "",
+    },
+    exercicio02: {
+      codigo_url: "",
+      deploy_url: "",
+    },
+  },
+
+  // Desafios do Stage 05
+  stage05: {
+    focustimer: {
+      codigo_url: "https://github.com/valdemirfilho/stage05-exercicio01",
+      deploy_url: "https://stage5-focustimer.netlify.app/",
+    },
+    focustimer_dark_mode: {
+      codigo_url: "",
+      deploy_url: "",
+    },
+  },
+
+  // Desafios do Stage 06
+  stage06: {
+    spa_universe: {
+      codigo_url: "https://github.com/valdemirfilho/stage06-desafio01",
+      deploy_url: "https://stage6-desafio1-spa-universe.netlify.app",
+    },
+    gitfav: {
+      codigo_url: "",
+      deploy_url: "",
+    },
+  },
+
+  // Desafios do Stage 07
+  stage07: {
+    git_push: {
+      codigo_url: "",
+    },
+  },
+
+  // O projeto Rocket Movies será desenvolvido nos Stages 08, 09, 10, 11
+  stages_08_09_10_11: {
+    rocket_movies: {
+      github_frontend: "",
+      github_backend: "",
+      deploy_url: "",
+    },
+  },
+
+  // Projeto final
+  desafio_final: {
+    food_explorer: {
+      github_frontend: "",
+      github_backend: "",
+      deploy_url: "",
+    },
+  },
+};

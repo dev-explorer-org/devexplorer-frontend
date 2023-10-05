@@ -41,81 +41,86 @@ export const data = {
   // Desafios do Stage 02
   stage02: {
     fase01_corrigindo_bugs01: {
-      codigo_url: "https://github.com/douglaSantoSilva/Explorer/tree/master/stage_2/corrigindo_bugs",
-      deploy_url: "https://douglasantosilva.github.io/Explorer/stage_2/corrigindo_bugs/index.html"
+      codigo_url:
+        "https://github.com/douglaSantoSilva/Explorer/tree/master/stage_2/corrigindo_bugs",
+      deploy_url: "https://douglasantosilva.github.io/Explorer/stage_2/corrigindo_bugs/index.html",
     },
     fase02_corrigindo_bugs02: {
-      codigo_url: "https://github.com/douglaSantoSilva/Explorer/tree/master/stage_2/corrigindo_bugs_2",
-      deploy_url: "https://douglasantosilva.github.io/Explorer/stage_2/corrigindo_bugs_2/index.html"
+      codigo_url:
+        "https://github.com/douglaSantoSilva/Explorer/tree/master/stage_2/corrigindo_bugs_2",
+      deploy_url:
+        "https://douglasantosilva.github.io/Explorer/stage_2/corrigindo_bugs_2/index.html",
     },
     fase02_semantica_acessibilidade: {
       codigo_url: "https://github.com/douglaSantoSilva/Explorer/tree/master/stage_2/acessibilidade",
-      deploy_url: "https://douglasantosilva.github.io/Explorer/stage_2/acessibilidade/index.html"
+      deploy_url: "https://douglasantosilva.github.io/Explorer/stage_2/acessibilidade/index.html",
     },
     fase02_recriando_layout: {
-      codigo_url: "https://github.com/douglaSantoSilva/Explorer/tree/master/stage_2/recriando_layout",
-      deploy_url: "https://douglasantosilva.github.io/Explorer/stage_2/recriando_layout/index.html"
-    }
+      codigo_url:
+        "https://github.com/douglaSantoSilva/Explorer/tree/master/stage_2/recriando_layout",
+      deploy_url: "https://douglasantosilva.github.io/Explorer/stage_2/recriando_layout/index.html",
+    },
   },
 
   // Desafios do Stage 03
   stage03: {
     criando_formularios: {
       codigo_url: "https://github.com/douglaSantoSilva/Explorer/tree/master/stage_3/formularios",
-      deploy_url: "https://douglasantosilva.github.io/Explorer/stage_3/formularios/index.html"
+      deploy_url: "https://douglasantosilva.github.io/Explorer/stage_3/formularios/index.html",
     },
     mobile_first: {
       codigo_url: "",
-      deploy_url: ""
+      deploy_url: "",
     },
     grid_com_animacoes: {
       codigo_url: "https://github.com/douglaSantoSilva/Explorer/tree/master/stage_3/space_cream",
-      deploy_url: "https://douglasantosilva.github.io/Explorer/stage_3/space_cream/index.html"
-    }
+      deploy_url: "https://douglasantosilva.github.io/Explorer/stage_3/space_cream/index.html",
+    },
   },
 
   // Desafios do Stage 04
   stage04: {
     exercicio01: {
       codigo_url: "https://codepen.io/DouglaSantos/pen/MWVQoqz?editors=0010",
-      deploy_url: ""
+      deploy_url: "",
     },
     exercicio02: {
       codigo_url: "https://codepen.io/DouglaSantos/pen/VwXQzpW",
-      deploy_url: ""
-    }
+      deploy_url: "",
+    },
   },
 
   // Desafios do Stage 05
   stage05: {
     focustimer: {
       codigo_url: "",
-      deploy_url: ""
+      deploy_url: "",
     },
     focustimer_dark_mode: {
       codigo_url: "https://github.com/douglaSantoSilva/Explorer/tree/master/stage_5",
-      deploy_url: "https://douglasantosilva.github.io/Explorer/stage_5/timer_focus_dark_mode/index.html"
-    }
+      deploy_url:
+        "https://douglasantosilva.github.io/Explorer/stage_5/timer_focus_dark_mode/index.html",
+    },
   },
 
   // Desafios do Stage 06
   stage06: {
     spa_universe: {
-      codigo_url: "https://github.com/douglaSantoSilva/Explorer/tree/master/stage_6/single_page_application",
-      deploy_url: "https://single-page-application-eight.vercel.app/"
+      codigo_url:
+        "https://github.com/douglaSantoSilva/Explorer/tree/master/stage_6/single_page_application",
+      deploy_url: "https://single-page-application-eight.vercel.app/",
     },
     gitfav: {
       codigo_url: "https://github.com/douglaSantoSilva/Explorer/tree/master/stage_6/GitFav",
-      deploy_url: "https://douglasantosilva.github.io/Explorer/stage_6/GitFav/index.html"
-    }
+      deploy_url: "https://douglasantosilva.github.io/Explorer/stage_6/GitFav/index.html",
+    },
   },
-
 
   // Desafios do Stage 07
   stage07: {
     git_push: {
-      codigo_url: ""
-    }
+      codigo_url: "",
+    },
   },
 
   // O projeto Rocket Movies será desenvolvido nos Stages 08, 09, 10, 11
@@ -123,8 +128,8 @@ export const data = {
     rocket_movies: {
       github_frontend: "",
       github_backend: "",
-      deploy_url: ""
-    }
+      deploy_url: "",
+    },
   },
 
   // Projeto final
@@ -132,7 +137,7 @@ export const data = {
     food_explorer: {
       github_frontend: "",
       github_backend: "",
-      deploy_url: ""
-    }
-  }
-}
+      deploy_url: "",
+    },
+  },
+};

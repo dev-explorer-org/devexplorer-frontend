@@ -42,80 +42,81 @@ export const data = {
   stage02: {
     fase01_corrigindo_bugs01: {
       codigo_url: "https://codepen.io/tielson/pen/jOYemzR",
-      deploy_url: "https://codepen.io/tielson/pen/jOYemzR"
+      deploy_url: "https://codepen.io/tielson/pen/jOYemzR",
     },
     fase02_corrigindo_bugs02: {
       codigo_url: "https://codepen.io/tielson/pen/OJzBvRG",
-      deploy_url: "https://codepen.io/tielson/pen/OJzBvRG"
+      deploy_url: "https://codepen.io/tielson/pen/OJzBvRG",
     },
     fase02_semantica_acessibilidade: {
       codigo_url: "https://codepen.io/tielson/pen/JjMejwv",
-      deploy_url: "https://codepen.io/tielson/pen/JjMejwv"
+      deploy_url: "https://codepen.io/tielson/pen/JjMejwv",
     },
     fase02_recriando_layout: {
       codigo_url: "https://codepen.io/tielson/pen/popQVJR",
-      deploy_url: "https://codepen.io/tielson/pen/popQVJR"
-    }
+      deploy_url: "https://codepen.io/tielson/pen/popQVJR",
+    },
   },
 
   // Desafios do Stage 03
   stage03: {
     criando_formularios: {
-      codigo_url: "https://ajar-beryllium-9dd.notion.site/Formularios-b37985acd03e44519e21423ffbcb792a",
-      deploy_url: "https://ajar-beryllium-9dd.notion.site/Formularios-b37985acd03e44519e21423ffbcb792a"
+      codigo_url:
+        "https://ajar-beryllium-9dd.notion.site/Formularios-b37985acd03e44519e21423ffbcb792a",
+      deploy_url:
+        "https://ajar-beryllium-9dd.notion.site/Formularios-b37985acd03e44519e21423ffbcb792a",
     },
     mobile_first: {
       codigo_url: "https://codepen.io/tielson/pen/poajRNQ",
-      deploy_url: "https://codepen.io/tielson/pen/poajRNQ"
+      deploy_url: "https://codepen.io/tielson/pen/poajRNQ",
     },
     grid_com_animacoes: {
       codigo_url: "https://codepen.io/tielson/pen/XWZNbbr",
-      deploy_url: "https://codepen.io/tielson/pen/XWZNbbr"
-    }
+      deploy_url: "https://codepen.io/tielson/pen/XWZNbbr",
+    },
   },
 
   // Desafios do Stage 04
   stage04: {
     exercicio01: {
       codigo_url: "https://codepen.io/tielson/pen/LYQOdPJ",
-      deploy_url: "https://codepen.io/tielson/pen/LYQOdPJ"
+      deploy_url: "https://codepen.io/tielson/pen/LYQOdPJ",
     },
     exercicio02: {
       codigo_url: "https://codepen.io/tielson/pen/gOvodqG",
-      deploy_url: "https://codepen.io/tielson/pen/gOvodqG"
-    }
+      deploy_url: "https://codepen.io/tielson/pen/gOvodqG",
+    },
   },
 
   // Desafios do Stage 05
   stage05: {
     focustimer: {
       codigo_url: "",
-      deploy_url: ""
+      deploy_url: "",
     },
     focustimer_dark_mode: {
       codigo_url: "",
-      deploy_url: ""
-    }
+      deploy_url: "",
+    },
   },
 
   // Desafios do Stage 06
   stage06: {
     spa_universe: {
       codigo_url: "",
-      deploy_url: ""
+      deploy_url: "",
     },
     gitfav: {
       codigo_url: "",
-      deploy_url: ""
-    }
+      deploy_url: "",
+    },
   },
-
 
   // Desafios do Stage 07
   stage07: {
     git_push: {
-      codigo_url: ""
-    }
+      codigo_url: "",
+    },
   },
 
   // O projeto Rocket Movies será desenvolvido nos Stages 08, 09, 10, 11
@@ -123,8 +124,8 @@ export const data = {
     rocket_movies: {
       github_frontend: "",
       github_backend: "",
-      deploy_url: ""
-    }
+      deploy_url: "",
+    },
   },
 
   // Projeto final
@@ -132,7 +133,7 @@ export const data = {
     food_explorer: {
       github_frontend: "",
       github_backend: "",
-      deploy_url: ""
-    }
-  }
-}
+      deploy_url: "",
+    },
+  },
+};

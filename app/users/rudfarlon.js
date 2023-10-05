@@ -6,32 +6,32 @@ export const data = {
   // Os valores devem estar dentro das aspas (Ex: 'Aqui dentro')
 
   // Preencha com o seu nome.
-  name: 'Rud Farlon',
+  name: "Rud Farlon",
 
   // Preencha com o seu e-mail.
-  email: 'rudfarlon@gmail.com',
+  email: "rudfarlon@gmail.com",
 
   // Preencha com a cidade onde você mora.
-  city: 'Cosmópolis',
+  city: "Cosmópolis",
 
   // Preencha com a sigla do estado onde você mora.
   // Ex: SP
-  state: 'SP',
+  state: "SP",
 
   // Preencha com o país onde mora.
-  country: 'Brasil',
+  country: "Brasil",
 
   // Preencha de qual turma do Explorer você é: Ex (turma: "01").
-  turma: '01',
+  turma: "01",
 
   // Preencha com a url do seu perfil no github: (https://github.com/[user]).
-  github: 'https://github.com/rudfarlon',
+  github: "https://github.com/rudfarlon",
 
   // Preencha com a url do seu perfil no linkedin: (https://www.linkedin.com/in/[user]).
-  linkedin_url: 'https://www.linkedin.com/in/rud-farlon/',
+  linkedin_url: "https://www.linkedin.com/in/rud-farlon/",
 
   // Preencha com a url do seu perfil da rockeseat: (https://app.rocketseat.com.br/me/[user]).
-  rocketseat_profile: 'https://app.rocketseat.com.br/me/rud-farlon-1580069236',
+  rocketseat_profile: "https://app.rocketseat.com.br/me/rud-farlon-1580069236",
 
   // Preencha os campos abaixo com os links dos desafios que você já concluiu.
   // Preencha o campo [codigo_url] com o link do codepen ou github.
@@ -40,99 +40,97 @@ export const data = {
   // Desafios do Stage 02
   stage02: {
     fase01_corrigindo_bugs01: {
-      codigo_url: 'https://codepen.io/rudfarlon/pen/XWVEpOb',
-      deploy_url: '',
+      codigo_url: "https://codepen.io/rudfarlon/pen/XWVEpOb",
+      deploy_url: "",
     },
     fase02_corrigindo_bugs02: {
-      codigo_url: 'https://codepen.io/rudfarlon/pen/YzYvwga',
-      deploy_url: '',
+      codigo_url: "https://codepen.io/rudfarlon/pen/YzYvwga",
+      deploy_url: "",
     },
     fase02_semantica_acessibilidade: {
-      codigo_url: 'https://codepen.io/rudfarlon/pen/LYerxWK',
-      deploy_url: '',
+      codigo_url: "https://codepen.io/rudfarlon/pen/LYerxWK",
+      deploy_url: "",
     },
     fase02_recriando_layout: {
-      codigo_url: 'https://codepen.io/rudfarlon/pen/xxpzWyo',
-      deploy_url: '',
+      codigo_url: "https://codepen.io/rudfarlon/pen/xxpzWyo",
+      deploy_url: "",
     },
   },
 
   // Desafios do Stage 03
   stage03: {
     criando_formularios: {
-      codigo_url: 'https://codepen.io/rudfarlon/pen/QWaPqwj',
-      deploy_url: '',
+      codigo_url: "https://codepen.io/rudfarlon/pen/QWaPqwj",
+      deploy_url: "",
     },
     mobile_first: {
-      codigo_url:
-        'https://codepen.io/rudfarlon/pen/zYpXaMa',
-      deploy_url: '',
+      codigo_url: "https://codepen.io/rudfarlon/pen/zYpXaMa",
+      deploy_url: "",
     },
     grid_com_animacoes: {
-      codigo_url:
-        'https://codepen.io/rudfarlon/pen/yLpWXQx',
-      deploy_url: '',
+      codigo_url: "https://codepen.io/rudfarlon/pen/yLpWXQx",
+      deploy_url: "",
     },
   },
 
   // Desafios do Stage 04
   stage04: {
     exercicio01: {
-      codigo_url: 'https://codepen.io/rudfarlon/pen/dydbvOx',
-      deploy_url: '',
+      codigo_url: "https://codepen.io/rudfarlon/pen/dydbvOx",
+      deploy_url: "",
     },
     exercicio02: {
-      codigo_url: 'https://codepen.io/rudfarlon/pen/bGLGwwe',
-      deploy_url: '',
+      codigo_url: "https://codepen.io/rudfarlon/pen/bGLGwwe",
+      deploy_url: "",
     },
   },
 
   // Desafios do Stage 05
   stage05: {
     focustimer: {
-      codigo_url: 'https://github.com/rudfarlon/FocusTimer2',
-      deploy_url: '',
+      codigo_url: "https://github.com/rudfarlon/FocusTimer2",
+      deploy_url: "",
     },
     focustimer_dark_mode: {
-      codigo_url: '',
-      deploy_url: '',
+      codigo_url: "",
+      deploy_url: "",
     },
   },
 
   // Desafios do Stage 06
   stage06: {
     spa_universe: {
-      codigo_url: 'https://github.com/rudfarlon/SPA-UNIVERSE',
-      deploy_url: '',
+      codigo_url: "https://github.com/rudfarlon/SPA-UNIVERSE",
+      deploy_url: "",
     },
     gitfav: {
-      codigo_url: 'https://github.com/rudfarlon/GitFav',
-      deploy_url: '',
+      codigo_url: "https://github.com/rudfarlon/GitFav",
+      deploy_url: "",
     },
   },
 
   // Desafios do Stage 07
   stage07: {
     git_push: {
-      codigo_url: '',
+      codigo_url: "",
     },
   },
 
   // O projeto Rocket Movies será desenvolvido nos Stages 08, 09, 10, 11
   stages_08_09_10_11: {
     rocket_movies: {
-      github_frontend: 'https://github.com/rudfarlon/RocketMovies',
-      github_backend: 'https://github.com/rudfarlon/RocketMovie',
-      deploy_url: '',
+      github_frontend: "https://github.com/rudfarlon/RocketMovies",
+      github_backend: "https://github.com/rudfarlon/RocketMovie",
+      deploy_url: "",
     },
   },
 
   // Projeto final
   desafio_final: {
     food_explorer: {
-      github_frontend: '',
-      github_backend: '',
-      deploy_url: '',
+      github_frontend: "",
+      github_backend: "",
+      deploy_url: "",
     },
   },
 };

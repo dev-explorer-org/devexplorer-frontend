@@ -1,5 +1,5 @@
-import styles from '../styles/Level.module.css';
-import { checkChallengesExists, checkRocketMoviesChallenges } from '../utils/checkChallenges';
+import styles from "../styles/Level.module.css";
+import { checkChallengesExists, checkRocketMoviesChallenges } from "../utils/checkChallenges";
 
 function checkFinalChallenge(challenges) {
   const arrayChallenges = Object.values(challenges);
@@ -10,9 +10,9 @@ function checkFinalChallenge(challenges) {
     urls.forEach((url) => arrayUrlsChallenges.push(url));
   });
 
-  if (arrayUrlsChallenges[2].length > 0) return { existUrl: true, text: '🏅 CONCLUIU' };
-  if (arrayUrlsChallenges[1].length > 0) return { existUrl: true, text: '🏅 CONCLUIU' };
-  if (arrayUrlsChallenges[0].length > 0) return { existUrl: true, text: '🏅 CONCLUIU' };
+  if (arrayUrlsChallenges[2].length > 0) return { existUrl: true, text: "🏅 CONCLUIU" };
+  if (arrayUrlsChallenges[1].length > 0) return { existUrl: true, text: "🏅 CONCLUIU" };
+  if (arrayUrlsChallenges[0].length > 0) return { existUrl: true, text: "🏅 CONCLUIU" };
 
   return { existUrl: false };
 }
@@ -29,13 +29,13 @@ function checkUserLevel({
 }) {
   if (foodExplorer.existUrl) return foodExplorer.text;
   if (rocketMovies.existUrl) return rocketMovies.text;
-  if (isStage07) return 'Level 7';
-  if (isStage06) return 'Level 6';
-  if (isStage05) return 'Level 5';
-  if (isStage04) return 'Level 4';
-  if (isStage03) return 'Level 3';
-  if (isStage02) return 'Level 2';
-  return 'Level 1';
+  if (isStage07) return "Level 7";
+  if (isStage06) return "Level 6";
+  if (isStage05) return "Level 5";
+  if (isStage04) return "Level 4";
+  if (isStage03) return "Level 3";
+  if (isStage02) return "Level 2";
+  return "Level 1";
 }
 
 export default function Level({ user }) {

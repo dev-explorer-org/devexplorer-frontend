@@ -23,9 +23,9 @@ export function checkRocketMoviesChallenges(challenges) {
     urls.forEach((url) => arrayUrlsChallenges.push(url.length));
   });
 
-  if (arrayUrlsChallenges[2]) return { existUrl: true, text: 'Level 10' };
-  if (arrayUrlsChallenges[1]) return { existUrl: true, text: 'Level 9' };
-  if (arrayUrlsChallenges[0]) return { existUrl: true, text: 'Level 8' };
+  if (arrayUrlsChallenges[2]) return { existUrl: true, text: "Level 10" };
+  if (arrayUrlsChallenges[1]) return { existUrl: true, text: "Level 9" };
+  if (arrayUrlsChallenges[0]) return { existUrl: true, text: "Level 8" };
 
   return { existUrl: false };
 }
