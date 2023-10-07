@@ -11,13 +11,14 @@
 .user_info {
   gap: 20px;
   padding: 20px;
-  background-color: hsla(0, 0%, 0%, 0.4);
-  align-items: center;
+  /* background-color: hsla(0, 0%, 0%, 0.4); */
+  align-items: start;
+  justify-content: start;
   border-radius: 10px;
   display: grid;
   grid-template-areas:
     'image info'
-    'image skills';
+    'image info';
 }
 
 .image_container {
@@ -32,9 +33,19 @@
 
 .text_info {
   grid-area: info;
+  display: grid;
+  gap: 4px;
   /* background-color: hsla(0, 0%, 0%, 0.2); */
   /* padding: 20px; */
 }
+
+.text_info h2 {
+  font-size: 36px;
+}
+
+/* .text_info span:nth-of-type(2) {
+  margin-left: 8px;
+} */
 
 .user_skills {
   /* background-color: hsla(0, 0%, 0%, 0.2); */
