@@ -3,7 +3,8 @@ import Link from "next/link";
 import Challenge from "../components/Challenge";
 import Stage from "../components/Stage";
 // import Level from '../components/Level';
-import Skill from "../components/Skill";
+// import Skill from "../components/Skill";
+import Flag from "../components/Flag";
 
 import styles from "../styles/User.module.css";
 
@@ -28,19 +29,20 @@ export default async function User({ params }) {
 
         <div className={styles.text_info}>
           {/* <Level user={user} /> */}
-          <h4>{`turma ${user.turma}`}</h4>
+          {/* <h4>{`turma ${user.turma}`}</h4> */}
           <h2>{user.name}</h2>
-          <p>{`${user.city} - ${user.state}`}</p>
+          <span>{`${user.city} - ${user.state}`}</span>
+          <Flag className={styles.flag} state={user.state} country={user.country} />
         </div>
 
-        <div className={styles.user_skills}>
+        {/* <div className={styles.user_skills}>
           <Skill tech="html5" user={user} />
           <Skill tech="css3" user={user} />
           <Skill tech="javascript" user={user} />
           <Skill tech="git" user={user} />
           <Skill tech="nodejs" user={user} />
           <Skill tech="reactjs" user={user} />
-        </div>
+        </div> */}
       </div>
 
       <div className={styles.links}>

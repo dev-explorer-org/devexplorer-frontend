@@ -280,7 +280,7 @@ export default function Flag({ state, country, ...rest }) {
   const isBrazil = arrayStates.includes(state);
 
   return (
-    <div>
+    <span>
       {isBrazil ? (
         <img src={`images/flags/${state}.svg`} width="32px" {...rest} alt={state} />
       ) : (
@@ -291,6 +291,6 @@ export default function Flag({ state, country, ...rest }) {
           alt={country}
         />
       )}
-    </div>
+    </span>
   );
 }
