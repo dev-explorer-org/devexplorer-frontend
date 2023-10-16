@@ -77,7 +77,7 @@ Você pode digitar no terminal
 code .
 ```
 
-Vá até o diretório _`users.example`_. Copie o arquivo _`users.js.example`_ para dentro do diretório _`users`_. Agora renomeie o arquivo _`users.js.example`_ para _`seu-nome-de-usuário.js`_.
+Vá até o diretório _`users.example`_. Copie o arquivo _`users.js.example`_ para dentro do diretório _`users`_ que está dentro do diretório _`app`_. Agora renomeie o arquivo _`users.js.example`_ para _`seu-nome-de-usuário.js`_.
 Por exemplo, meu nome de usuário do github é **`valdemirfilho`** logo o meu arquivo deve ser renomeado para _`valdemirfilho.js`_.
 
 Após renomear, abra o arquivo e preencha com as suas informações. Preencha inicialmente suas informações para networking. As informações sobre os desafios são opcionais e podem ser preenchidas a medida que você for finalizando os desafios.
@@ -118,6 +118,7 @@ Pronto! Você fez seu primeiro Pull Request! Agora é só aguardar o mantenedor 
 Procurar **Valdemir Filho** no [Discord do Explorer](https://discord.com/channels/327861810768117763/956248170915045386).
 
 #### Eu e a comunidade agradecemos a sua ajuda 💜
+
 <a href="https://github.com/valdemirfilho/devexplorer/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=valdemirfilho/devexplorer"/>
 </a>
