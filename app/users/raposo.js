@@ -89,12 +89,12 @@ export const data = {
   // Desafios do Stage 05
   stage05: {
     focustimer: {
-      codigo_url: "",
-      deploy_url: "",
+      codigo_url: "https://github.com/vhraposo/focus-timer-1.0",
+      deploy_url: "https://vhraposo.github.io/focus-timer-1.0/",
     },
     focustimer_dark_mode: {
-      codigo_url: "",
-      deploy_url: "",
+      codigo_url: "https://github.com/vhraposo/focus-timer2",
+      deploy_url: "https://focus-timer2.vercel.app/",
     },
   },
 
