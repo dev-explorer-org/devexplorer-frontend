@@ -101,12 +101,12 @@ export const data = {
   // Desafios do Stage 06
   stage06: {
     spa_universe: {
-      codigo_url: "",
-      deploy_url: "",
+      codigo_url: "https://github.com/vhraposo/spauniverse",
+      deploy_url: "https://spauniverse-ebon.vercel.app/",
     },
     gitfav: {
-      codigo_url: "",
-      deploy_url: "",
+      codigo_url: "https://github.com/vhraposo/gitfav",
+      deploy_url: "https://vhraposo.github.io/gitfav/",
     },
   },
 
