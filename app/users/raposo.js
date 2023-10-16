@@ -113,7 +113,7 @@ export const data = {
   // Desafios do Stage 07
   stage07: {
     git_push: {
-      codigo_url: "",
+      codigo_url: "https://github.com/vhraposo?tab=repositories",
     },
   },
 
