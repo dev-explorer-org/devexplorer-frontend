@@ -30,23 +30,31 @@ Para participar do Hacktoberfest entre no site [https://hacktoberfest.digitaloce
 Você deve ter o Git instalado em sua máquina local e um editor de código de sua preferência Ex: [Visual Studio Code](https://code.visualstudio.com/)
 
 #### Windows
+
 [Git para Windows](https://git-scm.com/download/windows)
 
 #### Linux
+
 Se você usar Fedora por exemplo, você pode usar o **`yum`**
+
 ```
 sudo yum install git-all
 ```
+
 Se você usar uma distribuição baseada em Debian como o Ubuntu, use o **`apt-get`**
+
 ```
 sudo apt-get install git
 ```
+
 Se você usar uma distruição baseada no Arch Linux, use o **`pacman`**
+
 ```
 sudo pacman -S git
 ```
 
 #### MacOS
+
 [Guia para o MacOS](https://efficient-sloth-d85.notion.site/macOS-9463f0689d0a4c4098a6d64f01016f43)
 
 ### Com o git já instalado.
@@ -61,6 +69,7 @@ Escolha qual o tipo de contribuição você quer fazer?
 Procurar **Valdemir Filho** no [Discord do Explorer](https://discord.com/channels/327861810768117763/956248170915045386).
 
 #### Eu e a comunidade agradecemos a sua ajuda 💜
+
 <a href="https://github.com/valdemirfilho/devexplorer/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=valdemirfilho/devexplorer"/>
+  <img src="https://contrib.rocks/image?repo=valdemirfilho/devexplorer&max=100&anon=1"/>
 </a>
