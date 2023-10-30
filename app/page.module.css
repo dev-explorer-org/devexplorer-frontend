@@ -3,7 +3,6 @@
 
 .page {
   padding: 20px;
-  height: 100vh;
   background-image: url('/world.svg');
   background-repeat: no-repeat;
   background-size: contain;
