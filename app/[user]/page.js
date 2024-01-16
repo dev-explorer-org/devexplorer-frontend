@@ -5,12 +5,15 @@ import Stage from "../components/Stage";
 // import Level from '../components/Level';
 // import Skill from "../components/Skill";
 import Flag from "../components/Flag";
+import { getGithubProfileImg } from "../utils/getGithubProfileImg";
 
 import styles from "../styles/User.module.css";
 
 export default async function User({ params }) {
   const userInfo = await import(`../users/${params.user}.js`);
   const user = userInfo.data;
+
+  const userImage = getGithubProfileImg(user.github);
 
   return (
     <div className={styles.card}>
@@ -20,7 +23,7 @@ export default async function User({ params }) {
         <div className={styles.image_container}>
           <Image
             className={styles.card_image}
-            src={`${user.github}.png`}
+            src={`${userImage}`}
             width={150}
             height={150}
             alt={user.name}

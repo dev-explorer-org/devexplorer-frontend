@@ -6,6 +6,7 @@ import styles from "./page.module.css";
 import Flag from "./components/Flag";
 // import Level from "./components/Level";
 // import styles from '../styles/Home.module.css';
+import { getGithubProfileImg } from "./utils/getGithubProfileImg";
 
 function formatUserTitle(name) {
   const arrayNames = name.split(" ");
@@ -46,24 +47,28 @@ export default function Home() {
       </p>
 
       <div className={styles.cards}>
-        {data.map((user, index) => (
-          <Link key={index} href={`/${user.filename}`}>
-            <div className={styles.card}>
-              {/* <Level user={user} /> */}
-              <div className={styles.card_image_container} data-turma={user.turma}>
-                <Image
-                  className={styles.card_image}
-                  src={`${user.github}.png`}
-                  width={80}
-                  height={80}
-                  alt={user.name}
-                />
-                <Flag className={styles.flag} state={user.state} country={user.country} />
+        {data.map((user, index) => {
+          const userImage = getGithubProfileImg(user.github);
+
+          return (
+            <Link Link key={index} href={`/${user.filename}`}>
+              <div className={styles.card}>
+                {/* <Level user={user} /> */}
+                <div className={styles.card_image_container} data-turma={user.turma}>
+                  <Image
+                    className={styles.card_image}
+                    src={`${userImage}`}
+                    width={80}
+                    height={80}
+                    alt={user.name}
+                  />
+                  <Flag className={styles.flag} state={user.state} country={user.country} />
+                </div>
+                <h2>{formatUserTitle(user.name)}</h2>
               </div>
-              <h2>{formatUserTitle(user.name)}</h2>
-            </div>
-          </Link>
-        ))}
+            </Link>
+          );
+        })}
       </div>
     </div>
   );
